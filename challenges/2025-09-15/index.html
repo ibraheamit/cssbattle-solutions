@@ -1,0 +1,54 @@
+<div class="i left"></div>
+<div class="i right"></div>
+<div class="c"></div>
+
+<style>
+    * {
+        margin: 0
+    }
+
+    body {
+        background: #FFF1F1;
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .i {
+        width: 50px;
+        height: 180px;
+        background: #F2A3AB;
+        position: absolute;
+        top: 60px;
+    }
+
+    .left {
+        left: 60px;
+    }
+
+    .right {
+        left: 290px;
+    }
+
+    .c {
+        width: 91px;
+        height: 180px;
+        background: #84B9C7;
+        border-radius: 100px 0 0 100px;
+        position: absolute;
+        top: 60px;
+        left: 154px;
+    }
+
+    .c::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 80px;
+        background-color: #FFF1F1;
+        border-radius: 100px 0px 0px 100px;
+    }
+</style>
