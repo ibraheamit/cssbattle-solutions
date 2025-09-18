@@ -1,0 +1,96 @@
+<style>
+    body {
+        background-color: #00D47E;
+        margin: 0;
+    }
+
+    .wrapper {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .top-rows,
+    .bottom-rows {
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row.first-row {
+        margin-top: 20px;
+    }
+
+    .row.last-row {
+        margin-bottom: 20px;
+    }
+
+    .cell,
+    .spacer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cell {
+        background-color: #23384B;
+    }
+
+    .spacer {
+        background-color: transparent;
+    }
+</style>
+<div class="wrapper">
+    <div class="top-rows">
+        <div class="row first-row">
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+        </div>
+    </div>
+
+    <div class="bottom-rows">
+        <div class="row">
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+        </div>
+        <div class="row last-row">
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+            <div class="spacer"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+</div>
