@@ -1,0 +1,62 @@
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #EDDF5A;
+            margin: 0;
+        }
+        .container {
+            width: 400px;
+            height: 300px;
+            position: relative;
+            background-color: #EDDF5A;
+        }
+        .vertical-rect {
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 170px;
+            background-color: #3E4071;
+        }
+        .left-rect {
+            position: absolute;
+            top: 76%;
+            left: 208px;
+            width: 140px;
+            height: 40px;
+            margin: -8px;
+            background-color: #3E4071;
+            transform: rotate(-135deg);
+            transform-origin: top left;
+        }
+        .right-rect {
+            position: absolute;
+            top: 76%;
+            right: 208px;
+            width: 140px;
+            height: 40px;
+            margin: -8px;
+            background-color: #3E4071;
+            transform: rotate(135deg);
+            transform-origin: top right;
+        }
+        .bar {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 280px;
+            height: 40px;
+            background-color: #3E4071;
+        }
+    </style>
+    <div class="container">
+        <div class="vertical-rect"></div>
+        <div class="left-rect"></div>
+        <div class="right-rect"></div>
+        <div class="bar"></div>
+    </div>
