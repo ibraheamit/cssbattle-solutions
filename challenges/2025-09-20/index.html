@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="shape rotated"></div>
+    <div class="shape rotated-2"></div>
+    <div class="shape rotated-3"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #492FB0;
+    }
+
+    .container {
+        display: flex;
+        gap: 30px;
+    }
+
+    .shape {
+        width: 100px;
+        height: 100px;
+        background-color: #DB5EAD;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .shape::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150px;
+        height: 50px;
+        background-color: #DB5EAD;
+        transform: translate(-50%, -50%);
+    }
+
+    .rotated {
+        transform: rotate(90deg);
+    }
+
+    .rotated-2 {
+        transform: rotate(105deg);
+    }
+
+    .rotated-3 {
+        transform: rotate(-60deg);
+    }
+</style>
