@@ -26,9 +26,9 @@ I will keep updating it with new challenges regularly. ✨
 
 ### ⚔️ Battles
 
-| Number | Preview                                                   | Code                                                          | Live Demo                                                                                            |
-| ------ | --------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| #1     | ![Challenge](challenges/Battles/#1-Pilot-Battle/#1/1.png) | [View Code](challenges/Battles/#1-Pilot-Battle/#1/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/#1-Pilot-Battle/#1/) |
+| Number | Preview                                                 | Code                                                        | Live Demo                                                                                          |
+| ------ | ------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| #1     | ![Challenge](challenges/Battles/1-Pilot-Battle/1/1.png) | [View Code](challenges/Battles/1-Pilot-Battle/1/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/1-Pilot-Battle/1/) |
 
 ---
 
