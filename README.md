@@ -13,6 +13,8 @@ I will keep updating it with new challenges regularly. ✨
 
 ## 🏆 Challenges
 
+### 📅 Daily targets
+
 | Date       | Preview                                         | Code                                          | Live Demo                                                                            |
 | ---------- | ----------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------ |
 | 2025-09-15 | ![Challenge](challenges/2025-09-15/preview.png) | [View Code](challenges/2025-09-15/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-09-15/) |
@@ -21,6 +23,12 @@ I will keep updating it with new challenges regularly. ✨
 | 2025-09-18 | ![Challenge](challenges/2025-09-18/preview.png) | [View Code](challenges/2025-09-18/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-09-18/) |
 | 2025-09-19 | ![Challenge](challenges/2025-09-19/preview.png) | [View Code](challenges/2025-09-19/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-09-19/) |
 | 2025-09-20 | ![Challenge](challenges/2025-09-20/preview.png) | [View Code](challenges/2025-09-20/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-09-20/) |
+
+### ⚔️ Battles
+
+| Number | Preview                                                   | Code                                                          | Live Demo                                                                                            |
+| ------ | --------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| #1     | ![Challenge](challenges/Battles/#1-Pilot-Battle/#1/1.png) | [View Code](challenges/Battles/#1-Pilot-Battle/#1/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/#1-Pilot-Battle/#1/) |
 
 ---
 
