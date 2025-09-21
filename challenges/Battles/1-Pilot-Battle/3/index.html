@@ -1,0 +1,76 @@
+<div class="target">
+    <div class="side-shape left-shape"></div>
+    <div class="side-shape right-shape"></div>
+    <div class="big-circle"></div>
+    <div class="inner-circle"></div>
+    <div class="center-circle"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #6592CF;
+    }
+
+    .target {
+        width: 400px;
+        height: 300px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .big-circle {
+        width: 252px;
+        height: 252px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        position: absolute;
+        top: 24px;
+        left: 74px;
+    }
+
+    .inner-circle {
+        width: 150px;
+        height: 150px;
+        background-color: #243D83;
+        border-radius: 50%;
+        position: absolute;
+        top: 75px;
+        left: 125px;
+    }
+
+    .center-circle {
+        width: 50px;
+        height: 50px;
+        background-color: #EEB850;
+        border-radius: 50%;
+        position: absolute;
+        top: 125px;
+        left: 175px;
+    }
+
+    .side-shape {
+        position: absolute;
+        width: 50px;
+        height: 50%;
+        top: 75px;
+        background-color: #243D83;
+    }
+
+    .left-shape {
+        left: 50px;
+    }
+
+    .right-shape {
+        right: 50px;
+    }
+</style>
