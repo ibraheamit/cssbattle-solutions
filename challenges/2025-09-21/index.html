@@ -1,0 +1,98 @@
+<div class="co">
+    <div class="c cm m"></div>
+    <div class="li"></div>
+    <div class="c l"></div>
+    <div class="c r"></div>
+    <div class="ll"></div>
+    <div class="lr"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #30383F;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .co {
+        position: relative;
+        width: 400px;
+        height: 300px;
+    }
+
+    .li {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 36px;
+        background-color: #FFFFFF;
+        transform: translateY(-50%);
+        clip-path: inset(0 36% 0 36%);
+    }
+
+    .ll {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 29.5%;
+        height: 36px;
+        background-color: #FFFFFF;
+        transform: translateY(-50%);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .lr {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 29.5%;
+        height: 36px;
+        background-color: #FFFFFF;
+        transform: translateY(-50%);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .c {
+        position: absolute;
+        top: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: #5AA4B7;
+        border-radius: 50%;
+        transform: translateY(-50%);
+    }
+
+    .l {
+        left: 50px;
+    }
+
+    .m {
+        left: 150px;
+    }
+
+    .r {
+        left: 250px;
+    }
+
+    .cm::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60.7px;
+        height: 60.5px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
