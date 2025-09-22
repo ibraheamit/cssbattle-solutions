@@ -1,0 +1,39 @@
+<div class="shape"></div>
+<style>
+    body {
+        margin: 0;
+        background: #FEF6E2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .shape {
+        position: relative;
+        width: 30px;
+        height: 220px;
+        right: 1px;
+        background: #161E44;
+    }
+
+    .shape::before,
+    .shape::after {
+        content: '';
+        position: absolute;
+        height: 50px;
+        background: #161E44;
+        left: -120px;
+        right: -120px;
+    }
+
+    .shape::before {
+        top: 50px;
+    }
+
+    .shape::after {
+        bottom: 30px;
+        right: -86px;
+        left: -84px
+    }
+</style>
