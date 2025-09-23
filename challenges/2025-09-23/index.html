@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="frame">
+        <div class="leg left"></div>
+        <div class="leg right"></div>
+    </div>
+    <div class="body"></div>
+    <div class="foot f-left"></div>
+    <div class="foot f-right"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #F7FCDC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+    }
+
+    .frame {
+        position: absolute;
+        top: 20;
+        left: 60;
+        width: 70%;
+        height: 20px;
+        background-color: #9F6766;
+    }
+
+    .leg {
+        top: 20;
+        ;
+        width: 20px;
+        height: 240px;
+        background-color: #9F6766;
+    }
+
+    .left {
+        position: absolute;
+        left: 0;
+    }
+
+    .right {
+        position: absolute;
+        right: 0;
+    }
+
+    .body {
+        position: absolute;
+        top: 80px;
+        left: 60;
+        width: 70%;
+        height: 150px;
+        background-color: #8AB8B6;
+    }
+
+    .foot {
+        position: absolute;
+        width: 20px;
+        height: 30px;
+        background-color: #9F6766;
+    }
+
+    .f-left {
+        bottom: 40;
+        left: 110;
+    }
+
+    .f-right {
+        bottom: 40;
+        right: 110;
+    }
+</style>
