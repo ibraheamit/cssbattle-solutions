@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="shape down"></div>
+    <div class="shape up"></div>
+    <div class="shape down"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #62306D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .shape {
+        width: 100px;
+        height: 100px;
+        background: #F7EC7D;
+    }
+
+    .up,
+    .down {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .up {
+        transform: translateY(-50px)
+    }
+
+    .down {
+        transform: translateY(50px)
+    }
+</style>
