@@ -1,0 +1,37 @@
+<div class="quarter q1"></div>
+<div class="quarter q2"></div>
+<div class="quarter q3"></div>
+<style>
+    body {
+        background: #E3516E;
+    }
+
+    .quarter {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100% 0 0 0;
+        transform-origin: bottom right;
+    }
+
+    .q1,
+    .q2,
+    .q3 {
+        top: 50;
+        left: 100;
+    }
+
+    .q1 {
+        background: #51B5A9;
+    }
+
+    .q2 {
+        background: #FADE8B;
+        transform: rotate(90deg);
+    }
+
+    .q3 {
+        background: #F7F3D7;
+        transform: rotate(-90deg);
+    }
+</style>
