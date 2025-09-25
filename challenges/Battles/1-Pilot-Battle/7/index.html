@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="leaf"></div>
+</div>
+
+<style>
+    body {
+        margin: 0;
+        background: #0B2429;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+    }
+
+    .leaf,
+    .leaf::before,
+    .leaf::after {
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px
+    }
+
+    .leaf {
+        width: 150px;
+        height: 150px;
+        background: #1A4341;
+        position: absolute;
+        left: 75px;
+        top: 75px;
+    }
+
+    .leaf::before,
+    .leaf::after {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 150px;
+    }
+
+    .leaf::before {
+        background: #998235;
+        left: 50px;
+    }
+
+    .leaf::after {
+        background: #F3AC3C;
+        left: 100px;
+    }
+</style>
