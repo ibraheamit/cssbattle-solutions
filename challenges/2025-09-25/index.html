@@ -1,0 +1,73 @@
+<div class="square">
+    <div class="right-circle"></div>
+    <div class="cutout cut-l"></div>
+    <div class="cutout cut-r"></div>
+    <div class="cutout cut-t"></div>
+    <div class="cutout cut-b"></div>
+    <div class="middle-rect"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background-color: #B0C1F0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .square {
+        width: 200px;
+        height: 200px;
+        background-color: #FAE29E;
+        position: relative;
+    }
+
+    .right-circle {
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        background-color: #3E5AA9;
+        right: 20;
+        top: 20px;
+        transform: rotate(-20deg);
+        border-radius: 50%
+    }
+
+    .cutout {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #FAE29E;
+    }
+
+    .cut-t {
+        top: 0px;
+        left: 64px
+    }
+
+    .cut-l {
+        left: 33;
+        top: 27px;
+        transform: rotate(-45deg)
+    }
+
+    .cut-r {
+        right: 33;
+        top: 114px;
+        transform: rotate(-45deg)
+    }
+
+    .cut-b {
+        bottom: 0px;
+        left: 75px
+    }
+
+    .middle-rect {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: #3E5AA9;
+        top: 60px;
+        left: 60px;
+    }
+</style>
