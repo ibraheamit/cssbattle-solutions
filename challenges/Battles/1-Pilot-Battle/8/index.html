@@ -1,0 +1,86 @@
+<div class="fork">
+    <div class="tine t1"></div>
+    <div class="tine t2"></div>
+    <div class="tine t3"></div>
+    <div class="tine t4"></div>
+    <div class="m m1"></div>
+    <div class="m m2"></div>
+    <div class="m m3"></div>
+    <div class="handle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #6592CF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .fork {
+        width: 140px;
+        height: 140px;
+        top: 30;
+        background: #060F55;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        position: relative;
+    }
+
+    .tine {
+        width: 20px;
+        height: 100px;
+        background: #060F55;
+        border-radius: 10px;
+        position: absolute;
+        top: -60px;
+    }
+
+    .m {
+        width: 20px;
+        height: 100px;
+        background: #6592CF;
+        border-radius: 10px;
+        position: absolute;
+        top: -50px;
+    }
+
+    .m1 {
+        left: 20;
+    }
+
+    .m2 {
+        left: 60px;
+    }
+
+    .m3 {
+        left: 100px;
+    }
+
+    .t1 {
+        left: 0;
+    }
+
+    .t2 {
+        left: 40px;
+    }
+
+    .t3 {
+        left: 80px;
+    }
+
+    .t4 {
+        left: 120px;
+    }
+
+    .handle {
+        width: 20px;
+        height: 100px;
+        background: #060F55;
+        position: absolute;
+        top: 100;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>

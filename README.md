@@ -40,6 +40,7 @@ I will keep updating it with new challenges regularly. ✨
 | #5     | ![Challenge](challenges/Battles/1-Pilot-Battle/5/5.png) | [View Code](challenges/Battles/1-Pilot-Battle/5/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/1-Pilot-Battle/5/) |
 | #6     | ![Challenge](challenges/Battles/1-Pilot-Battle/6/6.png) | [View Code](challenges/Battles/1-Pilot-Battle/6/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/1-Pilot-Battle/6/) |
 | #7     | ![Challenge](challenges/Battles/1-Pilot-Battle/7/7.png) | [View Code](challenges/Battles/1-Pilot-Battle/7/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/1-Pilot-Battle/7/) |
+| #8     | ![Challenge](challenges/Battles/1-Pilot-Battle/8/8.png) | [View Code](challenges/Battles/1-Pilot-Battle/8/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/1-Pilot-Battle/8/) |
 
 ---
 
