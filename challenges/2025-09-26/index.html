@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="box top"></div>
+    <div class="box right"></div>
+    <div class="box left"></div>
+    <div class="box bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #4763B1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        width: 200px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(2, 80px);
+        grid-template-rows: repeat(2, 80px);
+        gap: 40px;
+    }
+
+    .box {
+        background: #fff;
+        position: relative;
+    }
+
+    .top::before,
+    .right::before,
+    .left::before,
+    .bottom::before {
+        content: "";
+        position: absolute;
+        background: #000;
+    }
+
+    .top::before {
+        top: -20;
+        left: 0;
+        width: 100%;
+        height: 20px;
+    }
+
+    .right::before {
+        top: 0;
+        right: -20;
+        width: 20px;
+        height: 100%;
+    }
+
+    .left::before {
+        top: 0;
+        left: -20;
+        width: 20px;
+        height: 100%;
+    }
+
+    .bottom::before {
+        bottom: -20;
+        left: 0;
+        width: 100%;
+        height: 20px;
+    }
+</style>
