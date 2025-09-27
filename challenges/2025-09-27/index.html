@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="top"></div>
+    <div class="bottom"></div>
+</div>
+
+<style>
+    body {
+        margin: 0;
+        background: #EDDF5A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .container {
+        position: relative;
+        width: 120px;
+        height: 80px;
+    }
+
+    .top,
+    .bottom {
+        width: 260px;
+        height: 60px;
+        position: absolute;
+        left: -70px;
+    }
+
+    .top {
+        background: #E8625E;
+        top: -20px;
+    }
+
+    .bottom {
+        background: #323232;
+        bottom: -20px;
+    }
+
+    .top::before,
+    .top::after,
+    .bottom::before,
+    .bottom::after {
+        content: "";
+        width: 60px;
+        height: 40px;
+        position: absolute;
+    }
+
+    .top::before,
+    .top::after {
+        background: #E8625E;
+        top: -40px;
+    }
+
+    .bottom::before,
+    .bottom::after {
+        background: #323232;
+        bottom: -40px;
+    }
+
+    .top::before,
+    .bottom::before {
+        left: 30px;
+    }
+
+    .top::after,
+    .bottom::after {
+        right: 30px;
+    }
+</style>
