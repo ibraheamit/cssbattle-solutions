@@ -1,0 +1,46 @@
+<div class="l"></div>
+<div class="r"></div>
+<style>
+    body {
+        margin: 0;
+        background: #F2F2B6;
+    }
+
+    .l,
+    .r,
+    .l::after,
+    .r::after {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+        content: "";
+    }
+
+    .l {
+        border-top: 130px solid #FF6D00;
+        top: 85px;
+        left: 60px;
+    }
+
+    .l::after {
+        border-top: 130px solid #FD4602;
+        top: -130px;
+        left: -55px;
+        z-index: -1
+    }
+
+    .r {
+        border-bottom: 130px solid #FD4602;
+        top: 85px;
+        left: 170px;
+    }
+
+    .r::after {
+        border-bottom: 130px solid #FF6D00;
+        top: 0;
+        left: -55px;
+        z-index: -1
+    }
+</style>
