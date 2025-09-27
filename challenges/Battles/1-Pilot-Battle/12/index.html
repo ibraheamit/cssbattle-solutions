@@ -1,0 +1,53 @@
+<p l></p>
+<p m></p>
+<p r></p>
+<p d></p>
+<style>
+    body {
+        margin: 0;
+        background: #F5D6B4;
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    p {
+        position: absolute;
+    }
+
+    [l],
+    [m],
+    [r] {
+        width: 60px;
+        height: 30px;
+        border: 20px solid #D86F45;
+        border-radius: 0 0 1in 1in;
+        border-top: 0;
+    }
+
+    [l] {
+        left: 70px;
+        top: 145px;
+    }
+
+    [r] {
+        left: 230px;
+        top: 145px;
+    }
+
+    [m] {
+        transform: scaleY(-1);
+        left: 150px;
+        top: 95px;
+    }
+
+    [d] {
+        width: 20px;
+        height: 20px;
+        background: #D86F45;
+        border-radius: 50%;
+        left: 70px;
+        top: 134px;
+        box-shadow: 240px 0 #D86F45;
+    }
+</style>
