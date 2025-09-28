@@ -1,0 +1,60 @@
+<div class="center">
+    <div class="t1"></div>
+    <div class="t2"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #EA9A52;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .center {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        background: #FFFFFF;
+    }
+
+    .center::before,
+    .center::after,
+    .t1,
+    .t2 {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .center::before {
+        top: 0px;
+        left: 0;
+        border-width: 45px 60px 0px 60px;
+        border-color: #6255AA transparent transparent transparent;
+    }
+
+    .center::after {
+        bottom: 0px;
+        left: 0;
+        border-width: 0 60px 45px 60px;
+        border-color: transparent transparent #6255AA transparent;
+    }
+
+    .t1 {
+        top: 0;
+        left: -80px;
+        border-width: 60px 80px 60px 0;
+        border-color: transparent #6255AA transparent transparent;
+    }
+
+    .t2 {
+        top: 0;
+        right: -80px;
+        border-width: 60px 0 60px 80px;
+        border-color: transparent transparent transparent #6255AA;
+    }
+</style>
