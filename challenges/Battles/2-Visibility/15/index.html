@@ -1,0 +1,61 @@
+<div class="circles-wrapper">
+    <div class="circle circle-left"></div>
+    <div class="circle circle-right"></div>
+</div>
+
+<style>
+    body {
+        margin: 0;
+        height: 300px;
+        width: 400px;
+        background-color: #09042A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circles-wrapper {
+        position: relative;
+        width: 250px;
+        height: 150px;
+    }
+
+    .circle {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        top: 0;
+        clip-path: circle(75px at 75px 75px);
+    }
+
+    .circle-left {
+        background-color: #7B3F61;
+        left: 0;
+    }
+
+    .circle-right {
+        background-color: #E78481;
+        right: 0;
+    }
+
+    .circle-left::before,
+    .circle-right::before {
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color: #09042A;
+        border-radius: 50%;
+        top: 0px;
+        clip-path: circle(100px at 100px 100px);
+    }
+
+    .circle-left::before {
+        left: 100px;
+    }
+
+    .circle-right::before {
+        right: 100px;
+    }
+</style>
