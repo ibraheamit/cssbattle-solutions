@@ -1,0 +1,44 @@
+<div class="avatar">
+    <div class="head"></div>
+    <div class="body"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #F9FAFD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar {
+        width: 160px;
+        height: 160px;
+        background: #A7C2FA;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .head {
+        width: 60px;
+        height: 60px;
+        background: #4F73D9;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .body {
+        width: 120px;
+        height: 67px;
+        background: #4F73D9;
+        border-radius: 50px 50px 0 0;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
