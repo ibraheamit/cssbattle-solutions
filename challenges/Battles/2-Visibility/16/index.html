@@ -1,0 +1,73 @@
+<div class="left"></div>
+<div class="middle"></div>
+<div class="right"></div>
+<div class="inner1"></div>
+<div class="inner2"></div>
+<div class="inner3"></div>
+
+<style>
+    body {
+        background: #0B2429;
+    }
+
+    .middle,
+    .inner1,
+    .inner2,
+    .inner3 {
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .middle {
+        width: 200px;
+        height: 200px;
+        background: #998235;
+        left: 100px;
+        top: 50px;
+    }
+
+    .inner1 {
+        width: 180px;
+        height: 180px;
+        background: #0B2429;
+        left: 110px;
+        top: 60px;
+    }
+
+    .inner2 {
+        width: 140px;
+        height: 140px;
+        background: #F3AC3C;
+        left: 130px;
+        top: 80px;
+    }
+
+    .inner3 {
+        width: 50px;
+        height: 50px;
+        background: #0B2429;
+        left: 175px;
+        top: 125px;
+    }
+
+    .left,
+    .right {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 75px solid transparent;
+        border-bottom: 75px solid transparent;
+    }
+
+    .left {
+        border-right: 75px solid #998235;
+        left: 59px;
+        top: 75px;
+    }
+
+    .right {
+        border-left: 75px solid #998235;
+        left: 267px;
+        top: 75px;
+    }
+</style>
