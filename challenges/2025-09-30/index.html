@@ -1,0 +1,70 @@
+<div class="step step1">
+    <div class="square"></div>
+</div>
+<div class="step step2">
+    <div class="square"></div>
+</div>
+<div class="step step3">
+    <div class="square"></div>
+</div>
+<div class="step step4"></div>
+<style>
+    body {
+        margin: 0;
+        background: #9382E4;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .step {
+        position: absolute;
+        width: 100px;
+        height: 60px;
+    }
+
+    .step::before {
+        content: '';
+        position: absolute;
+        width: 70px;
+        height: 28px;
+        background: #B6EBE7;
+        top: 32;
+    }
+
+    .step::after {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 60px;
+        background: #B6EBE7;
+    }
+
+    .square {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        background: #3F595E;
+        right: 2;
+        bottom: 0;
+    }
+
+    .step1 {
+        top: 30px;
+        left: 60px;
+    }
+
+    .step2 {
+        top: 90px;
+        left: 130px;
+    }
+
+    .step3 {
+        top: 150px;
+        left: 200px;
+    }
+
+    .step4 {
+        top: 210px;
+        left: 270px;
+    }
+</style>
