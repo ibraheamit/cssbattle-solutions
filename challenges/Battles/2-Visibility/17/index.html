@@ -1,0 +1,87 @@
+<div class="spinner-container">
+    <div class="connecting-shape"></div>
+    <div class="outer-circle left"></div>
+    <div class="outer-circle right"></div>
+    <div class="solid-circle t1"></div>
+    <div class="solid-circle top"></div>
+    <div class="solid-circle b1"></div>
+    <div class="solid-circle bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #09042A;
+    }
+
+    .spinner-container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+    }
+
+    .connecting-shape {
+        position: absolute;
+        width: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 25px solid #E78481;
+    }
+
+    .outer-circle {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: transparent;
+        border: 10px solid #E78481;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .left {
+        left: 100px;
+    }
+
+    .right {
+        right: 100px;
+    }
+
+    .solid-circle {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #F5BB9C;
+        border-radius: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .top {
+        top: 67px;
+    }
+
+    .t1 {
+        top: 87;
+        left: 200;
+        width: 68px;
+        height: 50px;
+        background: #09042A;
+    }
+
+    .bottom {
+        bottom: 67px;
+    }
+
+    .b1 {
+        bottom: 87;
+        left: 200;
+        width: 68px;
+        height: 50px;
+        background: #09042A;
+    }
+</style>

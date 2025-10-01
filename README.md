@@ -55,6 +55,7 @@ I will keep updating it with new challenges regularly. ✨
 | #14    | ![Challenge](challenges/Battles/2-Visibility/14/14.png)   | [View Code](challenges/Battles/2-Visibility/14/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/2-Visibility/14/)   |
 | #15    | ![Challenge](challenges/Battles/2-Visibility/15/15.png)   | [View Code](challenges/Battles/2-Visibility/15/index.html)   | [Live Demo](http://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/2-Visibility/15/)    |
 | #16    | ![Challenge](challenges/Battles/2-Visibility/16/16.png)   | [View Code](challenges/Battles/2-Visibility/16/index.html)   | [Live Demo](http://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/2-Visibility/16/)    |
+| #17    | ![Challenge](challenges/Battles/2-Visibility/17/17.png)   | [View Code](challenges/Battles/2-Visibility/17/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/2-Visibility/17/)   |
 
 ---
 
