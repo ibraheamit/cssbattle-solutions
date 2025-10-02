@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="ghost">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+    </div>
+    <div class="earcup left"></div>
+    <div class="earcup right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #FEF6E2;
+    }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 400px;
+    }
+
+    .ghost {
+        position: absolute;
+        width: 140px;
+        height: 150px;
+        background-color: #FEF6E2;
+        border: 40px solid #ED736E;
+        border-bottom: none;
+        border-radius: 140px 140px 0 0;
+        top: 30px;
+        left: 90px;
+        box-sizing: content-box;
+    }
+
+    .eye {
+        position: absolute;
+        width: 15px;
+        height: 30px;
+        background-color: #ED736E;
+        border-radius: 100%;
+        top: 65px;
+    }
+
+    .eye.left {
+        left: 93px;
+    }
+
+    .eye.right {
+        right: 92px;
+    }
+
+    .earcup {
+        position: absolute;
+        width: 100px;
+        height: 130px;
+        background-color: #ED736E;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        top: 140px;
+    }
+
+    .earcup.left {
+        left: 30px;
+        border-top-left-radius: 60px;
+    }
+
+    .earcup.right {
+        right: 30px;
+        border-top-right-radius: 60px;
+    }
+</style>
