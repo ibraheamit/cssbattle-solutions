@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="circle orange br"></div>
+    <div class="circle cream br"></div>
+    <div class="circle orange br"></div>
+    <div class="circle cream br"></div>
+
+    <div class="circle cream tl"></div>
+    <div class="circle orange tl"></div>
+    <div class="circle cream tl"></div>
+    <div class="circle orange tl"></div>
+
+    <div class="circle orange br"></div>
+    <div class="circle cream br"></div>
+    <div class="circle orange br"></div>
+    <div class="circle cream br"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background-color: #5C434C;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: repeat(3, 100px);
+        gap: 0px;
+        padding: 10px;
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        overflow: hidden;
+        background-color: #5C434C;
+    }
+
+    .circle::before {
+        content: '';
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        border-radius: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .orange::before {
+        background-color: #F09462;
+    }
+
+    .cream::before {
+        background-color: #F5D6B4;
+    }
+</style>
