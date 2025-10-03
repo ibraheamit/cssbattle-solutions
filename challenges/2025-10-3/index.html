@@ -1,0 +1,102 @@
+<div class="container">
+    <div class="row top">
+        <div class="box large-box"></div>
+        <div class="box large-box"></div>
+    </div>
+
+    <div class="row middle">
+        <div class="column">
+            <div class="box tall-box"></div>
+            <div class="box tall-box"></div>
+            <div class="box tall-box"></div>
+        </div>
+        <div class="column">
+            <div class="box tall-box"></div>
+            <div class="box tall-box"></div>
+            <div class="box tall-box"></div>
+        </div>
+    </div>
+
+    <div class="row bottom">
+        <div class="box medium-box"></div>
+        <div class="box medium-box"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #23384B;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        padding: 30px;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .row.top {
+        margin-bottom: 20px;
+    }
+
+    .row.middle {
+        margin-bottom: 20px;
+    }
+
+    .row.bottom {
+        margin-bottom: 0;
+    }
+
+    .box {
+        background-color: #F0CD48;
+    }
+
+    .large-box {
+        width: 100px;
+        height: 40px;
+    }
+
+    .tall-box {
+        width: 40px;
+        height: 100px;
+    }
+
+    .medium-box {
+        width: 100px;
+        height: 40px;
+    }
+
+    .left-group,
+    .right-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-group {
+        align-items: flex-end;
+    }
+
+    .columns {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .column {
+        display: flex;
+        gap: 20px;
+    }
+</style>
