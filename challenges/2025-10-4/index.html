@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="top-bar"></div>
+    <div class="bottom-bar"></div>
+    <div class="left-bar"></div>
+    <div class="right-bar"></div>
+    <div class="center-square"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #FFFFFF;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .top-bar {
+        position: absolute;
+        top: 0;
+        left: 70px;
+        width: 260px;
+        height: 20px;
+        background-color: #4763B1;
+    }
+
+    .bottom-bar {
+        position: absolute;
+        bottom: 0;
+        left: 70px;
+        width: 260px;
+        height: 20px;
+        background-color: #4763B1;
+    }
+
+    .left-bar {
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 20px;
+        height: 180px;
+        background-color: #4763B1;
+    }
+
+    .right-bar {
+        position: absolute;
+        right: 0;
+        top: 50px;
+        width: 20px;
+        height: 180px;
+        background-color: #4763B1;
+    }
+
+    .center-square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
+        background-color: #4763B1;
+    }
+</style>
