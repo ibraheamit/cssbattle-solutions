@@ -1,0 +1,85 @@
+<div class="container">
+    <div class="arch-structure">
+        <div class="top-rectangle"></div>
+        <div class="left-arch"></div>
+        <div class="right-arch"></div>
+        <div class="arch-opening"></div>
+    </div>
+    <div class="base"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #050044;
+    }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+    }
+
+    .arch-structure {
+        position: absolute;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 264px;
+        height: 160px;
+    }
+
+    .top-rectangle {
+        position: absolute;
+        top: 28;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 128px;
+        height: 135px;
+        background-color: #D62E65;
+    }
+
+    .arch-opening {
+        position: absolute;
+        top: 58px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 68px;
+        height: 150px;
+        background-color: #050044;
+    }
+
+    .left-arch {
+        position: absolute;
+        top: 75px;
+        left: -12;
+        width: 85px;
+        height: 90px;
+        background-color: #D62E65;
+        border-radius: 80px 0px 0 0;
+    }
+
+    .right-arch {
+        position: absolute;
+        top: 75px;
+        right: -12;
+        width: 85px;
+        height: 90px;
+        background-color: #D62E65;
+        border-radius: 0px 80px 0 0;
+    }
+
+    .base {
+        position: absolute;
+        bottom: 54.5px;
+        left: 0;
+        width: 100%;
+        height: 29px;
+        background-color: #D62E65;
+        z-index: -1;
+    }
+</style>
