@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="bar top-left"></div>
+    <div class="bar top-right"></div>
+
+    <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+
+    <div class="bar bottom-left"></div>
+    <div class="bar bottom-right"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #48BF7D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .bar {
+        position: absolute;
+        background-color: #0B2429;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .bar.top-left {
+        top: 55px;
+        left: 0;
+        width: 175px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .bar.top-right {
+        top: 55px;
+        right: 0;
+        width: 175px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .bar.bottom-left {
+        bottom: 55px;
+        left: 0;
+        width: 175px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .bar.bottom-right {
+        bottom: 55px;
+        right: 0;
+        width: 175px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .dots {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        gap: 50px;
+    }
+
+    .dot {
+        width: 40px;
+        height: 40px;
+        background-color: #0B2429;
+        border-radius: 50%;
+    }
+</style>
