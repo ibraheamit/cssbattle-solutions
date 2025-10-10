@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="arch">
+        <div class="inner-circle"></div>
+    </div>
+    <div class="horizontal-bar"></div>
+    <div class="base"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #D27644;
+    }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 400px;
+    }
+
+    .arch {
+        position: absolute;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 180px;
+        background-color: #000000;
+        border-radius: 100px 100px 0 0;
+    }
+
+    .inner-circle {
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 20px;
+        background-color: #FEF6E2;
+        border-radius: 50%;
+    }
+
+    .horizontal-bar {
+        position: absolute;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 30px;
+        background-color: #D27644;
+    }
+
+    .base {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+        height: 40px;
+        background-color: #000000;
+    }
+</style>
