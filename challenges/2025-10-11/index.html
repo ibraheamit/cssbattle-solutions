@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="column">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="column">
+        <div class="rectangle"></div>
+    </div>
+    <div class="column">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="column">
+        <div class="rectangle"></div>
+    </div>
+    <div class="column">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #7E6293;
+    }
+
+    .container {
+        width: 400px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+
+    .circle {
+        background-color: #DE817E;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin: 10px auto;
+    }
+
+    .rectangle {
+        background-color: #EBE77E;
+        width: 40px;
+        height: 220px;
+        margin: 10px auto;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
