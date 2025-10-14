@@ -1,0 +1,66 @@
+<div class="microphone-container">
+    <div class="mic-capsule"></div>
+    <div class="mic-u-shape"></div>
+    <div class="mic-connector"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E8AD6D;
+    }
+
+    .microphone-container {
+        position: relative;
+        width: 200px;
+        height: 250px;
+    }
+
+    .mic-capsule {
+        position: absolute;
+        top: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 100px;
+        background-color: #3B240C;
+        border-radius: 32.5px;
+        z-index: 1;
+    }
+
+    .mic-u-shape {
+        position: absolute;
+        top: 30;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 160px;
+        height: 160px;
+        border: 30px solid #3B240C;
+        border-top: none;
+        border-radius: 0px 0px 80px 80px;
+        box-sizing: border-box;
+    }
+
+    .mic-u-shape:before {
+        content: '';
+        position: absolute;
+        width: 161px;
+        height: 90px;
+        left: -31;
+        background: #E8AD6D;
+    }
+
+    .mic-connector {
+        position: absolute;
+        bottom: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 30px;
+        background-color: #3B240C;
+        border-radius: 0 0 50% 50%;
+    }
+</style>
