@@ -1,0 +1,96 @@
+<div class="ticket-container">
+    <div class="ticket-left"></div>
+    <div class="ticket-right"></div>
+    <div class="center-notch-top"></div>
+    <div class="center-notch-bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #62306D;
+    }
+
+    .ticket-container {
+        display: flex;
+        position: relative;
+    }
+
+    .ticket-left {
+        width: 140px;
+        height: 100px;
+        background-color: #F7EC7D;
+        position: relative;
+    }
+
+    .ticket-right {
+        width: 60px;
+        height: 100px;
+        background-color: #E38F66;
+        position: relative;
+    }
+
+    .ticket-left::before,
+    .ticket-left::after {
+        content: '';
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        background-color: #62306D;
+    }
+
+    .ticket-left::before {
+        top: -11px;
+        left: -11px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .ticket-left::after {
+        bottom: -11px;
+        left: -11px;
+        border-top-right-radius: 20px;
+    }
+
+    .ticket-right::before,
+    .ticket-right::after {
+        content: '';
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        background-color: #62306D;
+    }
+
+    .ticket-right::before {
+        top: -11px;
+        right: -11px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .ticket-right::after {
+        bottom: -11px;
+        right: -11px;
+        border-top-left-radius: 20px;
+    }
+
+    .center-notch-top,
+    .center-notch-bottom {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #62306D;
+        border-radius: 50%;
+        left: 140px;
+        transform: translateX(-50%);
+    }
+
+    .center-notch-top {
+        top: -10px;
+    }
+
+    .center-notch-bottom {
+        bottom: -10px;
+    }
+</style>
