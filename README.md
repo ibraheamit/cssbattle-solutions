@@ -75,6 +75,7 @@ I will keep updating it with new challenges regularly. ✨
 | #19    | ![Challenge](challenges/Battles/3-Cursor/19/19.png)       | [View Code](challenges/Battles/3-Cursor/19/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/3-Cursor/19/)       |
 | #20    | ![Challenge](challenges/Battles/3-Cursor/20/20.png)       | [View Code](challenges/Battles/3-Cursor/20/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/3-Cursor/20/)       |
 | #21    | ![Challenge](challenges/Battles/4-Display/21/21.png)      | [View Code](challenges/Battles/4-Display/21/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/21/)      |
+| #22    | ![Challenge](challenges/Battles/4-Display/22/22.png)      | [View Code](challenges/Battles/4-Display/22/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/22/)      |
 
 ---
 
