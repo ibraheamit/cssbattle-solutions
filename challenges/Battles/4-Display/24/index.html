@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="pink-circle"></div>
+    <div class="circle yellow-circle-left"></div>
+    <div class="orange-circle"></div>
+    <div class="circle yellow-circle-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #62306D;
+    }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+    }
+
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .pink-circle {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #AA445F;
+        top: 50px;
+        left: 80px;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    .yellow-circle-left {
+        width: 100px;
+        height: 100px;
+        background-color: #F7EC7D;
+        top: 100px;
+        left: 80px;
+    }
+
+    .yellow-circle-right {
+        width: 100px;
+        height: 100px;
+        background-color: #F7EC7D;
+        top: 100px;
+        left: 220px;
+    }
+
+    .orange-circle {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #E38F66;
+        top: 150px;
+        left: 220px;
+        border-radius: 0px 0px 50px 50px;
+    }
+</style>
