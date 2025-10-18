@@ -50,6 +50,7 @@ I will keep updating it with new challenges regularly. ✨
 | 2025-10-15 | ![Challenge](challenges/2025-10-15/preview.png) | [View Code](challenges/2025-10-15/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-10-15/) |
 | 2025-10-16 | ![Challenge](challenges/2025-10-16/preview.png) | [View Code](challenges/2025-10-16/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-10-16/) |
 | 2025-10-17 | ![Challenge](challenges/2025-10-17/preview.png) | [View Code](challenges/2025-10-17/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-10-17/) |
+| 2025-10-18 | ![Challenge](challenges/2025-10-18/preview.png) | [View Code](challenges/2025-10-18/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-10-18/) |
 
 ### ⚔️ Battles
 
