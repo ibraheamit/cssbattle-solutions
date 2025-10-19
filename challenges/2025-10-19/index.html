@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="left-semicircle"></div>
+    <div class="bottom-square"></div>
+    <div class="right-semicircle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1A4341;
+    }
+
+    .container {
+        width: 400px;
+        height: 280px;
+        position: relative;
+    }
+
+    .left-semicircle {
+        width: 100px;
+        height: 50px;
+        border: 30px solid #5A9F48;
+        border-top: none;
+        border-radius: 0 0 100px 100px;
+        position: absolute;
+        bottom: -5px;
+        left: 5px;
+    }
+
+    .bottom-square {
+        width: 100px;
+        height: 100px;
+        border: 30px solid #5A9F48;
+        border-top: none;
+        border-left: none;
+        position: absolute;
+        bottom: 75px;
+        left: 135px;
+    }
+
+    .right-semicircle {
+        width: 100px;
+        height: 50px;
+        border: 30px solid #5A9F48;
+        border-bottom: none;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        top: -5px;
+        left: 235px;
+    }
+</style>
