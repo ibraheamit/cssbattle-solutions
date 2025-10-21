@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="leaf leaf-top-left"></div>
+    <div class="leaf leaf-top-right"></div>
+    <div class="leaf leaf-bottom-left"></div>
+    <div class="leaf leaf-bottom-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #998235;
+    }
+
+    .container {
+        width: 300px;
+        height: 300px;
+        position: relative;
+    }
+
+    .leaf {
+        width: 80px;
+        position: absolute;
+    }
+
+    .leaf-top-left {
+        top: 60;
+        left: 60;
+        height: 100px;
+        border-radius: 0 50px 0 50px;
+        background-color: #1A4341;
+    }
+
+    .leaf-top-right {
+        top: 60;
+        right: 60;
+        height: 60px;
+        border-radius: 50px 0 50px 0;
+        background-color: #F3AC3C;
+    }
+
+    .leaf-bottom-left {
+        bottom: 60;
+        left: 60;
+        height: 60px;
+        border-radius: 0 50px 0 50px;
+        background-color: #F3AC3C;
+    }
+
+    .leaf-bottom-right {
+        bottom: 60;
+        right: 60;
+        height: 100px;
+        border-radius: 50px 0 50px 0;
+        background-color: #1A4341;
+    }
+</style>
