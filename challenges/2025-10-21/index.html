@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="semicircle"></div>
+    <div class="semicircle"></div>
+    <div class="semicircle"></div>
+    <div class="semicircle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #7DDDEB;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .semicircle {
+        width: 90px;
+        height: 180px;
+        background-color: #4763B1;
+        position: relative;
+    }
+
+    .semicircle:nth-child(1) {
+        border-radius: 0 100px 100px 0;
+    }
+
+    .semicircle:nth-child(2) {
+        border-radius: 0 100px 100px 0;
+        left: 3;
+    }
+
+    .semicircle:nth-child(3) {
+        border-radius: 100px 0px 0px 100px;
+        right: 3;
+    }
+
+    .semicircle:nth-child(4) {
+        border-radius: 100px 0 0 100px;
+    }
+</style>
