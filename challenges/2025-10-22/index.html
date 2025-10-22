@@ -1,0 +1,55 @@
+<div class="letter-a">
+    <div class="outer-circle"></div>
+    <div class="bottom-curve"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #D62E65;
+    }
+
+    .letter-a {
+        position: relative;
+        width: 260px;
+        height: 320px;
+    }
+
+    .outer-circle {
+        position: absolute;
+        top: 70;
+        left: 70;
+        width: 120px;
+        height: 140px;
+        border: 30px solid #EEEEEE;
+        border-radius: 100px 100px 0px 0px;
+        border-bottom: none;
+    }
+
+    .outer-circle::before {
+        content: "";
+        position: absolute;
+        left: -30;
+        top: 20px;
+        height: 100px;
+        border-left: 35px solid #D62E65;
+    }
+
+    .bottom-curve {
+        position: absolute;
+        bottom: 70;
+        left: 70;
+        width: 120px;
+        height: 80px;
+        border: 30px solid #EEEEEE;
+        border-radius: 40px 40px;
+    }
+</style>
