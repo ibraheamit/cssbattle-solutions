@@ -1,0 +1,52 @@
+<div class="smiley-container">
+    <div class="eye left"></div>
+    <div class="eye right"></div>
+    <div class="mouth"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #6592CF;
+    }
+
+    .smiley-container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+    }
+
+    .eye {
+        width: 80px;
+        height: 40px;
+        border: 20px solid #060F55;
+        border-bottom: none;
+        border-radius: 120px 120px 0 0;
+        position: absolute;
+        top: 90px;
+    }
+
+    .eye.left {
+        left: 40px;
+    }
+
+    .eye.right {
+        right: 40px;
+    }
+
+    .mouth {
+        width: 80px;
+        height: 40px;
+        border: 20px solid #060F55;
+        border-top: none;
+        border-radius: 0 0 120px 120px;
+        position: absolute;
+        bottom: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
