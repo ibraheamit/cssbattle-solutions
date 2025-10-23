@@ -87,6 +87,7 @@ I will keep updating it with new challenges regularly. ✨
 | #24    | ![Challenge](challenges/Battles/4-Display/24/24.png)      | [View Code](challenges/Battles/4-Display/24/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/24/)      |
 | #25    | ![Challenge](challenges/Battles/4-Display/25/25.png)      | [View Code](challenges/Battles/4-Display/25/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/25/)      |
 | #26    | ![Challenge](challenges/Battles/4-Display/26/26.png)      | [View Code](challenges/Battles/4-Display/26/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/26/)      |
+| #27    | ![Challenge](challenges/Battles/4-Display/27/27.png)      | [View Code](challenges/Battles/4-Display/27/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/27/)      |
 
 ---
 
