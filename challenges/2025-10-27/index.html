@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="brown-arch"></div>
+    <div class="tan-circle"></div>
+    <div class="tan-rectangle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFCE2;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .brown-arch {
+        position: absolute;
+        top: 40;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        height: 150px;
+        background-color: #7C3219;
+        border-radius: 150px 150px 0 0;
+    }
+
+    .tan-circle {
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 140px;
+        height: 140px;
+        background-color: #C1A162;
+        border-radius: 50%;
+    }
+
+    .tan-rectangle {
+        position: absolute;
+        bottom: 40;
+        left: 50;
+        width: 300px;
+        height: 70px;
+        background-color: #C1A162;
+    }
+</style>
