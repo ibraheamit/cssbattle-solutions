@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="horizontal-bar"></div>
+    <div class="circle"></div>
+    <div class="cutout-c"></div>
+    <div class="cutout-m"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C06C88;
+    }
+
+    .container {
+        position: relative;
+        width: 360px;
+        height: 240px;
+    }
+
+    .horizontal-bar {
+        position: absolute;
+        top: 50%;
+        left: 50;
+        width: 260px;
+        height: 80px;
+        background-color: #F4DA64;
+        transform: translateY(-50%);
+    }
+
+    .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 160px;
+        height: 160px;
+        background-color: #F4DA64;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .cutout-c,
+    .cutout-m {
+        position: absolute;
+        top: 50%;
+        height: 70px;
+        transform: translateY(-50%);
+    }
+
+    .cutout-c {
+        left: 145;
+        width: 70px;
+        background-color: #C06C88;
+        border-radius: 100%;
+    }
+
+    .cutout-m {
+        left: 167;
+        width: 26px;
+        background: #F4DA64;
+    }
+</style>
