@@ -64,7 +64,7 @@ I will keep updating it with new challenges regularly. ✨
 | 2025-10-29 | ![Challenge](challenges/2025-10-29/preview.png) | [View Code](challenges/2025-10-29/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-10-29/) |
 | 2025-10-30 | ![Challenge](challenges/2025-10-30/preview.png) | [View Code](challenges/2025-10-30/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-10-30/) |
 | 2025-10-31 | ![Challenge](challenges/2025-10-31/preview.png) | [View Code](challenges/2025-10-31/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-10-31/) |
-| 2025-11-1 | ![Challenge](challenges/2025-11-1/preview.png) | [View Code](challenges/2025-11-1/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-11-1/) |
+| 2025-11-1  | ![Challenge](challenges/2025-11-1/preview.png)  | [View Code](challenges/2025-11-1/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-11-1/)  |
 
 ### ⚔️ Battles
 
@@ -98,6 +98,7 @@ I will keep updating it with new challenges regularly. ✨
 | #26    | ![Challenge](challenges/Battles/4-Display/26/26.png)      | [View Code](challenges/Battles/4-Display/26/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/26/)      |
 | #27    | ![Challenge](challenges/Battles/4-Display/27/27.png)      | [View Code](challenges/Battles/4-Display/27/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/27/)      |
 | #28    | ![Challenge](challenges/Battles/4-Display/28/28.png)      | [View Code](challenges/Battles/4-Display/28/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/4-Display/28/)      |
+| #29    | ![Challenge](challenges/Battles/5-Inline/29/29.png)       | [View Code](challenges/Battles/5-Inline/29/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/5-Inline/29/)       |
 
 ---
 

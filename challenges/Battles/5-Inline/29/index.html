@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="star-shape">
+        <div class="circle top"></div>
+        <div class="circle bottom"></div>
+        <div class="circle left"></div>
+        <div class="circle right"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3AC3C;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .star-shape {
+        width: 190px;
+        height: 190px;
+        background-color: #1A4341;
+        position: relative;
+    }
+
+    .circle {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color: #F3AC3C;
+    }
+
+    .circle.top {
+        top: -55px;
+        left: 20;
+        border-radius: 0 0 100px 0;
+        transform: translateX(-50%);
+    }
+
+    .circle.bottom {
+        bottom: -55px;
+        left: 169;
+        border-radius: 100px 0 0 0;
+        transform: translateX(-50%);
+    }
+
+    .circle.left {
+        left: -55px;
+        top: 169;
+        border-radius: 0 100px 0 0;
+        transform: translateY(-50%);
+    }
+
+    .circle.right {
+        right: -55px;
+        top: 20;
+        border-radius: 0 0 0 100px;
+        transform: translateY(-50%);
+    }
+</style>
