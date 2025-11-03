@@ -1,0 +1,108 @@
+<div class="container">
+    <div class="scalloped-rect top-rect">
+        <div class="circles-group top-circles">
+            <div class="small-circle t"></div>
+            <div class="small-circle t"></div>
+            <div class="small-circle t"></div>
+        </div>
+    </div>
+
+    <div class="circle">
+        <div class="circles-group">
+            <div class="small-circle m"></div>
+            <div class="small-circle m"></div>
+            <div class="small-circle m"></div>
+        </div>
+    </div>
+
+    <div class="scalloped-rect bottom-rect">
+        <div class="circles-group bottom-circles">
+            <div class="small-circle b"></div>
+            <div class="small-circle b"></div>
+            <div class="small-circle b"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #62306D;
+    }
+
+    .container {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0px;
+        box-sizing: border-box;
+    }
+
+    .scalloped-rect {
+        width: 70px;
+        background-color: #E38F66;
+        position: relative;
+    }
+
+    .top-rect {
+        height: 57px;
+    }
+
+    .bottom-rect {
+        height: 40px;
+    }
+
+    .circles-group {
+        display: flex;
+        justify-content: space-between;
+        width: 70px;
+        position: absolute;
+    }
+
+    .top-circles {
+        bottom: -15px;
+        left: 0;
+    }
+
+    .bottom-circles {
+        top: -15px;
+        left: 0;
+    }
+
+    .small-circle {
+        width: 25px;
+        height: 25px;
+        background-color: #E38F66;
+    }
+
+    .t {
+        border-radius: 0 0 50px 50px;
+    }
+
+    .m {
+        border-radius: 0 0 50px 50px;
+    }
+
+    .b {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        background-color: #E38F66;
+        border-radius: 50%;
+        position: relative;
+        top: -9px;
+    }
+
+    .circle .circles-group {
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
