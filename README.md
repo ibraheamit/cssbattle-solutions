@@ -105,6 +105,7 @@ I will keep updating it with new challenges regularly. ✨
 | #31    | ![Challenge](challenges/Battles/6-Conic/31/31.png)        | [View Code](challenges/Battles/6-Conic/31/index.html)        | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/6-Conic/31/)        |
 | #32    | ![Challenge](challenges/Battles/6-Conic/32/32.png)        | [View Code](challenges/Battles/6-Conic/32/index.html)        | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/6-Conic/32/)        |
 | #33    | ![Challenge](challenges/Battles/7-Backface/33/33.png)     | [View Code](challenges/Battles/7-Backface/33/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/7-Backface/33/)     |
+| #34    | ![Challenge](challenges/Battles/7-Backface/34/34.png)     | [View Code](challenges/Battles/7-Backface/34/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/7-Backface/34/)     |
 
 ---
 

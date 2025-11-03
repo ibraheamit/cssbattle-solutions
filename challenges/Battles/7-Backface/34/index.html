@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="triangle triangle-1"></div>
+    <div class="triangle triangle-2"></div>
+    <div class="triangle triangle-3"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #007065;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .triangle {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .triangle-1 {
+        border-width: 0 125px 100px 125px;
+        border-color: #FFEECF transparent;
+        top: 50px;
+        left: 75px;
+    }
+
+    .triangle-2 {
+        border-width: 0 125px 100px 125px;
+        border-color: #F5C181 transparent;
+        top: 100px;
+        left: 75px;
+        z-index: -1;
+    }
+
+    .triangle-3 {
+        border-width: 0 125px 100px 125px;
+        border-color: #00A79D transparent;
+        top: 150px;
+        left: 75px;
+        z-index: -2;
+    }
+</style>
