@@ -1,0 +1,45 @@
+<div class="logo">
+    <div class="vertical-bar"></div>
+    <div class="outer-arc"></div>
+    <div class="inner-cutout"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6592CF;
+    }
+
+    .logo {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
+    .vertical-bar {
+        position: absolute;
+        width: 50px;
+        height: 100px;
+        background-color: #243D83;
+    }
+
+    .outer-arc {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: conic-gradient(#243D83 270deg, transparent 270deg);
+    }
+
+    .inner-cutout {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        top: 50px;
+        right: 50px;
+    }
+</style>
