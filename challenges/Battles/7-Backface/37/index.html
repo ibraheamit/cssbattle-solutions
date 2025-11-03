@@ -1,0 +1,41 @@
+<div class="outer-square">
+    <div class="middle-square">
+        <div class="inner-square"></div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6592CF;
+    }
+
+    .outer-square {
+        width: 250px;
+        height: 250px;
+        background-color: #243D83;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle-square {
+        width: 150px;
+        height: 150px;
+        background-color: #6592CF;
+        position: absolute;
+        transform: rotate(15deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-square {
+        width: 75px;
+        height: 75px;
+        background-color: #243D83;
+        transform: rotate(15deg);
+    }
+</style>
