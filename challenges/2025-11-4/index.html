@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00D47E;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .circle {
+        width: 52px;
+        height: 52px;
+        border: 25px solid #000000;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle:nth-child(1)::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 15px;
+        background-color: #000000;
+        right: 25px;
+    }
+
+    .circle:nth-child(2)::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 15px;
+        background-color: #000000;
+    }
+
+    .circle:nth-child(3)::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 15px;
+        background-color: #000000;
+        left: 25px;
+    }
+</style>
