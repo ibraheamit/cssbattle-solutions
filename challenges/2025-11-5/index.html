@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="frame frame-top"></div>
+    <div class="frame frame-left"></div>
+    <div class="frame frame-right"></div>
+    <div class="frame frame-bottom-left"></div>
+    <div class="frame frame-bottom-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 20px;
+        background-color: #0B2429;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        background-color: #0B2429;
+        position: relative;
+    }
+
+    .frame {
+        position: absolute;
+        background-color: #A7C2FA;
+    }
+
+    /* Top border */
+    .frame-top {
+        top: 0;
+        left: 0px;
+        right: 20px;
+        width: 400px;
+        height: 40px;
+    }
+
+    /* Left border */
+    .frame-left {
+        top: 40px;
+        left: 10px;
+        width: 40px;
+        height: 220px;
+    }
+
+    /* Right border */
+    .frame-right {
+        top: 40px;
+        right: 10px;
+        width: 40px;
+        height: 220px;
+    }
+
+    /* Bottom left section */
+    .frame-bottom-left {
+        bottom: 60px;
+        left: 0px;
+        width: 100px;
+        height: 40px;
+    }
+
+    /* Bottom right section */
+    .frame-bottom-right {
+        bottom: 60px;
+        right: 0px;
+        width: 100px;
+        height: 40px;
+    }
+</style>
