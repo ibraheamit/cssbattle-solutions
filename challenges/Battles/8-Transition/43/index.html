@@ -1,0 +1,82 @@
+<div class="symbol">
+    <div class="center-line"></div>
+    <div class="top-left"></div>
+    <div class="top-right"></div>
+    <div class="bottom-left"></div>
+    <div class="bottom-right"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6592CF;
+    }
+
+    .symbol {
+        position: relative;
+        height: 240px;
+    }
+
+    .center-line {
+        position: absolute;
+        width: 30px;
+        height: 150px;
+        background-color: #243D83;
+        top: 40;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .top-left {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 0;
+        left: -15;
+        border: 30px solid #243D83;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 100px 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .top-right {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 0;
+        right: -15;
+        border: 30px solid #243D83;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 100px 0 0;
+        box-sizing: border-box;
+    }
+
+    .bottom-left {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        bottom: -2;
+        left: -15;
+        border: 30px solid #243D83;
+        border-right: none;
+        border-top: none;
+        border-radius: 0 0 0 100px;
+        box-sizing: border-box;
+    }
+
+    .bottom-right {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        bottom: -2;
+        right: -15;
+        border: 30px solid #243D83;
+        border-left: none;
+        border-top: none;
+        border-radius: 0 0 100px 0;
+        box-sizing: border-box;
+    }
+</style>
