@@ -115,6 +115,7 @@ I will keep updating it with new challenges regularly. ✨
 | #39    | ![Challenge](challenges/Battles/7-Backface/39/39.png)     | [View Code](challenges/Battles/7-Backface/39/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/7-Backface/39/)     |
 | #40    | ![Challenge](challenges/Battles/7-Backface/40/40.png)     | [View Code](challenges/Battles/7-Backface/40/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/7-Backface/40/)     |
 | #41    | ![Challenge](challenges/Battles/7-Backface/41/41.png)     | [View Code](challenges/Battles/7-Backface/41/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/7-Backface/41/)     |
+| #42    | ![Challenge](challenges/Battles/8-Transition/42/42.png)   | [View Code](challenges/Battles/8-Transition/42/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/8-Transition/42/)   |
 
 ---
 
