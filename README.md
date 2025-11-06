@@ -120,6 +120,7 @@ I will keep updating it with new challenges regularly. ✨
 | #43    | ![Challenge](challenges/Battles/8-Transition/43/43.png)   | [View Code](challenges/Battles/8-Transition/43/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/8-Transition/43/)   |
 | #44    | ![Challenge](challenges/Battles/8-Transition/44/44.png)   | [View Code](challenges/Battles/8-Transition/44/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/8-Transition/44/)   |
 | #45    | ![Challenge](challenges/Battles/9-Margin/45/45.png)       | [View Code](challenges/Battles/9-Margin/45/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/9-Margin/45/)       |
+| #46    | ![Challenge](challenges/Battles/9-Margin/46/46.png)       | [View Code](challenges/Battles/9-Margin/46/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/9-Margin/46/)       |
 
 ---
 

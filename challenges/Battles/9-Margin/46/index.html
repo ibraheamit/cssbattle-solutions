@@ -1,0 +1,57 @@
+<div class="circle">
+    <div class="mountains">
+        <div class="mountain-back"></div>
+        <div class="mountain-front"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #293462;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        background: #FFF1C1;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    .mountains {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .mountain-back {
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 65px solid transparent;
+        border-right: 75px solid transparent;
+        border-bottom: 72px solid #FE5F55;
+        left: -36px;
+    }
+
+    .mountain-front {
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 142px solid transparent;
+        border-right: 143px solid transparent;
+        border-bottom: 142px solid #FE5F55;
+        left: 0px;
+    }
+</style>
