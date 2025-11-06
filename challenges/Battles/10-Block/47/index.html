@@ -1,0 +1,94 @@
+<div class="sun">
+    <div class="sun-ray ray-1"></div>
+    <div class="sun-ray ray-2"></div>
+    <div class="sun-ray ray-3"></div>
+    <div class="sun-center">
+        <div class="sun-spot spot-1"></div>
+        <div class="sun-spot spot-2"></div>
+        <div class="sun-spot spot-3"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1A4341;
+    }
+
+    .sun {
+        position: relative;
+        width: 80px;
+        height: 80px;
+    }
+
+    .sun-center {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #F3AC3C;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .sun-spot {
+        position: absolute;
+        background-color: #998235;
+        border-radius: 50%;
+    }
+
+    .spot-1 {
+        width: 10px;
+        height: 10px;
+        top: 20px;
+        left: 70px;
+    }
+
+    .spot-2 {
+        width: 30px;
+        height: 30px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .spot-3 {
+        width: 20px;
+        height: 20px;
+        top: 65px;
+        left: 40px;
+    }
+
+    .sun-ray {
+        position: absolute;
+        background-color: #F3AC3C;
+        border-radius: 10px;
+    }
+
+    .ray-1 {
+        width: 10px;
+        height: 180px;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .ray-2 {
+        width: 10px;
+        height: 180px;
+        top: -54px;
+        left: 43px;
+        transform: rotate(60deg);
+    }
+
+    .ray-3 {
+        width: 10px;
+        height: 180px;
+        bottom: -54px;
+        left: 43px;
+        transform: rotate(-60deg);
+    }
+</style>
