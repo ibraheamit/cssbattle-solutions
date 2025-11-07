@@ -1,0 +1,84 @@
+<div class="diaper">
+    <div class="strap-left"></div>
+    <div class="diaper-body">
+        <div class="stripes">
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+        </div>
+        <div class="circle"></div>
+    </div>
+    <div class="strap-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #293462;
+    }
+
+    .diaper {
+        position: relative;
+        width: 270px;
+        height: 100px;
+    }
+
+    .diaper-body {
+        position: absolute;
+        width: 150px;
+        height: 100px;
+        background-color: #FFF1C1;
+        border-radius: 0 0 50px 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .strap-left {
+        position: absolute;
+        width: 70px;
+        height: 40px;
+        border: 10px solid #FFF1C1;
+        border-radius: 100px;
+        left: 0;
+        top: 0;
+    }
+
+    .strap-right {
+        position: absolute;
+        width: 70px;
+        height: 40px;
+        border: 10px solid #FFF1C1;
+        border-radius: 100px;
+        right: 0;
+        top: 0;
+    }
+
+    .stripes {
+        position: absolute;
+        left: 40;
+        top: 35;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .stripe {
+        width: 40px;
+        height: 10px;
+        background-color: #FE5F55;
+        border-radius: 5px;
+    }
+
+    .circle {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: #FE5F55;
+        border-radius: 50%;
+        right: 20px;
+        top: 40;
+    }
+</style>
