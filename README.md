@@ -125,6 +125,7 @@ I will keep updating it with new challenges regularly. ✨
 | #47    | ![Challenge](challenges/Battles/10-Block/47/47.png)       | [View Code](challenges/Battles/10-Block/47/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/10-Block/47/)       |
 | #48    | ![Challenge](challenges/Battles/10-Block/48/48.png)       | [View Code](challenges/Battles/10-Block/48/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/10-Block/48/)       |
 | #49    | ![Challenge](challenges/Battles/10-Block/49/49.png)       | [View Code](challenges/Battles/10-Block/49/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/10-Block/49/)       |
+| #50    | ![Challenge](challenges/Battles/10-Block/50/50.png)       | [View Code](challenges/Battles/10-Block/50/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/10-Block/50/)       |
 
 ---
 
