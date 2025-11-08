@@ -1,0 +1,78 @@
+<div class="container">
+    <div class="top-bar"></div>
+    <div class="eye-cutout eye-cutout-left"></div>
+    <div class="eye-cutout eye-cutout-right"></div>
+    <div class="eye eye-left"></div>
+    <div class="eye eye-right"></div>
+    <div class="mouth"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFE5AC;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .top-bar {
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        background-color: #313131;
+        left: 140px;
+        top: 85px;
+        border-radius: 100px;
+    }
+
+    .eye-cutout {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FFE5AC;
+        top: 95px;
+    }
+
+    .eye-cutout-left {
+        left: 140px;
+        border-radius: 50% 50% 0 0;
+    }
+
+    .eye-cutout-right {
+        right: 140px;
+        border-radius: 50% 50% 0 0;
+    }
+
+    .eye {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #313131;
+        border-radius: 50%;
+        top: 104px;
+    }
+
+    .eye-left {
+        left: 150px;
+    }
+
+    .eye-right {
+        right: 150px;
+    }
+
+    .mouth {
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        background-color: #313131;
+        left: 140px;
+        top: 165px;
+        border-radius: 50px;
+    }
+</style>
