@@ -1,0 +1,133 @@
+<div class="container">
+    <div class="person person1">
+        <div class="cl"></div>
+        <div class="head"></div>
+        <div class="body"></div>
+    </div>
+    <div class="person person2">
+        <div class="cm"></div>
+        <div class="head"></div>
+        <div class="body"></div>
+    </div>
+    <div class="person person3">
+        <div class="cr"></div>
+        <div class="head"></div>
+        <div class="body"></div>
+    </div>
+
+    <div class="person person4">
+        <div class="head"></div>
+        <div class="body"></div>
+    </div>
+    <div class="person person5">
+        <div class="head"></div>
+        <div class="body"></div>
+    </div>
+    <div class="person person6">
+        <div class="head"></div>
+        <div class="body"></div>
+    </div>
+    <div class="person person7">
+        <div class="head"></div>
+        <div class="body"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6592CF;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .person {
+        position: absolute;
+        top: 100px;
+    }
+
+    .head {
+        width: 20px;
+        height: 20px;
+        background-color: #243D83;
+        border-radius: 50%;
+        position: absolute;
+        top: 30;
+        left: 50%;
+        transform: translateX(-25%);
+    }
+
+    .body {
+        width: 10px;
+        height: 50px;
+        background-color: #243D83;
+        position: absolute;
+        top: 40px;
+    }
+
+    .cl {
+        width: 40px;
+        height: 40px;
+        background-color: #EEB850;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        transform: translateX(-38%);
+    }
+
+    .cm {
+        width: 60px;
+        height: 60px;
+        background-color: #EEB850;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        transform: translateX(-42%);
+    }
+
+    .cr {
+        width: 40px;
+        height: 40px;
+        background-color: #EEB850;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        transform: translateX(-38%);
+    }
+
+    /* Left group */
+    .person1 {
+        left: 45px;
+    }
+
+    .person2 {
+        left: 90px;
+    }
+
+    .person3 {
+        left: 135px;
+    }
+
+    /* Right group */
+    .person4 {
+        left: 210px;
+    }
+
+    .person5 {
+        right: 145px;
+    }
+
+    .person6 {
+        right: 100px;
+    }
+
+    .person7 {
+        right: 55px;
+    }
+</style>
