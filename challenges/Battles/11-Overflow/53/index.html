@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="circle"></div>
+    <div class="rectangle"></div>
+    <div class="quarter-circle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #19191A;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        background-color: #4F77FF;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 125px;
+    }
+
+    .rectangle {
+        width: 75px;
+        height: 125px;
+        background-color: #F9E492;
+        position: absolute;
+        bottom: 50px;
+        left: 125px;
+    }
+
+    .quarter-circle {
+        width: 75px;
+        height: 75px;
+        background-color: #9AD5FF;
+        position: absolute;
+        bottom: 100px;
+        left: 125px;
+        border-radius: 0 0 0 100%;
+    }
+</style>
