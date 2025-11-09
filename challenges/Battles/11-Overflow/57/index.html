@@ -1,0 +1,120 @@
+<div class="cross">
+    <div class="circle-group top-left">
+        <div class="circle-bg l"></div>
+        <div class="circle-outer">
+            <div class="circle-inner a"></div>
+        </div>
+    </div>
+
+    <div class="circle-group top-right">
+        <div class="circle-bg r"></div>
+        <div class="circle-outer">
+            <div class="circle-inner b"></div>
+        </div>
+    </div>
+
+    <div class="circle-group bottom-left">
+        <div class="circle-bg p"></div>
+        <div class="circle-outer">
+            <div class="circle-inner c"></div>
+        </div>
+    </div>
+
+    <div class="circle-group bottom-right">
+        <div class="circle-bg o"></div>
+        <div class="circle-outer">
+            <div class="circle-inner d"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .cross {
+        width: 110px;
+        height: 110px;
+        background-color: #4F77FF;
+        position: relative;
+    }
+
+    .circle-group {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle-bg {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #191919;
+        border-radius: 100px;
+    }
+
+    .circle-bg.r {
+        left: -15;
+    }
+
+    .circle-bg.p {
+        bottom: 55;
+    }
+
+    .circle-bg.o {
+        bottom: 55;
+        left: -15;
+    }
+
+    .circle-outer {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        background-color: #F9E492;
+        border-radius: 50%;
+    }
+
+    .circle-inner {
+        width: 30px;
+        height: 30px;
+        background-color: #4F77FF;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .circle-inner.b {
+        margin-left: 15;
+    }
+
+    .circle-inner.c {
+        margin-top: 15;
+    }
+
+    .circle-inner.d {
+        margin-top: 15;
+        margin-left: 15;
+    }
+
+    .top-left {
+        top: -20px;
+        left: -20px;
+    }
+
+    .top-right {
+        top: -20px;
+        right: -75px;
+    }
+
+    .bottom-left {
+        bottom: -75px;
+        left: -20px;
+    }
+
+    .bottom-right {
+        bottom: -75px;
+        right: -75px;
+    }
+</style>
