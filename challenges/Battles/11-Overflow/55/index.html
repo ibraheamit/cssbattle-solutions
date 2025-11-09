@@ -1,0 +1,64 @@
+<div class="pinwheel">
+    <div class="semicircle top"></div>
+    <div class="semicircle bottom"></div>
+    <div class="semicircle left"></div>
+    <div class="semicircle right"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .pinwheel {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
+    .semicircle {
+        position: absolute;
+    }
+
+    /* Top - Blue */
+    .top {
+        top: 0;
+        left: 100px;
+        width: 50px;
+        height: 100px;
+        background-color: #4F77FF;
+        border-radius: 0 100px 100px 0;
+    }
+
+    /* Bottom - Yellow */
+    .bottom {
+        bottom: 0;
+        left: 50px;
+        width: 50px;
+        height: 100px;
+        background-color: #4F77FF;
+        border-radius: 100px 0 0 100px;
+    }
+
+    /* Left - Yellow */
+    .left {
+        left: 0;
+        top: 50px;
+        width: 100px;
+        height: 50px;
+        background-color: #F9E492;
+        border-radius: 100px 100px 0 0;
+    }
+
+    /* Right - Blue */
+    .right {
+        right: 0;
+        top: 50%;
+        width: 100px;
+        height: 50px;
+        background-color: #F9E492;
+        border-radius: 0 0 100px 100px;
+    }
+</style>
