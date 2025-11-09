@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="left-triangle"></div>
+    <div class="right-triangle"></div>
+    <div class="center-hexagon"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6F9893;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .left-triangle {
+        position: absolute;
+        left: 240;
+        top: 13;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 137px 0 137px 137px;
+        border-color: transparent transparent transparent #D9D9D9;
+    }
+
+    .right-triangle {
+        position: absolute;
+        right: 0;
+        left: 23;
+        top: 13;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 137px 137px 137px 0px;
+        border-color: transparent #D9D9D9 transparent transparent;
+    }
+
+    .center-hexagon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 140px;
+        background-color: #394257;
+        clip-path: polygon(50% 0%, 100% 28%, 100% 71%, 50% 100%, 0% 72%, 0% 27%);
+    }
+</style>
