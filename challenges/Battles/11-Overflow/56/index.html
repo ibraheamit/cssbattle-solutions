@@ -1,0 +1,87 @@
+<div class="skull">
+    <div class="eye left"></div>
+    <div class="eye right"></div>
+    <div class="jaw">
+        <div class="tooth"></div>
+        <div class="tooth"></div>
+        <div class="tooth"></div>
+    </div>
+    <div class="nose"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #191919;
+    }
+
+    .skull {
+        width: 120px;
+        height: 100px;
+        background: #4F77FF;
+        border-radius: 100px 100px 17px 17px;
+        position: relative;
+        bottom: 15;
+    }
+
+    .eye {
+        width: 40px;
+        height: 40px;
+        background: #191919;
+        border-radius: 50%;
+        position: absolute;
+        top: 53px;
+    }
+
+    .eye.left {
+        left: 15px;
+    }
+
+    .eye.right {
+        right: 15px;
+    }
+
+    .nose {
+        width: 20px;
+        height: 20px;
+        background: #191919;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 91px;
+    }
+
+    .jaw {
+        width: 80px;
+        height: 30px;
+        background: #4F77FF;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 0 0 20px 20px;
+    }
+
+    .tooth {
+        width: 10px;
+        height: 16px;
+        background: #191919;
+        position: absolute;
+        top: 20;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .tooth:nth-child(1) {
+        left: 20px;
+    }
+
+    .tooth:nth-child(2) {
+        left: 35px;
+    }
+
+    .tooth:nth-child(3) {
+        right: 20px;
+    }
+</style>
