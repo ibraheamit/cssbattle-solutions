@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="bar-top"></div>
+    <div class="circle-container"></div>
+    <div class="bar-bottom"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #050044;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bar-top {
+        width: 260px;
+        height: 40px;
+        background-color: #A4215D;
+        border: 40px solid #050044;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        margin: 10px;
+    }
+
+    .circle-container {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+        border: 40px solid #F3EAD2;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .bar-bottom {
+        width: 300px;
+        height: 40px;
+        background-color: #A4215D;
+        margin: 50px;
+    }
+</style>
