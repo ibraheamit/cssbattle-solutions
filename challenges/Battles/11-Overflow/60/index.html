@@ -1,0 +1,98 @@
+<div class="design">
+    <div class="triangle blue-top-left"></div>
+    <div class="triangle blue-top-right"></div>
+    <div class="triangle dark-middle-left"></div>
+    <div class="triangle dark-middle-right"></div>
+    <div class="square"></div>
+    <div class="triangle dark-bottom-left"></div>
+    <div class="triangle dark-bottom-middle"></div>
+    <div class="triangle dark-bottom-right"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #191919;
+    }
+
+    .design {
+        position: relative;
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .triangle {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .square {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background: #4F77FF;
+    }
+
+    .blue-top-left {
+        left: 0;
+        top: 0;
+        border-width: 50px 50px 0 50px;
+        border-color: #4F77FF transparent transparent transparent;
+    }
+
+    .blue-top-right {
+        right: 0;
+        top: 0;
+        border-width: 50px 50px 0 50px;
+        border-color: #4F77FF transparent transparent transparent;
+    }
+
+    .dark-middle-left {
+        left: 0px;
+        top: 50px;
+        border-width: 50px 50px 0 50px;
+        border-color: #191919 transparent transparent transparent;
+        z-index: 1;
+    }
+
+    .dark-middle-right {
+        right: 0px;
+        top: 50px;
+        border-width: 50px 50px 0 50px;
+        border-color: #191919 transparent transparent transparent;
+        z-index: 1;
+    }
+
+    .square {
+        left: 0px;
+        bottom: 0;
+    }
+
+    .dark-bottom-left {
+        left: -50px;
+        bottom: 0px;
+        border-width: 0 50px 50px 50px;
+        border-color: transparent transparent #191919 transparent;
+        z-index: 2;
+    }
+
+    .dark-bottom-middle {
+        left: 50px;
+        bottom: 0px;
+        border-width: 0 50px 50px 50px;
+        border-color: transparent transparent #191919 transparent;
+        z-index: 2;
+    }
+
+    .dark-bottom-right {
+        right: -50px;
+        bottom: 0px;
+        border-width: 0 50px 50px 50px;
+        border-color: transparent transparent #191919 transparent;
+        z-index: 2;
+    }
+</style>

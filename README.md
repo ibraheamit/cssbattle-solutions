@@ -141,6 +141,7 @@ I will keep updating it with new challenges regularly. ✨
 | #57    | ![Challenge](challenges/Battles/11-Overflow/57/57.png)    | [View Code](challenges/Battles/11-Overflow/57/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/11-Overflow/57/)    |
 | #58    | ![Challenge](challenges/Battles/11-Overflow/58/58.png)    | [View Code](challenges/Battles/11-Overflow/58/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/11-Overflow/58/)    |
 | #59    | ![Challenge](challenges/Battles/11-Overflow/59/59.png)    | [View Code](challenges/Battles/11-Overflow/59/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/11-Overflow/59/)    |
+| #60    | ![Challenge](challenges/Battles/11-Overflow/60/60.png)    | [View Code](challenges/Battles/11-Overflow/60/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/11-Overflow/60/)    |
 
 ---
 
