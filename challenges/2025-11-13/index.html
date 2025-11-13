@@ -1,0 +1,109 @@
+<div class="container">
+    <!-- Yellow corner squares -->
+    <div class="yellow-square top-left"></div>
+    <div class="yellow-square top-right"></div>
+    <div class="yellow-square bottom-left"></div>
+    <div class="yellow-square bottom-right"></div>
+
+    <!-- Orange pieces -->
+    <div class="orange-piece top-left-orange"></div>
+    <div class="orange-piece top-right-orange"></div>
+    <div class="orange-piece bottom-left-orange"></div>
+    <div class="orange-piece bottom-right-orange"></div>
+
+    <!-- Center cross -->
+    <div class="orange-piece center-vertical"></div>
+    <div class="orange-piece center-horizontal"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #264629;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    /* Yellow corner squares */
+    .yellow-square {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #F8B140;
+    }
+
+    .top-left {
+        top: 40px;
+        left: 90px;
+    }
+
+    .top-right {
+        top: 40px;
+        right: 90px;
+    }
+
+    .bottom-left {
+        bottom: 40px;
+        left: 90px;
+    }
+
+    .bottom-right {
+        bottom: 40px;
+        right: 90px;
+    }
+
+    /* Orange cross pieces */
+    .orange-piece {
+        position: absolute;
+        background-color: #CF6939;
+    }
+
+    .top-left-orange {
+        width: 60px;
+        height: 60px;
+        top: 80px;
+        left: 130px;
+    }
+
+    .top-right-orange {
+        width: 60px;
+        height: 60px;
+        top: 80px;
+        right: 130px;
+    }
+
+    .bottom-left-orange {
+        width: 60px;
+        height: 60px;
+        bottom: 80px;
+        left: 130px;
+    }
+
+    .bottom-right-orange {
+        width: 60px;
+        height: 60px;
+        bottom: 80px;
+        right: 130px;
+    }
+
+    /* Center cross parts */
+    .center-vertical {
+        width: 40px;
+        height: 60px;
+        top: 120px;
+        left: 180px;
+    }
+
+    .center-horizontal {
+        width: 60px;
+        height: 40px;
+        top: 130px;
+        left: 170px;
+    }
+</style>
