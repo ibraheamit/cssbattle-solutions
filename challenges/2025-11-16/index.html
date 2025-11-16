@@ -1,0 +1,52 @@
+<div class="logo">
+    <div class="square"></div>
+    <div class="semicircle-left"></div>
+    <div class="semicircle-right"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8CFADC;
+    }
+
+    .logo {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .square {
+        width: 50px;
+        height: 50px;
+        background-color: #1A4341;
+        position: absolute;
+        top: 20;
+        left: 50px;
+        transform: rotate(45deg);
+        transform-origin: center;
+    }
+
+    .semicircle-left {
+        position: absolute;
+        top: 45;
+        left: 5;
+        width: 60px;
+        height: 120px;
+        background-color: #1A4341;
+        border-radius: 150px 0 0 150px;
+        transform: rotate(-45deg);
+    }
+
+    .semicircle-right {
+        position: absolute;
+        top: 45px;
+        right: 5px;
+        width: 60px;
+        height: 120px;
+        background-color: #1A4341;
+        border-radius: 0 150px 150px 0;
+        transform: rotate(45deg);
+    }
+</style>
