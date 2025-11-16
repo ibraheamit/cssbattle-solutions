@@ -1,0 +1,57 @@
+<div class="command-symbol">
+    <div class="square top-left"></div>
+    <div class="square top-right"></div>
+    <div class="square center"></div>
+    <div class="square bottom-left"></div>
+    <div class="square bottom-right"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .command-symbol {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
+    .square {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border: 10px solid #5DBCF9;
+    }
+
+    .top-left {
+        top: 4;
+        left: 6;
+        border-radius: 35px 35px 0 35px;
+    }
+
+    .top-right {
+        top: 4;
+        right: 4;
+        border-radius: 35px 35px 35px 0;
+    }
+
+    .center {
+        top: 64px;
+        left: 66px;
+    }
+
+    .bottom-left {
+        bottom: 6;
+        left: 6;
+        border-radius: 35px 0px 35px 35px;
+    }
+
+    .bottom-right {
+        bottom: 6;
+        right: 4;
+        border-radius: 0px 35px 35px 35px;
+    }
+</style>
