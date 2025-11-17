@@ -149,6 +149,7 @@ I will keep updating it with new challenges regularly. ✨
 | #61    | ![Challenge](challenges/Battles/12-Blend/61/61.png)       | [View Code](challenges/Battles/12-Blend/61/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/12-Blend/61/)       |
 | #62    | ![Challenge](challenges/Battles/12-Blend/62/62.png)       | [View Code](challenges/Battles/12-Blend/62/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/12-Blend/62/)       |
 | #63    | ![Challenge](challenges/Battles/12-Blend/63/63.png)       | [View Code](challenges/Battles/12-Blend/63/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/12-Blend/63/)       |
+| #64    | ![Challenge](challenges/Battles/12-Blend/64/64.png)       | [View Code](challenges/Battles/12-Blend/64/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/12-Blend/64/)       |
 
 ---
 

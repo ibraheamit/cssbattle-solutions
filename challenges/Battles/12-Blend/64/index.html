@@ -1,0 +1,72 @@
+<div class="target">
+    <div class="ring-orange">
+        <div class="ring-yellow"></div>
+        <div class="center-circle"></div>
+        <div class="bar bar-left"></div>
+        <div class="bar bar-right"></div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .target {
+        position: relative;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background-color: #824B20;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ring-orange {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #E08027;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ring-yellow {
+        position: absolute;
+        width: 120px;
+        height: 62px;
+        border-radius: 0 0 100px 100px;
+        background-color: #FFF58F;
+        bottom: -10;
+    }
+
+    .bar {
+        position: absolute;
+        width: 20px;
+        height: 10px;
+        border-radius: 100px 100px 0 0;
+        background-color: #FFF58F;
+        top: 40;
+    }
+
+    .bar-left {
+        right: 90;
+    }
+
+    .bar-right {
+        left: 90;
+    }
+
+    .center-circle {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #E08027;
+    }
+</style>
