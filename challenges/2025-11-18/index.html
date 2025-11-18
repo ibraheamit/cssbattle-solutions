@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="horizontal-bar-top bar-left"></div>
+    <div class="horizontal-bar-top bar-right"></div>
+    <div class="center-square"></div>
+    <div class="horizontal-bar-bottom bar-left"></div>
+    <div class="horizontal-bar-bottom bar-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #555FD9;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .horizontal-bar-top {
+        position: absolute;
+        height: 20px;
+        background-color: #F2A842;
+        top: 50px;
+    }
+
+    .horizontal-bar-bottom {
+        position: absolute;
+        height: 20px;
+        background-color: #F2A842;
+        bottom: 50px;
+    }
+
+    .bar-left {
+        left: 0;
+        width: 90px;
+    }
+
+    .bar-right {
+        right: 0;
+        width: 90px;
+    }
+
+    .center-square {
+        position: absolute;
+        left: 110px;
+        top: 50px;
+        width: 100px;
+        height: 160px;
+        border: 20px solid #F2A842;
+        border-left: 40px solid #F2A842;
+        border-right: 40px solid #F2A842;
+    }
+</style>
