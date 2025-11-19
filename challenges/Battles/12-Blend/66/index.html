@@ -1,0 +1,108 @@
+<div class="batman-logo">
+    <div class="main-square"></div>
+
+    <div class="circle circle-top-left"></div>
+    <div class="circle circle-top-right"></div>
+    <div class="circle circle-bottom-left"></div>
+    <div class="circle circle-bottom-right"></div>
+
+    <div class="top-square">
+        <div class="small-square">
+            <div class="small-circle small-circle-left"></div>
+            <div class="small-circle small-circle-right"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .batman-logo {
+        position: relative;
+        width: 240px;
+        height: 100px;
+    }
+
+    .main-square {
+        position: absolute;
+        width: 240px;
+        height: 80px;
+        background-color: #F2AD43;
+        top: 0;
+        left: 0;
+    }
+
+    .circle {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #191919;
+        border-radius: 50%;
+    }
+
+    .circle-top-left {
+        top: 0px;
+        left: -55px;
+    }
+
+    .circle-top-right {
+        top: 0px;
+        right: -55px;
+    }
+
+    .circle-bottom-left {
+        bottom: -95;
+        left: -25;
+        width: 169px;
+        height: 135px;
+    }
+
+    .circle-bottom-right {
+        bottom: -95;
+        right: -25;
+        width: 169px;
+        height: 135px;
+    }
+
+    .top-square {
+        position: absolute;
+        width: 80px;
+        height: 30px;
+        background-color: #191919;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .small-square {
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        background-color: #F2AD43;
+        top: 10;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .small-circle {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #F2AD43;
+        border-radius: 50%;
+        top: -5px;
+    }
+
+    .small-circle-left {
+        left: -5px;
+    }
+
+    .small-circle-right {
+        right: -5px;
+    }
+</style>
