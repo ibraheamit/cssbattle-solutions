@@ -1,0 +1,61 @@
+<div class="cross">
+    <div class="box top"></div>
+    <div class="box left"></div>
+    <div class="box right"></div>
+    <div class="box bottom"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #D86F45;
+    }
+
+    .cross {
+        position: relative;
+        width: 240px;
+        height: 180px;
+    }
+
+    .box {
+        position: absolute;
+        background-color: #D86F45;
+    }
+
+    .top {
+        width: 50px;
+        height: 70px;
+        left: 75px;
+        top: -15px;
+        border: 20px solid #FFFFFF;
+        border-bottom: none;
+    }
+
+    .left {
+        width: 70px;
+        height: 50px;
+        left: -25px;
+        top: 45px;
+        border: 20px solid #FFFFFF;
+        border-right: none;
+    }
+
+    .right {
+        width: 70px;
+        height: 50px;
+        right: -25px;
+        top: 45px;
+        border: 20px solid #FFFFFF;
+        border-left: none;
+    }
+
+    .bottom {
+        width: 50px;
+        height: 70px;
+        right: 75px;
+        bottom: -15px;
+        border: 20px solid #FFFFFF;
+        border-top: none;
+    }
+</style>
