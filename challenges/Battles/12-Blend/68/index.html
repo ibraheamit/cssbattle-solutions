@@ -1,0 +1,43 @@
+<div class="bell">
+    <div class="bell-top"></div>
+    <div class="bell-body"></div>
+    <div class="bell-clapper"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .bell {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bell-top {
+        width: 50px;
+        height: 50px;
+        background-color: #F2AD43;
+        border-radius: 50%;
+        margin-bottom: -26px;
+    }
+
+    .bell-body {
+        width: 120px;
+        height: 120px;
+        background-color: #E08027;
+        border-radius: 65px 65px 11px 11px;
+        z-index: 1;
+    }
+
+    .bell-clapper {
+        width: 50px;
+        height: 50px;
+        background-color: #824B20;
+        border-radius: 50%;
+        margin-top: -25px;
+    }
+</style>
