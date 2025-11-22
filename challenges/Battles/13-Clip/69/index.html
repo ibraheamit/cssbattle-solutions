@@ -1,0 +1,99 @@
+<div class="owl">
+    <div class="ear left"></div>
+    <div class="ear right"></div>
+    <div class="beak"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .owl {
+        position: relative;
+        width: 200px;
+        height: 140px;
+    }
+
+    .ear {
+        position: absolute;
+        top: -3px;
+        height: 114px;
+        background-color: #E08027;
+    }
+
+    .left {
+        left: -11;
+        width: 110px;
+        border-radius: 0px 50px 52px 57px;
+        z-index: 0;
+    }
+
+    .left::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: 90px;
+        height: 90px;
+        background-color: #191919;
+        border-radius: 50%;
+    }
+
+    .left::after {
+        content: '';
+        position: absolute;
+        top: 48px;
+        left: 42px;
+        width: 12px;
+        height: 6px;
+        border: 9px solid #E08027;
+        border-bottom: none;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    .right {
+        top: -13px;
+        right: -21px;
+        width: 114px;
+        border: 10px solid #191919;
+        border-radius: 100px 0px 100px 100px;
+        z-index: 1;
+    }
+
+    .right::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 90px;
+        height: 90px;
+        background-color: #191919;
+        border-radius: 50%;
+    }
+
+    .right::after {
+        content: '';
+        position: absolute;
+        top: 48px;
+        left: 42px;
+        width: 12px;
+        height: 6px;
+        border: 9px solid #E08027;
+        border-bottom: none;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    .beak {
+        width: 60px;
+        height: 60px;
+        background-color: #E08027;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+        z-index: -1;
+    }
+</style>
