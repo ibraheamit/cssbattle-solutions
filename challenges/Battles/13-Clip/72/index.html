@@ -1,0 +1,151 @@
+<div class="sheep">
+    <div class="wool"></div>
+    <div class="puff-right"></div>
+    <div class="puff-left"></div>
+    <div class="puff-top-left"></div>
+    <div class="puff-top-right"></div>
+    <div class="puff-bottom-left"></div>
+    <div class="puff-bottom-right"></div>
+    <div class="face">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #243D83;
+    }
+
+    .sheep {
+        position: relative;
+        width: 120px;
+        height: 120px;
+    }
+
+    .wool {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background-color: #6592CF;
+        border-radius: 50%;
+    }
+
+    .wool::before,
+    .wool::after {
+        content: '';
+        position: absolute;
+        background-color: #6592CF;
+        border-radius: 50%;
+    }
+
+    .wool::before {
+        width: 60px;
+        height: 50px;
+        top: -25px;
+        left: 30px;
+        z-index: 1;
+    }
+
+    .wool::after {
+        width: 60px;
+        height: 50px;
+        bottom: -25px;
+        left: 30px;
+    }
+
+    .puff-right {
+        position: absolute;
+        width: 50px;
+        height: 60px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        right: -25px;
+        top: 30px;
+    }
+
+    .puff-left {
+        position: absolute;
+        width: 50px;
+        height: 60px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        left: -25px;
+        top: 30px;
+    }
+
+    .puff-top-left {
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        transform: rotate(-45deg);
+        left: -10px;
+        top: -5px;
+        z-index: 1;
+    }
+
+    .puff-top-right {
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        transform: rotate(45deg);
+        right: -10px;
+        top: -5px;
+        z-index: 1;
+    }
+
+    .puff-bottom-left {
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        transform: rotate(45deg);
+        left: -10px;
+        bottom: -5px;
+    }
+
+    .puff-bottom-right {
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        transform: rotate(-45deg);
+        right: -10px;
+        bottom: -5px;
+    }
+
+    .face {
+        position: absolute;
+        width: 60px;
+        height: 65px;
+        background-color: #243D83;
+        border-radius: 0 0 50px 50px;
+        top: 20px;
+        left: 30px;
+    }
+
+    .eye {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #6592CF;
+        border-radius: 50%;
+        top: 20px;
+    }
+
+    .eye.left {
+        left: 15px;
+    }
+
+    .eye.right {
+        right: 15px;
+    }
+</style>
