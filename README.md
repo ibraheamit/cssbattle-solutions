@@ -167,6 +167,7 @@ I will keep updating it with new challenges regularly. ✨
 | #70    | ![Challenge](challenges/Battles/13-Clip/70/70.png)        | [View Code](challenges/Battles/13-Clip/70/index.html)        | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/13-Clip/70/)        |
 | #71    | ![Challenge](challenges/Battles/13-Clip/71/71.png)        | [View Code](challenges/Battles/13-Clip/71/index.html)        | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/13-Clip/71/)        |
 | #72    | ![Challenge](challenges/Battles/13-Clip/72/72.png)        | [View Code](challenges/Battles/13-Clip/72/index.html)        | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/13-Clip/72/)        |
+| #73    | ![Challenge](challenges/Battles/13-Clip/73/73.png)        | [View Code](challenges/Battles/13-Clip/73/index.html)        | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/13-Clip/73/)        |
 
 ---
 

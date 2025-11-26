@@ -1,0 +1,168 @@
+<div class="bear">
+    <div class="ear-left">
+        <div class="ear-left-inner"></div>
+    </div>
+    <div class="ear-right">
+        <div class="ear-right-inner"></div>
+    </div>
+    <div class="head">
+        <div class="hair"></div>
+        <div class="eye-left"></div>
+        <div class="eye-right"></div>
+        <div class="snout">
+            <div class="mouth-line"></div>
+            <div class="mouth-left"></div>
+            <div class="mouth-right"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3AC3C;
+    }
+
+    .bear {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Left ear */
+    .ear-left {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #998235;
+        border-radius: 50%;
+        top: -10px;
+        left: -10px;
+    }
+
+    .ear-left-inner {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: #1A4341;
+        border-radius: 50%;
+        top: 10px;
+        left: 10px;
+    }
+
+    /* Right ear */
+    .ear-right {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #998235;
+        border-radius: 50%;
+        top: -10;
+        right: -10px;
+    }
+
+    .ear-right-inner {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: #1A4341;
+        border-radius: 50%;
+        top: 10px;
+        left: 10px;
+    }
+
+    /* Head */
+    .head {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: #998235;
+        border-radius: 100px 100px 80px 80px;
+        top: 0px;
+        overflow: hidden;
+    }
+
+    /* Hair tuft */
+    .hair {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 26px solid #1A4341;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Left eye */
+    .eye-left {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #1A4341;
+        border-radius: 50%;
+        top: 60px;
+        left: 25px;
+    }
+
+    /* Right eye */
+    .eye-right {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #1A4341;
+        border-radius: 50%;
+        top: 60px;
+        right: 25px;
+    }
+
+    /* Snout */
+    .snout {
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border-radius: 12px 12px 30px 30px;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Mouth line */
+    .mouth-line {
+        position: absolute;
+        width: 10px;
+        height: 25px;
+        background-color: #1A4341;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Left mouth curve */
+    .mouth-left {
+        position: absolute;
+        width: 20px;
+        height: 10px;
+        border: 10px solid #1A4341;
+        border-top: none;
+        border-radius: 0 0 150px 150px;
+        top: 10px;
+        left: 15px;
+    }
+
+    /* Right mouth curve */
+    .mouth-right {
+        position: absolute;
+        width: 20px;
+        height: 10px;
+        border: 10px solid #1A4341;
+        border-top: none;
+        border-radius: 0 0 150px 150px;
+        top: 10px;
+        right: 15px;
+    }
+</style>
