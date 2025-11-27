@@ -1,0 +1,190 @@
+<div class="container">
+    <div class="snake-body curve1"></div>
+    <div class="snake-body curve2"></div>
+    <div class="snake-body curve3"></div>
+    <div class="snake-body curve4"></div>
+    <div class="snake-body curve5"></div>
+    <div class="snake-body curve6"></div>
+    <div class="head">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #191919;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    /* snake-body */
+    .snake-body,
+    :before {
+        position: absolute;
+        background: none;
+        border: 5px solid #E08027;
+    }
+
+    .curve1 {
+        width: 30px;
+        height: 70px;
+        border-top: none;
+        border-left: none;
+        border-bottom-right-radius: 40px;
+        left: 0px;
+        top: 85px;
+    }
+
+    .curve1::before {
+        content: '';
+        width: 15px;
+        height: 70px;
+        border-top: none;
+        border-left: none;
+        border-bottom-right-radius: 40px;
+        left: 0px;
+        top: -15px;
+    }
+
+    .curve2 {
+        width: 60px;
+        height: 50px;
+        border-bottom: none;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        left: 15px;
+        top: 40px;
+    }
+
+    .curve2::before {
+        content: '';
+        width: 30px;
+        height: 50px;
+        border-bottom: none;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .curve3 {
+        width: 60px;
+        height: 180px;
+        border-top: none;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        left: 65px;
+        bottom: 40px;
+    }
+
+    .curve3::before {
+        content: '';
+        width: 30px;
+        height: 165px;
+        border-top: none;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .curve4 {
+        width: 60px;
+        height: 180px;
+        border-bottom: none;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        left: 115px;
+        top: 40px;
+    }
+
+    .curve4::before {
+        content: '';
+        width: 30px;
+        height: 165px;
+        border-bottom: none;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .curve5 {
+        width: 60px;
+        height: 80px;
+        border-top: none;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        left: 165px;
+        bottom: 40px;
+    }
+
+    .curve5::before {
+        content: '';
+        width: 30px;
+        height: 70px;
+        border-top: none;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .curve6 {
+        width: 50px;
+        height: 50px;
+        border-bottom: none;
+        border-right: none;
+        border-top-left-radius: 35px;
+        right: 130px;
+        top: 140px;
+    }
+
+    .curve6::before {
+        content: '';
+        width: 45px;
+        height: 20px;
+        border-bottom: none;
+        border-right: none;
+        border-top-left-radius: 20px;
+        right: -10px;
+        top: 10px;
+    }
+
+    /* Snake head */
+    .head {
+        width: 50px;
+        height: 30px;
+        background: #E08027;
+        border-radius: 10px 15px 15px 10px;
+        position: absolute;
+        left: 265px;
+        top: 135px;
+    }
+
+    .eye {
+        width: 10px;
+        height: 10px;
+        background: #191919;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .eye.left {
+        top: 2px;
+        right: 10px;
+    }
+
+    .eye.right {
+        top: 18px;
+        right: 10px;
+    }
+</style>
