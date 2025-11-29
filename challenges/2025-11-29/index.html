@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row">
+        <div class="brick small"></div>
+        <div class="brick large"></div>
+    </div>
+    <div class="row">
+        <div class="brick large"></div>
+        <div class="brick small"></div>
+    </div>
+    <div class="row">
+        <div class="brick small"></div>
+        <div class="brick large"></div>
+    </div>
+    <div class="row">
+        <div class="brick large"></div>
+        <div class="brick small"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAE7DF;
+    }
+
+    .container {
+        width: 230px;
+        height: 300px;
+        padding: 15px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .row {
+        display: flex;
+        gap: 20px;
+        flex: 1;
+    }
+
+    .brick {
+        background-color: #BE6565;
+    }
+
+    .small {
+        flex: 1;
+    }
+
+    .large {
+        flex: 2;
+    }
+</style>
