@@ -1,0 +1,90 @@
+<div class="bee">
+    <div class="wing-left"></div>
+    <div class="wing-right"></div>
+    <div class="body">
+        <div class="stripe stripe1"></div>
+        <div class="stripe stripe2"></div>
+        <div class="stripe stripe3"></div>
+    </div>
+    <div class="eye"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #998235;
+    }
+
+    .bee {
+        position: relative;
+        width: 150px;
+        height: 100px;
+    }
+
+    /* Wings */
+    .wing-left {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        background-color: #FFFFFF;
+        border-radius: 100px 100px 0% 100px;
+        top: -25px;
+        left: 0px;
+    }
+
+    .wing-right {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        background-color: #FFFFFF;
+        border-radius: 50% 50% 50% 0;
+        top: -25px;
+        right: 0px;
+    }
+
+    /* Body */
+    .body {
+        position: absolute;
+        width: 150px;
+        height: 75px;
+        background-color: #EFF33C;
+        border-radius: 40px;
+        top: 50px;
+        left: 0px;
+        overflow: hidden;
+    }
+
+    /* Black stripes */
+    .stripe {
+        position: absolute;
+        width: 25px;
+        height: 80px;
+        background-color: #191919;
+        top: 0;
+    }
+
+    .stripe1 {
+        left: 0;
+        border-radius: 40px 0 0 40px;
+    }
+
+    .stripe2 {
+        left: 35px;
+    }
+
+    .stripe3 {
+        left: 70px;
+    }
+
+    /* Eye */
+    .eye {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: #191919;
+        border-radius: 50%;
+        top: 70px;
+        right: 20px;
+    }
+</style>
