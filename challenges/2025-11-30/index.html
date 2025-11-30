@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="center-square"></div>
+    <div class="left-base"></div>
+    <div class="left-diamond"></div>
+    <div class="right-diamond"></div>
+    <div class="right-base"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E38F66;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .center-square {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        background-color: #F7F3D7;
+        top: 80px;
+        left: 130px;
+    }
+
+    .left-base {
+        position: absolute;
+        left: 0;
+        top: 115px;
+        width: 60px;
+        height: 70px;
+        background-color: #F7F3D7;
+    }
+
+    .left-diamond {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        background-color: #F7F3D7;
+        transform: rotate(45deg);
+        left: 60px;
+        top: 115px;
+    }
+
+    .right-diamond {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        background-color: #F7F3D7;
+        transform: rotate(45deg);
+        right: 60px;
+        top: 115px;
+    }
+
+    .right-base {
+        position: absolute;
+        right: 0;
+        top: 115px;
+        width: 60px;
+        height: 70px;
+        background-color: #F7F3D7;
+    }
+</style>
