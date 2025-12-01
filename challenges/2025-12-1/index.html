@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="top-circle"></div>
+    <div class="middle-section"></div>
+    <div class="keyhole-circle"></div>
+    <div class="bottom-shape"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2F434E;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .top-circle {
+        width: 130px;
+        height: 130px;
+        background-color: #F8B140;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 135px;
+    }
+
+    .middle-section {
+        width: 100px;
+        height: 90px;
+        background-color: #F8B140;
+        position: absolute;
+        top: 110px;
+        left: 150px;
+        z-index: 1;
+    }
+
+    .keyhole-circle {
+        width: 60px;
+        height: 60px;
+        border: 10px solid #CF6939;
+        border-radius: 50%;
+        position: absolute;
+        top: 110px;
+        left: 160px;
+        z-index: 2;
+    }
+
+    .bottom-shape {
+        width: 130px;
+        height: 130px;
+        background-color: #CF6939;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        left: 135px;
+    }
+</style>
