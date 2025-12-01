@@ -1,0 +1,132 @@
+<div class="container">
+    <div class="guitar">
+        <div class="body-left"></div>
+        <div class="body-right"></div>
+        <div class="sound-hole"></div>
+        <div class="string"></div>
+        <div class="neck"></div>
+        <div class="headstock"></div>
+        <div class="peg1"></div>
+        <div class="peg2"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3AC3C;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .guitar {
+        position: absolute;
+        top: 90px;
+        left: 50px;
+    }
+
+    /* Guitar body - left circle */
+    .body-left {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background-color: #998235;
+        border-radius: 50%;
+        top: 0;
+        left: -5;
+    }
+
+    /* Guitar body - right circle */
+    .body-right {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #998235;
+        border-radius: 50%;
+        top: 10;
+        left: 65px;
+        z-index: 1;
+    }
+
+    /* Sound hole */
+    .sound-hole {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: #1A4341;
+        border-radius: 50%;
+        top: 40px;
+        left: 95px;
+        z-index: 2;
+    }
+
+    /* Sound hole ring */
+    .sound-hole::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: 5px solid #F3AC3C;
+        border-radius: 50%;
+        top: -5px;
+        left: -5px;
+    }
+
+    /* Neck */
+    .neck {
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        background-color: #1A4341;
+        top: 50px;
+        left: 150px;
+    }
+
+    /* Headstock */
+    .headstock {
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        background-color: #998235;
+        border-radius: 10px;
+        top: 45px;
+        left: 265px;
+    }
+
+    /* Tuning pegs */
+    .peg1,
+    .peg2 {
+        position: absolute;
+        width: 20px;
+        height: 4px;
+        background-color: #1A4341;
+        border-radius: 5px;
+    }
+
+    .peg1 {
+        top: 53px;
+        left: 275px;
+    }
+
+    .peg2 {
+        top: 63px;
+        left: 275px;
+    }
+
+    /* String guide lines on body */
+    .string {
+        position: absolute;
+        width: 10px;
+        height: 40px;
+        background-color: #1A4341;
+        border-radius: 5px;
+        top: 40px;
+        left: 35px;
+    }
+</style>
