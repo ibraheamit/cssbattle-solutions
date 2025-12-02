@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="center-diamond"></div>
+    <div class="circle circle-left"></div>
+    <div class="circle circle-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #696448;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .circle {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 30px solid #222222;
+        background-color: transparent;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .circle-left {
+        left: 100px;
+    }
+
+    .circle-right {
+        right: 100px;
+    }
+
+    .center-diamond {
+        position: absolute;
+        width: 30px;
+        height: 60px;
+        background-color: #FFFFFF;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
