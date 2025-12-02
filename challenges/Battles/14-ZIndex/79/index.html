@@ -1,0 +1,114 @@
+<div class="network">
+    <div class="node">
+        <div class="center-circle"></div>
+    </div>
+    <div class="node">
+        <div class="center-circle"></div>
+    </div>
+    <div class="node">
+        <div class="center-circle"></div>
+    </div>
+    <div class="node">
+        <div class="center-circle"></div>
+    </div>
+    <div class="node">
+        <div class="center-circle"></div>
+    </div>
+    <div class="circle"></div>
+    <div class="bottom-circle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6592CF;
+    }
+
+    .network {
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    .circle {
+        position: absolute;
+        top: 25px;
+        left: 15px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 10px solid #243D83;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .circle::before {
+        content: '';
+        position: absolute;
+        bottom: -75px;
+        left: 18px;
+        width: 94px;
+        height: 90px;
+        border-radius: 100px;
+        background-color: #6592CF;
+        border: 10px solid #243D83;
+    }
+
+    .bottom-circle {
+        position: absolute;
+        bottom: -60px;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: #6592CF;
+    }
+
+    .node {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #6592CF;
+        border: 10px solid #243D83;
+        position: absolute;
+        box-sizing: border-box;
+    }
+
+    .center-circle {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #243D83;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .node:nth-child(1) {
+        top: 5px;
+        left: 75px;
+    }
+
+    .node:nth-child(2) {
+        top: 45px;
+        right: 5px;
+    }
+
+    .node:nth-child(3) {
+        top: 115px;
+        right: 5px;
+    }
+
+    .node:nth-child(4) {
+        bottom: 105px;
+        left: 5px;
+    }
+
+    .node:nth-child(5) {
+        bottom: 35px;
+        left: 5px;
+    }
+</style>

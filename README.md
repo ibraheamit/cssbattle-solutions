@@ -178,6 +178,7 @@ I will keep updating it with new challenges regularly. ✨
 | #76    | ![Challenge](challenges/Battles/13-Clip/76/76.png)        | [View Code](challenges/Battles/13-Clip/76/index.html)        | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/13-Clip/76/)        |
 | #77    | ![Challenge](challenges/Battles/14-ZIndex/77/77.png)      | [View Code](challenges/Battles/14-ZIndex/77/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/14-ZIndex/77/)      |
 | #78    | ![Challenge](challenges/Battles/14-ZIndex/78/78.png)      | [View Code](challenges/Battles/14-ZIndex/78/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/14-ZIndex/78/)      |
+| #79    | ![Challenge](challenges/Battles/14-ZIndex/79/79.png)      | [View Code](challenges/Battles/14-ZIndex/79/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/14-ZIndex/79/)      |
 
 ---
 
