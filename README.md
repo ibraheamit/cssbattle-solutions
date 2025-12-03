@@ -180,6 +180,7 @@ I will keep updating it with new challenges regularly. ✨
 | #77    | ![Challenge](challenges/Battles/14-ZIndex/77/77.png)      | [View Code](challenges/Battles/14-ZIndex/77/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/14-ZIndex/77/)      |
 | #78    | ![Challenge](challenges/Battles/14-ZIndex/78/78.png)      | [View Code](challenges/Battles/14-ZIndex/78/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/14-ZIndex/78/)      |
 | #79    | ![Challenge](challenges/Battles/14-ZIndex/79/79.png)      | [View Code](challenges/Battles/14-ZIndex/79/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/14-ZIndex/79/)      |
+| #80    | ![Challenge](challenges/Battles/14-ZIndex/80/80.png)      | [View Code](challenges/Battles/14-ZIndex/80/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/14-ZIndex/80/)      |
 
 ---
 

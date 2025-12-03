@@ -1,0 +1,86 @@
+<div class="piano">
+    <div class="keys-container">
+        <div class="white-key"></div>
+        <div class="white-key"></div>
+        <div class="white-key"></div>
+        <div class="white-key"></div>
+        <div class="white-key"></div>
+        <div class="white-key"></div>
+        <div class="white-key"></div>
+
+        <div class="black-keys">
+            <div class="black-key"></div>
+            <div class="black-key"></div>
+            <div class="black-key"></div>
+            <div class="black-key"></div>
+            <div class="black-key"></div>
+            <div class="black-key"></div>
+            <div class="black-key"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #998235;
+    }
+
+    .piano {
+        width: 180px;
+        height: 100px;
+        background-color: #191919;
+        border-radius: 10px;
+        padding: 3px;
+        padding-top: 23px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .keys-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+    }
+
+    .white-key {
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        border: 2px solid #191919;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+
+    .black-keys {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        pointer-events: none;
+    }
+
+    .black-key {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .black-key::after {
+        content: '';
+        position: absolute;
+        right: -7px;
+        top: 0;
+        width: 15px;
+        height: 100%;
+        background-color: #191919;
+    }
+
+    .black-key:nth-child(3)::after,
+    .black-key:nth-child(7)::after {
+        display: none;
+    }
+</style>
