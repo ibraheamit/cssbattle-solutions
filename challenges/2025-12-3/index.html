@@ -1,0 +1,54 @@
+<div class="printer">
+    <div class="paper-top"></div>
+    <div class="printer-body"></div>
+    <div class="paper-output"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C8AD17;
+    }
+
+    .printer {
+        position: relative;
+        width: 200px;
+        height: 150px;
+    }
+
+    .paper-top {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 50px;
+        background-color: #EEEEEE;
+        border: 20px solid #222222;
+        border-bottom: none;
+    }
+
+    .printer-body {
+        position: absolute;
+        top: 20px;
+        left: -10px;
+        width: 180px;
+        height: 70px;
+        background-color: #EEEEEE;
+        border: 20px solid #222222;
+        border-radius: 30px 30px 0 0;
+    }
+
+    .paper-output {
+        position: absolute;
+        bottom: -20;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 40px;
+        background-color: #EEEEEE;
+        border: 20px solid #222222;
+    }
+</style>
