@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="letter letter-o1"></div>
+    <div class="letter letter-d"></div>
+    <div class="letter letter-o2"></div>
+    <div class="letter letter-o3"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .letter {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 12px;
+    }
+
+    .letter::before {
+        content: '';
+        width: 40px;
+        height: 40px;
+        background-color: #191919;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .letter-o1 {
+        background-color: #714B67;
+    }
+
+    .letter-d {
+        background-color: #8F8F8F;
+    }
+
+    .letter-d::after {
+        content: '';
+        width: 20px;
+        height: 55px;
+        background-color: #8F8F8F;
+        position: absolute;
+        top: -20px;
+        left: 60;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .letter-o2 {
+        background-color: #8F8F8F;
+    }
+
+    .letter-o3 {
+        background-color: #8F8F8F;
+    }
+</style>
