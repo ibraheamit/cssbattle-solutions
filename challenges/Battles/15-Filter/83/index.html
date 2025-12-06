@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="petal petal-top-left"></div>
+    <div class="petal petal-top-right"></div>
+    <div class="petal petal-bottom-left"></div>
+    <div class="petal petal-bottom-right"></div>
+    <div class="diagonal-overlay"></div>
+    <div class="center-circle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #243D83;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .petal {
+        width: 100px;
+        height: 100px;
+        background: #6592CF;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .petal-top-left {
+        top: 58px;
+        left: 108px;
+    }
+
+    .petal-top-right {
+        top: 58px;
+        right: 108px;
+    }
+
+    .petal-bottom-left {
+        bottom: 58px;
+        left: 108px;
+    }
+
+    .petal-bottom-right {
+        bottom: 58px;
+        right: 108px;
+    }
+
+    .center-circle {
+        width: 60px;
+        height: 60px;
+        background: #EEB850;
+        border-radius: 50%;
+        position: absolute;
+        top: 120px;
+        left: 170px;
+    }
+
+    .diagonal-overlay {
+        width: 120px;
+        height: 120px;
+        background: #243D83;
+        position: absolute;
+        top: 90px;
+        left: 140px;
+        transform: rotate(45deg);
+    }
+</style>
