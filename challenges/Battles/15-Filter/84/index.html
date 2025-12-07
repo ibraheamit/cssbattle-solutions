@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="horizontal-bar"></div>
+    <div class="vertical-bar"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .vertical-bar {
+        position: absolute;
+        width: 40px;
+        height: 130px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #FE5F55;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .vertical-bar::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 130px;
+        top: 170;
+        left: 0;
+        background-color: #FE5F55;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .horizontal-bar {
+        position: absolute;
+        height: 40px;
+        width: 180px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #A64942;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .horizontal-bar::before {
+        content: '';
+        position: absolute;
+        width: 180px;
+        height: 40px;
+        left: 220;
+        top: 0;
+        background-color: #A64942;
+        border-radius: 20px 0 0 20px;
+    }
+</style>
