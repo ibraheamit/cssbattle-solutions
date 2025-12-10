@@ -1,0 +1,92 @@
+<div class="container">
+    <div class="puzzle-piece piece-1"></div>
+    <div class="piece-1-tab"></div>
+    <div class="puzzle-piece piece-2"></div>
+    <div class="piece-2-bottom"></div>
+    <div class="piece-2-notch"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3AC3C;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .puzzle-piece {
+        background-color: #1A4341;
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    .piece-1 {
+        width: 100px;
+        height: 100px;
+        top: 65px;
+        left: 65px;
+    }
+
+    .piece-1-tab {
+        position: absolute;
+        width: 70px;
+        height: 50px;
+        background-color: #1A4341;
+        border-radius: 10px;
+        top: 65px;
+        left: 145px;
+    }
+
+    .piece-1-tab::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #1A4341;
+        top: 45px;
+        left: 15px;
+    }
+
+    .piece-2 {
+        width: 100px;
+        height: 100px;
+        top: 135px;
+        right: 65px;
+    }
+
+    .piece-2-bottom {
+        position: absolute;
+        width: 70px;
+        height: 50px;
+        background-color: #1A4341;
+        border-radius: 10px;
+        top: 185px;
+        right: 145px;
+    }
+
+    .piece-2-bottom::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #1A4341;
+        top: -15px;
+        right: 15px;
+    }
+
+    .piece-2-notch {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        background-color: #F3AC3C;
+        border-radius: 10px;
+        top: 115px;
+        right: 165px;
+    }
+</style>
