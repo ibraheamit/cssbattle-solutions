@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="pill-row">
+        <div class="pill white"></div>
+        <div class="pill purple"></div>
+        <div class="pill purple"></div>
+    </div>
+    <div class="rectangle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #202F8E;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 20px;
+        gap: 10px;
+    }
+
+    .pill-row {
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .pill {
+        width: 100px;
+        height: 50px;
+        border-radius: 25px;
+    }
+
+    .pill.white {
+        background: #FFFFFF;
+    }
+
+    .pill.purple {
+        background: #7982BB;
+    }
+
+    .rectangle {
+        width: 100px;
+        height: 20px;
+        background: #FFFFFF;
+    }
+</style>
