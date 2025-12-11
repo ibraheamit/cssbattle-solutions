@@ -197,6 +197,7 @@ I will keep updating it with new challenges regularly. ✨
 | #85    | ![Challenge](challenges/Battles/15-Filter/85/85.png)      | [View Code](challenges/Battles/15-Filter/85/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/15-Filter/85/)      |
 | #86    | ![Challenge](challenges/Battles/15-Filter/86/86.png)      | [View Code](challenges/Battles/15-Filter/86/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/15-Filter/86/)      |
 | #87    | ![Challenge](challenges/Battles/15-Filter/87/87.png)      | [View Code](challenges/Battles/15-Filter/87/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/15-Filter/87/)      |
+| #88    | ![Challenge](challenges/Battles/15-Filter/88/88.png)      | [View Code](challenges/Battles/15-Filter/88/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/15-Filter/88/)      |
 
 ---
 
