@@ -1,0 +1,37 @@
+<div class="magnifying-glass">
+    <div class="circle"></div>
+    <div class="handle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7E5FB;
+    }
+
+    .magnifying-glass {
+        position: relative;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        border: 30px solid #62306D;
+        border-radius: 50%;
+        background-color: #F7E5FB;
+        position: relative;
+    }
+
+    .handle {
+        position: absolute;
+        width: 30px;
+        height: 55px;
+        background-color: #62306D;
+        bottom: -11px;
+        right: -3px;
+        transform: rotate(-45deg);
+        border-radius: 0 0 50px 50px;
+    }
+</style>
