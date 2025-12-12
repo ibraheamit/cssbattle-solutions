@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="circle"></div>
+    <div class="triangle-blue"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        background-color: #F9E492;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+
+    .triangle-blue {
+        width: 282px;
+        height: 141px;
+        background-color: #4F77FF;
+        position: absolute;
+        bottom: 0;
+        left: 59px;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    .triangle-blue::before {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: -109px;
+        left: 41px;
+        background-color: #191919;
+        border-radius: 50%;
+    }
+</style>
