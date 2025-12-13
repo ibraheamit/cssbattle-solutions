@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="circle circle-top"></div>
+    <div class="circle circle-center"></div>
+    <div class="circle circle-bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F3AC3C;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .circle-top {
+        width: 400px;
+        height: 400px;
+        background: #998235;
+        top: -250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .circle-center {
+        width: 200px;
+        height: 200px;
+        background: #1A4341;
+        border: 25px solid #F3AC3C;
+        top: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .circle-bottom {
+        width: 400px;
+        height: 400px;
+        background: #998235;
+        bottom: -250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
