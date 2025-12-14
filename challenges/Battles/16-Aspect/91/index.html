@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="sky"></div>
+    <div class="sun"></div>
+    <div class="stripe stripe2"></div>
+    <div class="stripe stripe3"></div>
+    <div class="stripe stripe4"></div>
+    <div class="stripe stripe5"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #6CB3A9;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sky {
+        width: 100%;
+        height: 150px;
+        background: #D25B70;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .sun {
+        width: 200px;
+        height: 200px;
+        background: #F6DF96;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        z-index: 1;
+    }
+
+    .stripe {
+        width: 100%;
+        height: 15px;
+        position: absolute;
+        background: #6CB3A9;
+        left: 0;
+        z-index: 2;
+    }
+
+    .stripe2 {
+        top: 150px;
+    }
+
+    .stripe3 {
+        top: 175px;
+    }
+
+    .stripe4 {
+        top: 200px;
+    }
+
+    .stripe5 {
+        top: 225px;
+    }
+</style>
