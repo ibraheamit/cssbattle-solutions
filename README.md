@@ -205,6 +205,7 @@ I will keep updating it with new challenges regularly. ✨
 | #89    | ![Challenge](challenges/Battles/16-Aspect/89/89.png)      | [View Code](challenges/Battles/16-Aspect/89/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/16-Aspect/89/)      |
 | #90    | ![Challenge](challenges/Battles/16-Aspect/90/90.png)      | [View Code](challenges/Battles/16-Aspect/90/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/16-Aspect/90/)      |
 | #91    | ![Challenge](challenges/Battles/16-Aspect/91/91.png)      | [View Code](challenges/Battles/16-Aspect/91/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/16-Aspect/91/)      |
+| #92    | ![Challenge](challenges/Battles/16-Aspect/92/92.png)      | [View Code](challenges/Battles/16-Aspect/92/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/16-Aspect/92/)      |
 
 ---
 

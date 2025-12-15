@@ -1,0 +1,104 @@
+<div class="container">
+    <div class="circle circle-left"></div>
+    <div class="circle circle-center"></div>
+    <div class="circle circle-right"></div>
+    <div class="wave wave-left"></div>
+    <div class="wave wave-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #6592CF;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #243D83;
+        position: absolute;
+        top: 50px;
+    }
+
+    .circle-left {
+        left: -126px;
+    }
+
+    .circle-center {
+        left: 100px;
+    }
+
+    .circle-right {
+        right: -126px;
+    }
+
+    .wave {
+        width: 60px;
+        height: 50px;
+        background: #243D83;
+        position: absolute;
+        bottom: 125px;
+    }
+
+    .wave-left {
+        left: 50px;
+    }
+
+    .wave-left::before {
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 20px;
+        background: #6592CF;
+        border-radius: 0 0 50px 50px;
+        top: -5px;
+        left: 21px;
+    }
+
+    .wave-left::after {
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 20px;
+        background: #6592CF;
+        border-radius: 50px 50px 0 0;
+        top: 35px;
+        left: 21px;
+    }
+
+    .wave-right {
+        right: 50px;
+    }
+
+    .wave-right::before {
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 20px;
+        background: #6592CF;
+        border-radius: 0 0 50px 50px;
+        top: -5px;
+        left: 7px;
+    }
+
+    .wave-right::after {
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 20px;
+        background: #6592CF;
+        border-radius: 50px 50px 0 0;
+        top: 35px;
+        left: 7px;
+    }
+</style>
