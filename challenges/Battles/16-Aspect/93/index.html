@@ -1,0 +1,119 @@
+<div class="circle">
+    <div class="moon"></div>
+    <div class="stripe s1"></div>
+    <div class="stripe s2"></div>
+    <div class="stripe s3"></div>
+    <div class="stripe s4"></div>
+    <div class="stripe s5"></div>
+    <div class="stripe s6"></div>
+    <div class="stripe s7"></div>
+    <div class="stripe s8"></div>
+    <div class="stripe s9"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #4F77FF;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        background: #191919;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    .moon {
+        width: 40px;
+        height: 40px;
+        background: #F9E492;
+        border-radius: 50%;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+
+    .stripe {
+        position: absolute;
+        height: 16px;
+    }
+
+    .s1 {
+        background: #F9E492;
+        width: 100px;
+        left: 0;
+        bottom: 62px;
+    }
+
+    .s2 {
+        background: #F9E492;
+        width: 100px;
+        left: 0;
+        bottom: 36px;
+    }
+
+    .s3 {
+        background: #F9E492;
+        width: 100px;
+        left: 0;
+        bottom: 10px;
+    }
+
+    .s4 {
+        background: #D6B73F;
+        width: 32px;
+        height: 14px;
+        left: 94px;
+        bottom: 69px;
+        transform: rotate(147deg);
+        z-index: -1;
+    }
+
+    .s5 {
+        background: #D6B73F;
+        width: 32px;
+        height: 14px;
+        left: 94px;
+        bottom: 43px;
+        transform: rotate(147deg);
+        z-index: -1;
+    }
+
+    .s6 {
+        background: #D6B73F;
+        width: 32px;
+        height: 14px;
+        left: 94px;
+        bottom: 17px;
+        transform: rotate(147deg);
+        z-index: -1;
+    }
+
+    .s7 {
+        background: #F9E492;
+        width: 80px;
+        right: 0;
+        bottom: 75px;
+    }
+
+    .s8 {
+        background: #F9E492;
+        width: 80px;
+        right: 0;
+        bottom: 49px;
+    }
+
+    .s9 {
+        background: #F9E492;
+        width: 80px;
+        right: 0;
+        bottom: 23px;
+    }
+</style>
