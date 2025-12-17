@@ -1,0 +1,76 @@
+<div class="dashboard">
+    <div class="window-controls">
+        <div class="control green"></div>
+        <div class="control yellow"></div>
+        <div class="control red"></div>
+    </div>
+    <div class="bar yellow"></div>
+    <div class="bar red"></div>
+    <div class="bar green"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #45B45B;
+    }
+
+    .dashboard {
+        width: 240px;
+        height: 160px;
+        background-color: #194247;
+        border-radius: 20px;
+        padding: 10px;
+        position: relative;
+    }
+
+    .window-controls {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .control {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .control.green {
+        background-color: #45B45B;
+    }
+
+    .control.yellow {
+        background-color: #FABC0D;
+    }
+
+    .control.red {
+        background-color: #E3473C;
+    }
+
+    .bar {
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .bar.yellow {
+        background-color: #FABC0D;
+        width: 80px;
+        margin-top: -10;
+        margin-left: auto;
+    }
+
+    .bar.red {
+        background-color: #E3473C;
+        width: 120px;
+        margin-left: auto;
+    }
+
+    .bar.green {
+        background-color: #45B45B;
+        width: 160px;
+        margin-left: auto;
+    }
+</style>
