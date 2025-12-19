@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="circle-bg"></div>
+    <div class="petal top"></div>
+    <div class="petal bottom"></div>
+    <div class="petal left"></div>
+    <div class="petal right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #243D83;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .circle-bg {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: #6592CF;
+        border-radius: 50%;
+    }
+
+    .petal {
+        position: absolute;
+        width: 128px;
+        height: 120px;
+        border: 20px solid #243D83;
+        border-radius: 50%;
+    }
+
+    .petal.top {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .petal.bottom {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .petal.left {
+        left: 42;
+        top: 50%;
+        height: 130px;
+        transform: translateY(-50%);
+    }
+
+    .petal.right {
+        right: 42;
+        top: 50%;
+        height: 130px;
+        transform: translateY(-50%);
+    }
+</style>
