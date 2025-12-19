@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="square"></div>
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #7E6293;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .square {
+        position: absolute;
+        right: 35px;
+        top: 35px;
+        width: 40px;
+        height: 40px;
+        background-color: #E8BA79;
+    }
+
+    .line1 {
+        position: absolute;
+        left: 35px;
+        top: 35px;
+        width: 310px;
+        height: 210px;
+        border: 20px solid #E8BA79;
+        border-top: none;
+        border-right: none;
+    }
+
+    .line2 {
+        position: absolute;
+        left: 55px;
+        top: 125px;
+        width: 200px;
+        height: 100px;
+        border: 20px solid #E8BA79;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .line3 {
+        position: absolute;
+        left: 55px;
+        top: 75px;
+        width: 250px;
+        height: 150px;
+        border: 20px solid #E8BA79;
+        border-left: none;
+        border-bottom: none;
+    }
+</style>
