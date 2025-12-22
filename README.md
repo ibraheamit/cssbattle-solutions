@@ -115,6 +115,7 @@ I will keep updating it with new challenges regularly. ✨
 | 2025-12-19 | ![Challenge](challenges/2025-12-19/preview.png) | [View Code](challenges/2025-12-19/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-12-19/) |
 | 2025-12-20 | ![Challenge](challenges/2025-12-20/preview.png) | [View Code](challenges/2025-12-20/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-12-20/) |
 | 2025-12-21 | ![Challenge](challenges/2025-12-21/preview.png) | [View Code](challenges/2025-12-21/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-12-21/) |
+| 2025-12-22 | ![Challenge](challenges/2025-12-22/preview.png) | [View Code](challenges/2025-12-22/index.html) | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/2025-12-22/) |
 
 ### ⚔️ Battles
 
