@@ -1,0 +1,93 @@
+<div class="container">
+    <div class="bow">
+        <div class="bow-circle"></div>
+        <div class="bow-circle"></div>
+    </div>
+    <div class="gift-box">
+        <div class="row">
+            <div class="box-square"></div>
+            <div class="box-square"></div>
+        </div>
+        <div class="row">
+            <div class="box-square"></div>
+            <div class="box-square"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #AC474B;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .bow {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+    }
+
+    .bow-circle {
+        width: 20px;
+        height: 20px;
+        border: 10px solid #FFFFFF;
+        position: relative;
+    }
+
+    .bow-circle:first-child {
+        left: 5;
+        border-radius: 50px 50px 0 50px;
+    }
+
+    .bow-circle:last-child {
+        right: 5;
+        border-radius: 50px 50px 50px 0;
+    }
+
+    .gift-box {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .row {
+        display: flex;
+        position: relative;
+    }
+
+    .row:first-child {
+        top: 0;
+    }
+
+    .row:last-child {
+        bottom: -20;
+    }
+
+    .box-square {
+        width: 60px;
+        height: 60px;
+        background-color: #FFFFFF;
+        position: relative;
+    }
+
+    .box-square:first-child {
+        left: -10;
+    }
+
+    .box-square:last-child {
+        right: -10;
+    }
+</style>
