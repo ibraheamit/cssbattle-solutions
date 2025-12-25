@@ -225,6 +225,7 @@ I will keep updating it with new challenges regularly. ✨
 | #99    | ![Challenge](challenges/Battles/17-Christmas/99/99.png)   | [View Code](challenges/Battles/17-Christmas/99/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/17-Christmas/99/)   |
 | #100   | ![Challenge](challenges/Battles/17-Christmas/100/100.png) | [View Code](challenges/Battles/17-Christmas/100/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/17-Christmas/100/)  |
 | #101   | ![Challenge](challenges/Battles/18-Float/101/101.png)     | [View Code](challenges/Battles/18-Float/101/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/18-Float/101/)      |
+| #102   | ![Challenge](challenges/Battles/18-Float/102/102.png)     | [View Code](challenges/Battles/18-Float/102/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/18-Float/102/)      |
 
 ---
 
