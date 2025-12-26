@@ -1,0 +1,51 @@
+<div class="squares-wrapper">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #A82973;
+    }
+
+    .squares-wrapper {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .square {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #EEC8EA;
+    }
+
+    .square:nth-child(1) {
+        top: 5;
+        left: 5;
+        transform: rotate(-10deg);
+    }
+
+    .square:nth-child(2) {
+        top: 5;
+        right: 5;
+        transform: rotate(10deg);
+    }
+
+    .square:nth-child(3) {
+        bottom: 5;
+        left: 5;
+        transform: rotate(10deg);
+    }
+
+    .square:nth-child(4) {
+        bottom: 5;
+        right: 5;
+        transform: rotate(-10deg);
+    }
+</style>
