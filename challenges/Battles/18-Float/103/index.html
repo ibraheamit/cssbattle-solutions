@@ -1,0 +1,119 @@
+<div class="container">
+    <div class="character">
+        <div class="flame-side-left"></div>
+        <div class="flame-side-right"></div>
+        <div class="face">
+            <div class="forehead"></div>
+            <div class="eyes"></div>
+        </div>
+        <div class="flame-center"></div>
+        <div class="flame-left"></div>
+        <div class="flame-right"></div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #161616;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .character {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .face {
+        position: relative;
+        top: 31;
+        width: 80px;
+        height: 70px;
+        background: #FFFFFF;
+        border-radius: 0 0 50px 50px;
+        overflow: hidden;
+    }
+
+    .forehead {
+        position: absolute;
+        width: 60px;
+        height: 70px;
+        background: #FFDEB9;
+        top: 0;
+        left: 40px;
+    }
+
+    .eyes {
+        position: absolute;
+        width: 20px;
+        height: 10px;
+        background: #161616;
+        border-radius: 0 0 50px 50px;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .flame-center {
+        position: absolute;
+        width: 54px;
+        height: 54px;
+        background: #EBAE11;
+        border-radius: 0 50px;
+        top: -20px;
+        left: 13px;
+        transform: rotate(45deg);
+    }
+
+    .flame-left {
+        position: absolute;
+        width: 30px;
+        height: 59px;
+        background: #EBAE11;
+        border-radius: 50px 0 0 50px;
+        top: 5px;
+        left: 0px;
+        transform: rotate(-40deg);
+    }
+
+    .flame-right {
+        position: absolute;
+        width: 30px;
+        height: 59px;
+        background: #EBAE11;
+        border-radius: 0 50px 50px 0;
+        top: 5px;
+        right: 0px;
+        transform: rotate(40deg);
+    }
+
+    .flame-side-left {
+        position: absolute;
+        width: 30px;
+        height: 35px;
+        background: #EBAE11;
+        border-radius: 50px 0 0;
+        top: 39px;
+        left: -20px;
+        transform: rotate(-75deg);
+    }
+
+    .flame-side-right {
+        position: absolute;
+        width: 30px;
+        height: 35px;
+        background: #EBAE11;
+        border-radius: 0 50px 0 0;
+        top: 39px;
+        right: -20px;
+        transform: rotate(75deg);
+    }
+</style>
