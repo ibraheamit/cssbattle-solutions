@@ -1,0 +1,56 @@
+<div class="pinwheel">
+    <div class="quarter-circle top-left"></div>
+    <div class="square top-right"></div>
+    <div class="square bottom-left"></div>
+    <div class="quarter-circle bottom-right"></div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F9DDC6;
+    }
+
+    .pinwheel {
+        width: 160px;
+        height: 160px;
+        position: relative;
+    }
+
+    .square {
+        width: 60px;
+        height: 60px;
+        background-color: #594C94;
+        position: absolute;
+    }
+
+    .quarter-circle {
+        width: 60px;
+        height: 60px;
+        background-color: #594C94;
+        position: absolute;
+    }
+
+    .top-left {
+        top: 20;
+        left: 20;
+        border-top-left-radius: 60px;
+    }
+
+    .top-right {
+        top: 0;
+        right: 0;
+    }
+
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+    }
+
+    .bottom-right {
+        bottom: 20;
+        right: 20;
+        border-bottom-right-radius: 60px;
+    }
+</style>
