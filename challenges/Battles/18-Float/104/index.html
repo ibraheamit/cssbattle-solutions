@@ -1,0 +1,95 @@
+<div class="router">
+    <div class="router-inner">
+        <div class="dots-left">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="vents">
+            <div class="vent"></div>
+            <div class="vent"></div>
+            <div class="vent"></div>
+            <div class="vent"></div>
+        </div>
+
+        <div class="dots-right">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+    }
+
+    .router {
+        width: 240px;
+        height: 120px;
+        background-color: #37385A;
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .router-inner {
+        width: 200px;
+        height: 80px;
+        background-color: #9897AE;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .dots-left,
+    .dots-right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        background-color: #000;
+        border-radius: 50%;
+    }
+
+    .vents {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .vents::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 100px;
+        background-color: #C0C3DB;
+        transform: rotate(15deg);
+        z-index: 0;
+    }
+
+    .vent {
+        width: 10px;
+        height: 50px;
+        background-color: #000000;
+        border-radius: 5px;
+        position: relative;
+        z-index: 1;
+    }
+</style>
