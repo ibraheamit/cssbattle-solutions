@@ -1,0 +1,153 @@
+<div class="container">
+    <div class="triangle"></div>
+    <div class="eye-left">
+        <div class="iris-left">
+            <div class="circle-left"></div>
+        </div>
+    </div>
+    <div class="eye-right">
+        <div class="iris-right">
+            <div class="circle-right"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #BAC7CE;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .triangle {
+        border-left: 91px solid transparent;
+        border-right: 91px solid transparent;
+        border-top: 91px solid #475862;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .eye-left {
+        position: absolute;
+        left: 30px;
+        top: 130px;
+        width: 120px;
+        height: 120px;
+        background: #000000;
+        border-radius: 0 60px;
+        transform: rotate(-15deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iris-left {
+        width: 100px;
+        height: 100px;
+        background: #5A6042;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .iris-left::before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #868A64;
+        border-radius: 50%;
+        top: 15px;
+        left: -4px;
+    }
+
+    .circle-left {
+        width: 40px;
+        height: 40px;
+        background: #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .circle-left::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #4E2B24;
+        border-radius: 50%;
+    }
+
+    .eye-right {
+        position: absolute;
+        right: 30px;
+        top: 130px;
+        width: 120px;
+        height: 120px;
+        background: #000000;
+        border-radius: 60px 0;
+        transform: rotate(15deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iris-right {
+        width: 100px;
+        height: 100px;
+        background: #5A6042;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .iris-right::before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #868A64;
+        border-radius: 50%;
+        top: 15px;
+        right: -4px;
+    }
+
+    .circle-right {
+        width: 40px;
+        height: 40px;
+        background: #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .circle-right::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #4E2B24;
+        border-radius: 50%;
+    }
+</style>
