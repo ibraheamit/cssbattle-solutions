@@ -233,6 +233,7 @@ I will keep updating it with new challenges regularly. ✨
 | #103   | ![Challenge](challenges/Battles/18-Float/103/103.png)     | [View Code](challenges/Battles/18-Float/103/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/18-Float/103/)      |
 | #104   | ![Challenge](challenges/Battles/18-Float/104/104.png)     | [View Code](challenges/Battles/18-Float/104/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/18-Float/104/)      |
 | #105   | ![Challenge](challenges/Battles/18-Float/105/105.png)     | [View Code](challenges/Battles/18-Float/105/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/18-Float/105/)      |
+| #106   | ![Challenge](challenges/Battles/18-Float/106/106.png)     | [View Code](challenges/Battles/18-Float/106/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/18-Float/106/)      |
 
 ---
 
