@@ -1,0 +1,119 @@
+<div class="container">
+    <div class="pole"></div>
+    <div class="beak"></div>
+    <div class="wing"></div>
+    <div class="eye-outer">
+        <div class="eye-inner">
+            <div class="pupil"></div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #161616;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .pole {
+        position: absolute;
+        width: 20px;
+        height: 130px;
+        background: #E96A23;
+        bottom: 0;
+        left: 190px;
+    }
+
+    .pole::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        background: #A22015;
+        border-radius: 10px;
+        bottom: 97px;
+        left: -5px;
+    }
+
+    .beak {
+        position: absolute;
+        width: 70px;
+        height: 40px;
+        background: #E96A23;
+        border-radius: 0 40px 5px 0;
+        top: 129px;
+        left: 210px;
+    }
+
+    .eye-outer {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #A22015;
+        border-radius: 50%;
+        top: 120px;
+        left: 170px;
+    }
+
+    .eye-inner {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        top: 5px;
+        left: 5px;
+    }
+
+    .pupil {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #161616;
+        border: 5px solid #A22015;
+        border-radius: 50%;
+        top: 10px;
+        left: 10px;
+    }
+
+    .wing {
+        position: absolute;
+        width: 55px;
+        height: 12px;
+        background: #FFFFFF;
+        border-radius: 0 0 0 20px;
+        top: 132px;
+        left: 130px;
+        z-index: 1;
+    }
+
+    .wing::before {
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 12px;
+        background: #FFFFFF;
+        border-radius: 0 0 0 20px;
+        top: 12px;
+        left: 15px;
+    }
+
+    .wing::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 12px;
+        background: #FFFFFF;
+        border-radius: 0 0 0 20px;
+        top: 24px;
+        left: 30px;
+    }
+</style>
