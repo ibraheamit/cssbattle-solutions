@@ -1,0 +1,116 @@
+<div class="container">
+    <div class="orange-bg"></div>
+    <div class="black-rounded-rect"></div>
+    <div class="target">
+        <div class="ring ring-outer"></div>
+        <div class="ring ring-middle"></div>
+        <div class="center-circle"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .orange-bg {
+        position: absolute;
+        top: 75px;
+        left: 50px;
+        width: 300px;
+        height: 150px;
+        background: #E96A23;
+        overflow: hidden;
+    }
+
+    .orange-bg::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 104px;
+        width: 50px;
+        height: 200px;
+        background: #EBAE11;
+        transform: rotate(15deg)
+    }
+
+    .orange-bg::after {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 170px;
+        width: 25px;
+        height: 200px;
+        background: #EBAE11;
+        transform: rotate(15deg)
+    }
+
+    .black-rounded-rect {
+        position: absolute;
+        top: 105px;
+        left: 65px;
+        width: 270px;
+        height: 90px;
+        background: #000000;
+        border-radius: 12px;
+    }
+
+    .black-rounded-rect::before {
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: 15px;
+        width: 240px;
+        height: 120px;
+        background: #000000;
+        border-radius: 12px;
+    }
+
+    .target {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ring {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border: 5px solid #EBAE11;
+    }
+
+    .ring-outer {
+        width: 200px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .ring-middle {
+        width: 120px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .center-circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        background: #EBAE11;
+        border-radius: 50%;
+    }
+</style>
