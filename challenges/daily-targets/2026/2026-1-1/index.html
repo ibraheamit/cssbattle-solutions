@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F7CB71;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .left {
+        position: absolute;
+        width: 40px;
+        height: 160px;
+        background: #7C3219;
+        left: 100px;
+        top: 70px;
+        transform: rotate(45deg);
+    }
+
+    .left::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 160px;
+        background: #7C3219;
+        transform: rotate(90deg);
+    }
+
+    .left::after {
+        content: '';
+        position: absolute;
+        top: 60px;
+        width: 40px;
+        height: 40px;
+        background: #F7CB71;
+    }
+
+    .right {
+        position: absolute;
+        width: 40px;
+        height: 160px;
+        background: #7C3219;
+        right: 100px;
+        top: 70px;
+        transform: rotate(45deg);
+    }
+
+    .right::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 160px;
+        background: #7C3219;
+        transform: rotate(90deg);
+    }
+
+    .right::after {
+        content: '';
+        position: absolute;
+        top: 60px;
+        width: 40px;
+        height: 40px;
+        background: #F7CB71;
+    }
+</style>
