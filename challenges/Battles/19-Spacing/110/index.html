@@ -1,0 +1,68 @@
+<div class="sunrise">
+    <div class="ray"></div>
+    <div class="ray"></div>
+    <div class="ray"></div>
+    <div class="ray"></div>
+    <div class="ray"></div>
+    <div class="ray"></div>
+    <div class="ray"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #D25B70;
+    }
+
+    .sunrise {
+        position: relative;
+        width: 240px;
+        height: 120px;
+    }
+
+    .ray {
+        position: absolute;
+        width: 100px;
+        height: 10px;
+        background-color: #F2E09F;
+        border-radius: 5px;
+        bottom: 5px;
+        left: 50%;
+        transform-origin: left center;
+    }
+
+    .ray:nth-child(1) {
+        transform: translateX(20%) rotate(0deg);
+    }
+
+    .ray:nth-child(2) {
+        transform: translateX(17%) rotate(-30deg);
+        bottom: 15px;
+    }
+
+    .ray:nth-child(3) {
+        transform: translateX(10%) rotate(-60deg);
+        bottom: 22px;
+    }
+
+    .ray:nth-child(4) {
+        transform: translateX(0%) rotate(-90deg);
+        bottom: 25px;
+    }
+
+    .ray:nth-child(5) {
+        transform: translateX(-10%) rotate(-120deg);
+        bottom: 22px;
+    }
+
+    .ray:nth-child(6) {
+        transform: translateX(-17%) rotate(-150deg);
+        bottom: 15px;
+    }
+
+    .ray:nth-child(7) {
+        transform: translateX(-120%) rotate(0deg);
+    }
+</style>
