@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="teardrop teardrop-top"></div>
+    <div class="teardrop teardrop-left"></div>
+    <div class="teardrop teardrop-bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3AC3C;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .teardrop {
+        position: absolute;
+        background-color: #254241;
+    }
+
+    .teardrop-top {
+        width: 80px;
+        height: 80px;
+        border-radius: 50% 50% 50% 0;
+        top: 40px;
+        left: 160px;
+        transform: rotate(-45deg);
+    }
+
+    .teardrop-left {
+        width: 80px;
+        height: 80px;
+        border-radius: 50% 50% 50% 0;
+        top: 110px;
+        left: 80px;
+        transform: rotate(-135deg);
+    }
+
+    .teardrop-bottom {
+        width: 80px;
+        height: 80px;
+        border-radius: 50% 50% 50% 0;
+        top: 180px;
+        left: 160px;
+        transform: rotate(135deg);
+    }
+</style>
