@@ -1,0 +1,79 @@
+<div class="container">
+    <div class="chevron chevron1"></div>
+    <div class="chevron chevron2"></div>
+    <div class="chevron chevron3"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #6592CF;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .chevron {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .chevron1 {
+        top: 50px;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        border-top: 100px solid #293D7E;
+        z-index: 2;
+    }
+
+    .chevron1::before {
+        content: "";
+        position: absolute;
+        top: -100px;
+        left: -87px;
+        border-left: 87px solid transparent;
+        border-right: 87px solid transparent;
+        border-top: 69px solid #6592CF;
+    }
+
+    .chevron2 {
+        top: 100px;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        border-top: 100px solid #293D7E;
+        z-index: 1;
+    }
+
+    .chevron2::before {
+        content: "";
+        position: absolute;
+        top: -100px;
+        left: -87px;
+        border-left: 87px solid transparent;
+        border-right: 87px solid transparent;
+        border-top: 69px solid #6592CF;
+    }
+
+    .chevron3 {
+        top: 150px;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        border-top: 100px solid #293D7E;
+    }
+
+    .chevron3::before {
+        content: "";
+        position: absolute;
+        top: -100px;
+        left: -87px;
+        border-left: 87px solid transparent;
+        border-right: 87px solid transparent;
+        border-top: 69px solid #6592CF;
+    }
+</style>
