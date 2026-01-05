@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="diagonal-stripe"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .diagonal-stripe {
+        position: absolute;
+        width: 200%;
+        height: 135px;
+        background-color: #5776F6;
+        top: -35px;
+        left: -30px;
+        transform: rotate(-4deg);
+    }
+
+    .diagonal-stripe::before {
+        content: '';
+        position: absolute;
+        width: 200%;
+        height: 135px;
+        background-color: #5776F6;
+        top: 278px;
+        left: -30px;
+        transform: rotate(7deg);
+    }
+</style>
