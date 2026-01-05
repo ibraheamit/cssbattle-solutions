@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="line-top"></div>
+    <div class="line-bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8647E6;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .container::before {
+        content: '';
+        position: absolute;
+        left: 4px;
+        top: 0;
+        width: 280px;
+        height: 130px;
+        border: 40px solid #EFEB99;
+        border-left-width: 56px;
+        border-right-width: 56px;
+        border-top: 0;
+    }
+
+    .line-top {
+        position: absolute;
+        width: 56px;
+        height: 150px;
+        background: #EFEB99;
+        top: 0;
+        left: 116px;
+    }
+
+    .line-top::before {
+        content: '';
+        position: absolute;
+        width: 56px;
+        height: 150px;
+        background: #EFEB99;
+        top: 0;
+        left: 112px;
+    }
+
+    .line-bottom {
+        position: absolute;
+        width: 56px;
+        height: 150px;
+        background: #EFEB99;
+        bottom: 0;
+        left: 60px;
+    }
+
+    .line-bottom::before {
+        content: '';
+        position: absolute;
+        width: 56px;
+        height: 150px;
+        background: #EFEB99;
+        bottom: 0;
+        left: 112px;
+    }
+
+    .line-bottom::after {
+        content: '';
+        position: absolute;
+        width: 56px;
+        height: 150px;
+        background: #EFEB99;
+        bottom: 0;
+        left: 224px;
+    }
+</style>
