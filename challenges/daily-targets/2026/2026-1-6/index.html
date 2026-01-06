@@ -1,0 +1,95 @@
+<div class="container">
+    <div class="square-dark dark-top"></div>
+    <div class="square-rose rose-top"></div>
+    <div class="square-dark dark-left"></div>
+    <div class="square-rose rose-left"></div>
+    <div class="square-dark dark-bottom"></div>
+    <div class="square-rose rose-bottom"></div>
+    <div class="square-dark dark-right"></div>
+    <div class="square-rose rose-right"></div>
+    <div class="square-center"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3EAD2;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .square-center {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #38483C;
+        top: 120px;
+        left: 170px;
+    }
+
+    .square-dark {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: #38483C;
+    }
+
+    .dark-top {
+        top: 20px;
+        left: 180px;
+    }
+
+    .dark-left {
+        top: 130px;
+        right: 70px;
+    }
+
+    .dark-bottom {
+        bottom: 20px;
+        left: 180px;
+    }
+
+    .dark-right {
+        top: 130px;
+        left: 70px;
+    }
+
+    .square-rose {
+        position: absolute;
+        background-color: #C36768;
+    }
+
+    .rose-top {
+        width: 40px;
+        height: 60px;
+        top: 60px;
+        left: 180px;
+    }
+
+    .rose-left {
+        width: 60px;
+        height: 40px;
+        top: 130px;
+        right: 110px;
+    }
+
+    .rose-bottom {
+        width: 40px;
+        height: 60px;
+        bottom: 60px;
+        left: 180px;
+    }
+
+    .rose-right {
+        width: 60px;
+        height: 40px;
+        top: 130px;
+        left: 110px;
+    }
+</style>
