@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="parallelogram"></div>
+    <div class="triangle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #172D2C;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .parallelogram {
+        position: absolute;
+        background: #E9AF53;
+        bottom: 85px;
+        left: 20px;
+        width: 180px;
+        height: 130px;
+        transform: skewY(20deg);
+        transform-origin: bottom left;
+    }
+
+    .triangle {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 65px 0 65px 180px;
+        border-color: transparent transparent transparent #E9AF53;
+        top: 20px;
+        right: 20px;
+    }
+</style>
