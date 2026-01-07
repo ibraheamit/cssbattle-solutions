@@ -137,6 +137,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #115   | ![Challenge](challenges/Battles/19-Spacing/115/115.png)   | [View Code](challenges/Battles/19-Spacing/115/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/19-Spacing/115/)    |
 | #114   | ![Challenge](challenges/Battles/19-Spacing/114/114.png)   | [View Code](challenges/Battles/19-Spacing/114/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/19-Spacing/114/)    |
 | #113   | ![Challenge](challenges/Battles/19-Spacing/113/113.png)   | [View Code](challenges/Battles/19-Spacing/113/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/19-Spacing/113/)    |
 | #112   | ![Challenge](challenges/Battles/19-Spacing/112/112.png)   | [View Code](challenges/Battles/19-Spacing/112/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/19-Spacing/112/)    |
