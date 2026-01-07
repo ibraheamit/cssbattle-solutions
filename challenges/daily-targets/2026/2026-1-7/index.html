@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2F434E;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .shape {
+        position: absolute;
+        background-color: #CF6939;
+    }
+
+    .shape1 {
+        left: 15px;
+        top: 85px;
+        width: 270px;
+        height: 70px;
+    }
+
+    .shape1::before {
+        content: '';
+        position: absolute;
+        left: 110px;
+        width: 50px;
+        height: 30px;
+        background-color: #2F434E;
+    }
+
+    .shape2 {
+        left: 65px;
+        top: 115px;
+        width: 270px;
+        height: 70px;
+    }
+
+    .shape3 {
+        left: 115px;
+        top: 145px;
+        width: 270px;
+        height: 70px;
+    }
+
+    .shape3::before {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 110px;
+        width: 50px;
+        height: 30px;
+        background-color: #2F434E;
+    }
+</style>
