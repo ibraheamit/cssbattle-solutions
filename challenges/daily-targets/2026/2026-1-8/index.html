@@ -1,0 +1,97 @@
+<div class="container">
+    <div class="t-left"></div>
+    <div class="t-right"></div>
+    <div class="b-left"></div>
+    <div class="b-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2EAA8;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .t-left {
+        position: absolute;
+        top: 40px;
+        left: 60px;
+        width: 40px;
+        height: 90px;
+        background-color: #EE7667;
+    }
+
+    .t-left::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: -25px;
+        width: 90px;
+        height: 40px;
+        background-color: #EE7667;
+    }
+
+    .t-right {
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        width: 40px;
+        height: 90px;
+        background-color: #EE7667;
+    }
+
+    .t-right::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: -25px;
+        width: 90px;
+        height: 40px;
+        background-color: #EE7667;
+    }
+
+    .b-left {
+        position: absolute;
+        bottom: 40px;
+        left: 60px;
+        width: 40px;
+        height: 90px;
+        background-color: #84BE8D;
+    }
+
+    .b-left::before {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: -25px;
+        width: 90px;
+        height: 40px;
+        background-color: #84BE8D;
+    }
+
+    .b-right {
+        position: absolute;
+        bottom: 40px;
+        right: 60px;
+        width: 40px;
+        height: 90px;
+        background-color: #84BE8D;
+    }
+
+    .b-right::before {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        right: -25px;
+        width: 90px;
+        height: 40px;
+        background-color: #84BE8D;
+    }
+</style>
