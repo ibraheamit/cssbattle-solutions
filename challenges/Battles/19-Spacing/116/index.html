@@ -1,0 +1,50 @@
+<div class="headphone">
+    <div class="headband"></div>
+    <div class="ear-cup left"></div>
+    <div class="ear-cup right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #293D7E;
+    }
+
+    .headphone {
+        width: 150px;
+        height: 210px;
+        position: relative;
+    }
+
+    .headband {
+        width: 130px;
+        height: 120px;
+        border: 20px solid #6E91CA;
+        border-bottom: none;
+        border-radius: 120px 120px 0 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .ear-cup {
+        width: 60px;
+        height: 80px;
+        background: #6E91CA;
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .ear-cup.left {
+        left: -10px;
+        border-radius: 0 20px 30px 30px;
+    }
+
+    .ear-cup.right {
+        right: -10px;
+        border-radius: 20px 0 30px 30px;
+    }
+</style>
