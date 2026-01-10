@@ -140,6 +140,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #118   | ![Challenge](challenges/Battles/20-Hover/118/118.png)     | [View Code](challenges/Battles/20-Hover/118/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/118/)      |
 | #117   | ![Challenge](challenges/Battles/20-Hover/117/117.png)     | [View Code](challenges/Battles/20-Hover/117/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/117/)      |
 | #116   | ![Challenge](challenges/Battles/19-Spacing/116/116.png)   | [View Code](challenges/Battles/19-Spacing/116/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/19-Spacing/116/)    |
 | #115   | ![Challenge](challenges/Battles/19-Spacing/115/115.png)   | [View Code](challenges/Battles/19-Spacing/115/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/19-Spacing/115/)    |
