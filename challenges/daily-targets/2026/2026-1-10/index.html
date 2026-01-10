@@ -1,0 +1,99 @@
+<div class="container">
+    <div class="center-square"></div>
+    <div class="circle circle-top"></div>
+    <div class="circle circle-right"></div>
+    <div class="circle circle-bottom"></div>
+    <div class="circle circle-left"></div>
+    <div class="rectangle rect-top-left"></div>
+    <div class="rectangle rect-top-right"></div>
+    <div class="rectangle rect-bottom-left"></div>
+    <div class="rectangle rect-bottom-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F4DA64;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center-square {
+        width: 60px;
+        height: 60px;
+        background-color: #E25C57;
+        position: absolute;
+    }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+        background-color: #E25C57;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .rectangle {
+        width: 20px;
+        height: 60px;
+        background-color: #E25C57;
+        position: absolute;
+    }
+
+    .circle-top {
+        top: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .circle-right {
+        right: 95px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .circle-bottom {
+        bottom: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .circle-left {
+        left: 95px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .rect-top-left {
+        top: 56px;
+        left: 126px;
+        transform: rotate(-45deg);
+    }
+
+    .rect-top-right {
+        top: 56px;
+        right: 127px;
+        transform: rotate(45deg);
+    }
+
+    .rect-bottom-left {
+        bottom: 57px;
+        left: 126px;
+        transform: rotate(45deg);
+    }
+
+    .rect-bottom-right {
+        bottom: 56px;
+        right: 127px;
+        transform: rotate(-45deg);
+    }
+</style>
