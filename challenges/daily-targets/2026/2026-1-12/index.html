@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="left-arch"></div>
+    <div class="right-arch"></div>
+    <div class="center-rect"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FADE8B;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .left-arch {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border: 60px solid #222222;
+        border-radius: 120px 0 0 0;
+        border-right: 0;
+        border-bottom: 0;
+        top: 60;
+        left: 0;
+    }
+
+    .right-arch {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border: 60px solid #222222;
+        border-radius: 0 120px 0 0;
+        border-left: 0;
+        border-bottom: 0;
+        top: 60;
+        right: 0;
+    }
+
+    .center-rect {
+        position: absolute;
+        width: 40px;
+        height: 120px;
+        border: 60px solid #222222;
+        border-top: 0;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
