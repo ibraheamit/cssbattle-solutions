@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="shape-group">
+        <div class="circle"></div>
+        <div class="rectangles">
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+        </div>
+        <div class="circle"></div>
+    </div>
+    <div class="shape-group">
+        <div class="circle"></div>
+        <div class="rectangles">
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+        </div>
+        <div class="circle"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #A82973;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .shape-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        background-color: #FFD0FA;
+        border-radius: 50%;
+    }
+
+    .rectangles {
+        display: flex;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .rectangle {
+        width: 50px;
+        height: 120px;
+        background-color: #FFD0FA;
+    }
+</style>
