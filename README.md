@@ -147,6 +147,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #121   | ![Challenge](challenges/Battles/20-Hover/121/121.png)     | [View Code](challenges/Battles/20-Hover/121/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/121/)      |
 | #120   | ![Challenge](challenges/Battles/20-Hover/120/120.png)     | [View Code](challenges/Battles/20-Hover/120/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/120/)      |
 | #119   | ![Challenge](challenges/Battles/20-Hover/119/119.png)     | [View Code](challenges/Battles/20-Hover/119/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/119/)      |
 | #118   | ![Challenge](challenges/Battles/20-Hover/118/118.png)     | [View Code](challenges/Battles/20-Hover/118/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/118/)      |
