@@ -1,0 +1,139 @@
+<div class="game-container">
+    <div class="line line-1"></div>
+    <div class="line line-2"></div>
+    <div class="line line-3"></div>
+    <div class="line line-4"></div>
+    <div class="line line-5"></div>
+    <div class="line line-6"></div>
+    <div class="line line-7"></div>
+    <div class="bullet bullet-1"></div>
+    <div class="bullet bullet-2"></div>
+    <div class="bullet bullet-3"></div>
+    <div class="triangle"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #071945;
+    }
+
+    .game-container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .line {
+        position: absolute;
+        width: 50px;
+        height: 10px;
+        background-color: #B069F7;
+    }
+
+    .line::before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #B069F7;
+        top: 10px;
+        left: -10px;
+    }
+
+    .line::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #B069F7;
+        top: 10px;
+        left: 50px;
+    }
+
+    .line-1 {
+        top: 40px;
+        left: 40px;
+    }
+
+    .line-2 {
+        top: 40px;
+        left: 130px;
+    }
+
+    .line-3 {
+        top: 40px;
+        left: 220px;
+    }
+
+    .line-4 {
+        top: 40px;
+        left: 310px;
+    }
+
+    .line-5 {
+        top: 90px;
+        left: 40px;
+        background-color: #F8DA37;
+    }
+
+    .line-6 {
+        top: 90px;
+        left: 220px;
+        background-color: #F8DA37;
+    }
+
+    .line-7 {
+        top: 90px;
+        left: 310px;
+        background-color: #F8DA37;
+    }
+
+    .line-5::before,
+    .line-6::before,
+    .line-7::before {
+        background-color: #F8DA37;
+    }
+
+    .line-5::after,
+    .line-6::after,
+    .line-7::after {
+        background-color: #F8DA37;
+    }
+
+    .bullet {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #2CE1EA;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bullet-1 {
+        top: 210px;
+    }
+
+    .bullet-2 {
+        top: 240px;
+    }
+
+    .bullet-3 {
+        height: 15px;
+        bottom: 15px;
+    }
+
+    .triangle {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 21px solid transparent;
+        border-right: 21px solid transparent;
+        border-bottom: 21px solid #2CE1EA;
+    }
+</style>
