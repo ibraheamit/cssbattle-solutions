@@ -150,6 +150,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #125   | ![Challenge](challenges/Battles/21-Rotate/125/125.png)    | [View Code](challenges/Battles/21-Rotate/125/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/21-Rotate/125/)     |
 | #124   | ![Challenge](challenges/Battles/20-Hover/124/124.png)     | [View Code](challenges/Battles/20-Hover/124/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/124/)      |
 | #123   | ![Challenge](challenges/Battles/20-Hover/123/123.png)     | [View Code](challenges/Battles/20-Hover/123/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/123/)      |
 | #122   | ![Challenge](challenges/Battles/20-Hover/122/122.png)     | [View Code](challenges/Battles/20-Hover/122/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/20-Hover/122/)      |

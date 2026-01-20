@@ -1,0 +1,134 @@
+<div class="container">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="f"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EFF2F1;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .a {
+        position: absolute;
+        width: 40px;
+        height: 180px;
+        background-color: #1C1C1C;
+        top: 60px;
+        left: 130px;
+    }
+
+    .b {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #1C1C1C;
+        top: 60px;
+        left: 110px;
+    }
+
+    .b::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #EFF2F1;
+        transform: rotate(30deg);
+        top: 14px;
+        left: -10px;
+    }
+
+    .d {
+        position: absolute;
+        width: 130px;
+        height: 90px;
+        background-color: #1C1C1C;
+        border-radius: 0 45px 45px 0;
+        top: 60px;
+        left: 130px;
+    }
+
+    .d::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 60px;
+        background-color: #EFF2F1;
+        border-radius: 0 45px 45px 0;
+        top: 15px;
+        left: 40px;
+    }
+
+    .c {
+        position: absolute;
+        left: 159px;
+        top: 158px;
+        width: 120px;
+        height: 40px;
+        background-color: #1C1C1C;
+        transform: rotate(60deg);
+    }
+
+    .e {
+        position: absolute;
+        width: 80px;
+        height: 20px;
+        background-color: #1C1C1C;
+        bottom: 60px;
+        left: 110px;
+    }
+
+    .e::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #EFF2F1;
+        transform: rotate(60deg);
+        bottom: 11px;
+        left: -16px;
+    }
+
+    .e::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #EFF2F1;
+        transform: rotate(30deg);
+        bottom: 11px;
+        right: -16px;
+    }
+
+    .f {
+        position: absolute;
+        width: 58px;
+        height: 20px;
+        background-color: #1C1C1C;
+        bottom: 60px;
+        right: 110px;
+    }
+
+    .f::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #EFF2F1;
+        transform: rotate(30deg);
+        bottom: 10px;
+        right: -12px;
+    }
+</style>
