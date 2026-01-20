@@ -1,0 +1,85 @@
+<div class="container">
+    <div class="bar-y y1"></div>
+    <div class="bar-y y2"></div>
+    <div class="bar-y y3"></div>
+    <div class="bar-x x1"></div>
+    <div class="bar-x x2"></div>
+    <div class="bar-x x3"></div>
+    <div class="circle-outer">
+        <div class="circle-inner"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FEF6E2;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .bar-y {
+        width: 20px;
+        height: 100%;
+        background-color: #AC342E;
+        position: absolute;
+    }
+
+    .bar-x {
+        width: 100%;
+        height: 20px;
+        background-color: #AC342E;
+        position: absolute;
+    }
+
+    .y1 {
+        left: 140px;
+    }
+
+    .y2 {
+        left: 190px;
+    }
+
+    .y3 {
+        left: 240px;
+    }
+
+    .x1 {
+        top: 90px;
+    }
+
+    .x2 {
+        top: 140px;
+    }
+
+    .x3 {
+        top: 190px;
+    }
+
+    .circle-outer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+        height: 180px;
+        background-color: #FEF6E2;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle-inner {
+        width: 60px;
+        height: 60px;
+        background-color: #AC342E;
+        border-radius: 50%;
+    }
+</style>
