@@ -1,0 +1,91 @@
+<div class="container">
+    <div class="top-bar"></div>
+    <div class="center"></div>
+    <div class="bottom-bar"></div>
+    <div class="dot dot-top-right"></div>
+    <div class="dot dot-bottom-left"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E3516E;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .top-bar {
+        position: absolute;
+        top: 70px;
+        left: 150px;
+        width: 100px;
+        height: 30px;
+        background-color: #FADE8B;
+        border-radius: 15px;
+    }
+
+    .center {
+        position: absolute;
+        top: 90px;
+        left: 175px;
+        width: 50px;
+        height: 120px;
+        background-color: #FADE8B;
+    }
+
+    .center::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: -40px;
+        width: 50px;
+        height: 100px;
+        background-color: #E3516E;
+        border-radius: 10px;
+    }
+
+    .center::after {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 40px;
+        width: 50px;
+        height: 100px;
+        background-color: #E3516E;
+        border-radius: 10px;
+    }
+
+    .bottom-bar {
+        position: absolute;
+        bottom: 70px;
+        left: 150px;
+        width: 100px;
+        height: 30px;
+        background-color: #FADE8B;
+        border-radius: 15px;
+    }
+
+    .dot {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #FADE8B;
+        border-radius: 50%;
+    }
+
+    .dot-top-right {
+        top: 70px;
+        right: 110px;
+    }
+
+    .dot-bottom-left {
+        bottom: 70px;
+        left: 110px;
+    }
+</style>
