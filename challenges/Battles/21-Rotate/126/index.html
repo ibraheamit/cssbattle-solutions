@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="shape left-parallelogram"></div>
+    <div class="shape right-parallelogram"></div>
+    <div class="shape bottom-left"></div>
+    <div class="shape bottom-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #62306D;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .shape {
+        position: absolute;
+    }
+
+    .left-parallelogram {
+        width: 42px;
+        height: 140px;
+        background-color: #FEF9CA;
+        transform: skewX(-20deg);
+        top: 80px;
+        left: 149px;
+    }
+
+    .right-parallelogram {
+        width: 42px;
+        height: 140px;
+        background-color: #C5B732;
+        transform: skewX(20deg);
+        top: 80px;
+        right: 149px;
+        z-index: -1;
+    }
+
+    .bottom-left {
+        width: 52px;
+        height: 50px;
+        background-color: #E38F66;
+        transform: skewX(-40deg);
+        bottom: 80px;
+        left: 150px;
+    }
+
+    .bottom-right {
+        width: 52px;
+        height: 50px;
+        background-color: #AA445F;
+        transform: skewX(40deg);
+        bottom: 80px;
+        right: 150px;
+        z-index: -1;
+    }
+</style>
