@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="b-shape b1">
+        <div class="b-top-curve background-1"></div>
+        <div class="b-bottom-curve background-1"></div>
+    </div>
+    <div class="b-shape b2">
+        <div class="b-top-curve background-2"></div>
+        <div class="b-bottom-curve background-2"></div>
+    </div>
+    <div class="b-shape b3">
+        <div class="b-top-curve background-3"></div>
+        <div class="b-bottom-curve background-3"></div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6592CF;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .b-shape {
+        position: absolute;
+        width: 150px;
+        height: 140px;
+        left: 110px;
+        top: 80px;
+    }
+
+    .b-top-curve,
+    .b-bottom-curve {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        border-radius: 0 50px 50px 0;
+    }
+
+    .b-top-curve {
+        top: 0;
+    }
+
+    .b-bottom-curve {
+        bottom: 0;
+    }
+
+    .background-1 {
+        background-color: #060F55;
+        z-index: 3;
+    }
+
+    .b2 {
+        left: 150px;
+        z-index: 2;
+    }
+
+    .background-2 {
+        background-color: #2E3B9F;
+    }
+
+    .b3 {
+        left: 190px;
+    }
+
+    .background-3 {
+        background-color: #515DBD;
+    }
+</style>
