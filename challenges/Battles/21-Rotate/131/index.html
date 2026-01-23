@@ -1,0 +1,81 @@
+<div class="container">
+    <div class="side left"></div>
+    <div class="bottom r-bottom"></div>
+    <div class="side right"></div>
+    <div class="side r-right"></div>
+    <div class="bottom l-bottom"></div>
+    <div class="inner-cut l-cut"></div>
+    <div class="inner-cut r-cut"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E38F66;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .bottom {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background-color: #62306D;
+        border-radius: 50%;
+        bottom: 70px;
+    }
+
+    .l-bottom {
+        left: 95px;
+    }
+
+    .r-bottom {
+        background-color: #FFFBDA;
+        right: 95px;
+    }
+
+    .inner-cut {
+        position: absolute;
+        width: 60px;
+        height: 110px;
+        background-color: #E38F66;
+        border-radius: 50px;
+        top: 90px;
+    }
+
+    .l-cut {
+        left: 125px;
+    }
+
+    .r-cut {
+        right: 125px;
+    }
+
+    .side {
+        position: absolute;
+        width: 30px;
+        height: 120px;
+        background-color: #62306D;
+        border-radius: 15px;
+        top: 70px;
+    }
+
+    .left {
+        left: 95px;
+    }
+
+    .right {
+        left: 185px;
+    }
+
+    .r-right {
+        background-color: #FFFBDA;
+        right: 95px;
+    }
+</style>
