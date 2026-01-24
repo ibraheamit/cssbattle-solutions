@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="card card-back-top"></div>
+    <div class="card card-front-top"></div>
+    <div class="card-center"></div>
+    <div class="card card-back-bottom"></div>
+    <div class="card card-front-bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4F77FF;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .card {
+        position: absolute;
+        width: 240px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .card-back-top {
+        top: 50px;
+        left: 100px;
+        background-color: #1038BF;
+    }
+
+    .card-front-top {
+        top: 70px;
+        left: 80px;
+        background-color: #FFFFFF;
+    }
+
+    .card-front-top::before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        width: 20px;
+        height: 50px;
+        background-color: #FFFFFF;
+        border-radius: 0 10px;
+    }
+
+    .card-back-bottom {
+        bottom: 50px;
+        right: 100px;
+        background-color: #1038BF;
+    }
+
+    .card-front-bottom {
+        bottom: 70px;
+        left: 80px;
+        background-color: #FFFFFF;
+    }
+
+    .card-front-bottom::before {
+        content: '';
+        position: absolute;
+        bottom: 40px;
+        right: 0px;
+        width: 20px;
+        height: 50px;
+        background-color: #FFFFFF;
+        border-radius: 0 10px;
+    }
+
+    .card-center {
+        position: absolute;
+        top: 140px;
+        left: 100px;
+        width: 200px;
+        height: 20px;
+        background-color: #FFFFFF;
+    }
+</style>
