@@ -155,6 +155,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #133   | ![Challenge](challenges/Battles/22-Grid/133/133.png)      | [View Code](challenges/Battles/22-Grid/133/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/22-Grid/133/)       |
 | #132   | ![Challenge](challenges/Battles/21-Rotate/132/132.png)    | [View Code](challenges/Battles/21-Rotate/132/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/21-Rotate/132/)     |
 | #131   | ![Challenge](challenges/Battles/21-Rotate/131/131.png)    | [View Code](challenges/Battles/21-Rotate/131/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/21-Rotate/131/)     |
 | #130   | ![Challenge](challenges/Battles/21-Rotate/130/130.png)    | [View Code](challenges/Battles/21-Rotate/130/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/21-Rotate/130/)     |
