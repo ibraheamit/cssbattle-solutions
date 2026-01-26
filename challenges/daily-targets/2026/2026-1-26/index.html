@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="shape"></div>
+    <div class="shape-center"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E3DCD1;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .shape {
+        position: absolute;
+        width: 100px;
+        height: 170px;
+        border: 30px solid #5370D9;
+        border-top: none;
+        top: 50px;
+        left: 120px;
+    }
+
+    .shape::before {
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        background-color: #5370D9;
+        left: -110px;
+    }
+
+    .shape::after {
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        background-color: #5370D9;
+        left: 150px;
+    }
+
+    .shape-center {
+        position: absolute;
+        width: 60px;
+        height: 170px;
+        background-color: #5370D9;
+        top: 50px;
+        left: 170px;
+    }
+</style>
