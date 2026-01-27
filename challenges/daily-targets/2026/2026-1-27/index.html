@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="circle circle-top"></div>
+    <div class="slash"></div>
+    <div class="circle circle-bottom"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4A9A86;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .circle {
+        position: absolute;
+        background-color: #F7CB71;
+        border-radius: 50%;
+    }
+
+    .circle-top {
+        width: 100px;
+        height: 120px;
+        top: 40px;
+        left: 50px;
+    }
+
+    .circle-top::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 60px;
+        background-color: #4A9A86;
+        top: 30px;
+        left: 40px;
+    }
+
+    .circle-bottom {
+        width: 100px;
+        height: 120px;
+        bottom: 40px;
+        right: 50px;
+    }
+
+    .circle-bottom::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 60px;
+        background-color: #4A9A86;
+        top: 30px;
+        left: 40px;
+    }
+
+    .slash {
+        position: absolute;
+        top: 40px;
+        left: 168px;
+        width: 64px;
+        height: 220px;
+        background-color: #F7CB71;
+        transform: skewX(-20deg);
+    }
+</style>
