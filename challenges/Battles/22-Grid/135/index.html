@@ -1,0 +1,105 @@
+<div class="container">
+    <div class="shape1"></div>
+    <div class="shape2"></div>
+    <div class="shape3"></div>
+    <div class="shape4"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E3516E;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .shape1 {
+        position: absolute;
+        width: 31px;
+        height: 40px;
+        background-color: #D9D9D9;
+        border-radius: 0 50px 50px 0;
+        top: 100px;
+        left: 159px;
+    }
+
+    .shape1::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 31px;
+        width: 0;
+        height: 0;
+        border-right: 40px solid #D9D9D9;
+        border-bottom: 40px solid transparent;
+    }
+
+    .shape2 {
+        position: absolute;
+        width: 31px;
+        height: 40px;
+        background-color: #D9D9D9;
+        border-radius: 50px 0 0 50px;
+        top: 100px;
+        left: 210px;
+    }
+
+    .shape2::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 31px;
+        width: 0;
+        height: 0;
+        border-left: 40px solid #D9D9D9;
+        border-bottom: 40px solid transparent;
+    }
+
+    .shape3 {
+        position: absolute;
+        width: 31px;
+        height: 40px;
+        background-color: #D9D9D9;
+        border-radius: 0 50px 50px 0;
+        top: 160px;
+        left: 159px;
+    }
+
+    .shape3::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 31px;
+        width: 0;
+        height: 0;
+        border-right: 40px solid #D9D9D9;
+        border-top: 40px solid transparent;
+    }
+
+    .shape4 {
+        position: absolute;
+        width: 31px;
+        height: 40px;
+        background-color: #D9D9D9;
+        border-radius: 50px 0 0 50px;
+        top: 160px;
+        left: 210px;
+    }
+
+    .shape4::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 31px;
+        width: 0;
+        height: 0;
+        border-left: 40px solid #D9D9D9;
+        border-top: 40px solid transparent;
+    }
+</style>
