@@ -1,0 +1,85 @@
+<div class="container">
+    <div class="shape-left"></div>
+    <div class="shape-right"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #B6EBE7;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .shape-left {
+        position: absolute;
+        width: 30px;
+        height: 120px;
+        background-color: #5E2BB7;
+        bottom: 0;
+        left: 10px;
+    }
+
+    .shape-left::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        border: 30px solid #9382E4;
+        border-bottom: none;
+        border-radius: 50px 50px 0 0;
+        bottom: 120px;
+        left: 0;
+    }
+
+    .shape-left::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        border: 30px solid #5E2BB7;
+        border-top: none;
+        border-radius: 0 0 50px 50px;
+        bottom: 70px;
+        left: 70px;
+    }
+
+    .shape-right {
+        position: absolute;
+        width: 30px;
+        height: 120px;
+        background-color: #5E2BB7;
+        bottom: 0;
+        right: 10px;
+    }
+
+    .shape-right::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        border: 30px solid #9382E4;
+        border-bottom: none;
+        border-radius: 50px 50px 0 0;
+        bottom: 120px;
+        right: 0;
+    }
+
+    .shape-right::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        border: 30px solid #5E2BB7;
+        border-top: none;
+        border-radius: 0 0 50px 50px;
+        bottom: 70px;
+        right: 70px;
+    }
+</style>
