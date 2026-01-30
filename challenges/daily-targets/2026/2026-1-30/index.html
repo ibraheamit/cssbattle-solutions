@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="shape"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3EAD2;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .shape {
+        position: absolute;
+        width: 100px;
+        height: 120px;
+        border: 30px solid #4C455B;
+        top: 60px;
+        left: 120px;
+    }
+
+    .shape::before {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: #4C455B;
+        border-radius: 50%;
+        top: -30px;
+        left: 10px;
+    }
+
+    .shape::after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: #4C455B;
+        border-radius: 50%;
+        bottom: -30px;
+        left: 10px;
+    }
+</style>
