@@ -1,0 +1,97 @@
+<div class="container">
+    <div class="A"></div>
+    <div class="B"></div>
+    <div class="C"></div>
+    <div class="D"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #555FD9;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .A {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #EFBB74;
+        border-radius: 50%;
+        top: 10px;
+        left: 150px;
+    }
+
+    .A::before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        background: #555FD9;
+        top: 40px;
+    }
+
+    .B {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #EFBB74;
+        border-radius: 50%;
+        bottom: 10px;
+        left: 150px;
+    }
+
+    .B::before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        background: #555FD9;
+        top: 40px;
+    }
+
+    .C {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #EFBB74;
+        border-radius: 50%;
+        top: 100px;
+        left: 60px;
+    }
+
+    .C::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 100px;
+        background: #555FD9;
+        left: 40px;
+    }
+
+    .D {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #EFBB74;
+        border-radius: 50%;
+        top: 100px;
+        right: 60px;
+    }
+
+    .D::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 100px;
+        background: #555FD9;
+        left: 40px;
+    }
+</style>
