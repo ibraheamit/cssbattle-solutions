@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="A"></div>
+    <div class="B"></div>
+    <div class="C"></div>
+    <div class="D"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FADE8B;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+
+    .A {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 10px solid #000000;
+        top: 100px;
+        left: 70px;
+    }
+
+    .B {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 10px solid #000000;
+        background-color: #DE9473;
+        top: 20px;
+        left: 150px;
+        z-index: -1;
+    }
+
+    .C {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 10px solid #000000;
+        top: 100px;
+        right: 70px;
+    }
+
+    .D {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 10px solid #000000;
+        background-color: #DE9473;
+        bottom: 20px;
+        left: 150px;
+        z-index: -1;
+    }
+</style>
