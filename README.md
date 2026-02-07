@@ -168,6 +168,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #142   | ![Challenge](challenges/Battles/23-Contain/142/142.png)   | [View Code](challenges/Battles/23-Contain/142/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/23-Contain/142/)    |
 | #141   | ![Challenge](challenges/Battles/23-Contain/141/141.png)   | [View Code](challenges/Battles/23-Contain/141/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/23-Contain/141/)    |
 | #140   | ![Challenge](challenges/Battles/22-Grid/140/140.png)      | [View Code](challenges/Battles/22-Grid/140/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/22-Grid/140/)       |
 | #139   | ![Challenge](challenges/Battles/22-Grid/139/139.png)      | [View Code](challenges/Battles/22-Grid/139/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/22-Grid/139/)       |
