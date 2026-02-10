@@ -171,6 +171,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #145   | ![Challenge](challenges/Battles/24-Offset/145/145.png)    | [View Code](challenges/Battles/24-Offset/145/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/24-Offset/145/)     |
 | #144   | ![Challenge](challenges/Battles/24-Offset/144/144.png)    | [View Code](challenges/Battles/24-Offset/144/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/24-Offset/144/)     |
 | #143   | ![Challenge](challenges/Battles/24-Offset/143/143.png)    | [View Code](challenges/Battles/24-Offset/143/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/24-Offset/143/)     |
 | #142   | ![Challenge](challenges/Battles/23-Contain/142/142.png)   | [View Code](challenges/Battles/23-Contain/142/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/23-Contain/142/)    |
