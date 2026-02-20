@@ -1,0 +1,65 @@
+<div>
+    <i A></i>
+    <i B></i>
+    <i C></i>
+    <i D></i>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2F434E;
+    }
+
+    div {
+        width: 400;
+        height: 300;
+        position: relative;
+    }
+
+    [A] {
+        position: absolute;
+        left: 80;
+        top: 30;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 120px 0 120px 160px;
+        border-color: transparent transparent transparent #6AC09E;
+    }
+
+    [B] {
+        position: absolute;
+        right: 160;
+        top: 30;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 120px 160px 120px 0px;
+        border-color: transparent #6AC09E transparent transparent;
+    }
+
+    [C] {
+        position: absolute;
+        right: 240;
+        top: 90;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 60px 80px 60px 0px;
+        border-color: transparent #2F434E transparent transparent;
+    }
+
+    [D] {
+        position: absolute;
+        left: 240;
+        top: 90;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 60px 0 60px 80px;
+        border-color: transparent transparent transparent #6AC09E;
+    }
+</style>
