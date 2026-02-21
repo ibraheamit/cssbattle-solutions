@@ -182,6 +182,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #160   | ![Challenge](challenges/Battles/26-Initial/160/160.png)   | [View Code](challenges/Battles/26-Initial/160/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/26-Initial/160/)    |
 | #159   | ![Challenge](challenges/Battles/26-Initial/159/159.png)   | [View Code](challenges/Battles/26-Initial/159/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/26-Initial/159/)    |
 | #158   | ![Challenge](challenges/Battles/25-Flex/158/158.png)      | [View Code](challenges/Battles/25-Flex/158/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/25-Flex/158/)       |
 | #157   | ![Challenge](challenges/Battles/25-Flex/157/157.png)      | [View Code](challenges/Battles/25-Flex/157/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/25-Flex/157/)       |
