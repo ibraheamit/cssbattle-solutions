@@ -192,6 +192,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #170   | ![Challenge](challenges/Battles/27-Relative/170/170.png)  | [View Code](challenges/Battles/27-Relative/170/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/27-Relative/170/)   |
 | #169   | ![Challenge](challenges/Battles/27-Relative/169/169.png)  | [View Code](challenges/Battles/27-Relative/169/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/27-Relative/169/)   |
 | #168   | ![Challenge](challenges/Battles/27-Relative/168/168.png)  | [View Code](challenges/Battles/27-Relative/168/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/27-Relative/168/)   |
 | #167   | ![Challenge](challenges/Battles/27-Relative/167/167.png)  | [View Code](challenges/Battles/27-Relative/167/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/27-Relative/167/)   |
