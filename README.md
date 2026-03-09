@@ -198,6 +198,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #176   | ![Challenge](challenges/Battles/28-Revert/176/176.png)    | [View Code](challenges/Battles/28-Revert/176/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/28-Revert/176/)     |
 | #175   | ![Challenge](challenges/Battles/28-Revert/175/175.png)    | [View Code](challenges/Battles/28-Revert/175/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/28-Revert/175/)     |
 | #174   | ![Challenge](challenges/Battles/28-Revert/174/174.png)    | [View Code](challenges/Battles/28-Revert/174/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/28-Revert/174/)     |
 | #173   | ![Challenge](challenges/Battles/28-Revert/173/173.png)    | [View Code](challenges/Battles/28-Revert/173/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/28-Revert/173/)     |
