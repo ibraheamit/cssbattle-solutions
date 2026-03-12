@@ -1,0 +1,90 @@
+<div>
+    <i A></i>
+    <i B></i>
+    <i C>
+        <i D></i>
+        <i E></i>
+        <i F></i>
+    </i>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #CBE8DD;
+    }
+
+    div {
+        width: 400;
+        height: 300;
+        position: relative;
+    }
+
+    [A] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 40px solid #007192;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        top: 110;
+        left: 70;
+    }
+
+    [B] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-right: 40px solid #007192;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        top: 110;
+        right: 70;
+    }
+
+    [C] {
+        position: absolute;
+        width: 180;
+        height: 100;
+        background: #007192;
+        border: 10px solid #CBE8DD;
+        border-radius: 20px;
+        top: 90;
+        left: 100;
+        overflow: hidden;
+    }
+
+    [D] {
+        position: absolute;
+        width: 9;
+        height: 150;
+        border-right: 10px solid #CBE8DD;
+        border-left: 10px solid #CBE8DD;
+        top: -20;
+        left: 44;
+        rotate: 20deg;
+    }
+
+    [E] {
+        position: absolute;
+        width: 9;
+        height: 150;
+        border-right: 10px solid #CBE8DD;
+        border-left: 10px solid #CBE8DD;
+        top: -20;
+        left: 84;
+        rotate: 20deg;
+    }
+
+    [F] {
+        position: absolute;
+        width: 10;
+        height: 150;
+        background: #CBE8DD;
+        top: -20;
+        left: 123;
+        rotate: 20deg;
+    }
+</style>
