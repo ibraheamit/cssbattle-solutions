@@ -202,6 +202,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #180   | ![Challenge](challenges/Battles/29-Font/180/180.png)      | [View Code](challenges/Battles/29-Font/180/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/29-Font/180/)       |
 | #179   | ![Challenge](challenges/Battles/29-Font/179/179.png)      | [View Code](challenges/Battles/29-Font/179/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/29-Font/179/)       |
 | #178   | ![Challenge](challenges/Battles/28-Revert/178/178.png)    | [View Code](challenges/Battles/28-Revert/178/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/28-Revert/178/)     |
 | #177   | ![Challenge](challenges/Battles/28-Revert/177/177.png)    | [View Code](challenges/Battles/28-Revert/177/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/28-Revert/177/)     |
