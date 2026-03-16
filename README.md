@@ -7,7 +7,6 @@ I will keep updating it with new challenges regularly. ✨
 
 🔗 CSSBattle: [ibrahimit](https://cssbattle.dev/player/ibrahimit)  
 🔗 My GitHub: [ibraheamit](https://github.com/ibraheamit)
-
 🔗 My LinkedIn: [ibraheamit](https://www.linkedin.com/in/ibraheamit/)
 
 ---
@@ -18,6 +17,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Date       | Preview                                                            | Code                                                             | Live Demo                                                                                               |
 | ---------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 2026-3-16  | ![Challenge](challenges/daily-targets/2026/2026-3-16/preview.png)  | [View Code](challenges/daily-targets/2026/2026-3-16/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-3-16/)  |
 | 2026-3-15  | ![Challenge](challenges/daily-targets/2026/2026-3-15/preview.png)  | [View Code](challenges/daily-targets/2026/2026-3-15/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-3-15/)  |
 | 2026-3-14  | ![Challenge](challenges/daily-targets/2026/2026-3-14/preview.png)  | [View Code](challenges/daily-targets/2026/2026-3-14/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-3-14/)  |
 | 2026-3-13  | ![Challenge](challenges/daily-targets/2026/2026-3-13/preview.png)  | [View Code](challenges/daily-targets/2026/2026-3-13/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-3-13/)  |
