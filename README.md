@@ -208,6 +208,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #186   | ![Challenge](challenges/Battles/29-Font/186/186.png)      | [View Code](challenges/Battles/29-Font/186/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/29-Font/186/)       |
 | #185   | ![Challenge](challenges/Battles/29-Font/185/185.png)      | [View Code](challenges/Battles/29-Font/185/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/29-Font/185/)       |
 | #184   | ![Challenge](challenges/Battles/29-Font/184/184.png)      | [View Code](challenges/Battles/29-Font/184/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/29-Font/184/)       |
 | #183   | ![Challenge](challenges/Battles/29-Font/183/183.png)      | [View Code](challenges/Battles/29-Font/183/index.html)       | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/29-Font/183/)       |
