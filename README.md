@@ -212,6 +212,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #190   | ![Challenge](challenges/Battles/30-Gradient/190/190.png)  | [View Code](challenges/Battles/30-Gradient/190/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/30-Gradient/190/)   |
 | #189   | ![Challenge](challenges/Battles/30-Gradient/189/189.png)  | [View Code](challenges/Battles/30-Gradient/189/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/30-Gradient/189/)   |
 | #188   | ![Challenge](challenges/Battles/30-Gradient/188/188.png)  | [View Code](challenges/Battles/30-Gradient/188/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/30-Gradient/188/)   |
 | #187   | ![Challenge](challenges/Battles/30-Gradient/187/187.png)  | [View Code](challenges/Battles/30-Gradient/187/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/30-Gradient/187/)   |
