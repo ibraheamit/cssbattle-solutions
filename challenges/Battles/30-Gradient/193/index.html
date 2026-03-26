@@ -1,0 +1,143 @@
+<div>
+    <i A></i>
+    <i B></i>
+    <i C></i>
+    <i D></i>
+    <i E></i>
+    <i F></i>
+    <i G></i>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FCDDEB;
+    }
+
+    div {
+        width: 400;
+        height: 300;
+        position: relative;
+    }
+
+    [A] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 100px solid #8B0051;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        top: 50;
+        left: 185;
+    }
+
+    [A]::after {
+        content: '';
+        position: absolute;
+        width: 30;
+        height: 30;
+        background: #8B0051;
+        border-radius: 50%;
+        top: -115;
+        left: -15;
+    }
+
+    [B] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid #8B0051;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        bottom: 50;
+        left: 185;
+    }
+
+    [B]::after {
+        content: '';
+        position: absolute;
+        width: 30;
+        height: 30;
+        background: #8B0051;
+        border-radius: 50%;
+        top: -15;
+        left: -115;
+    }
+
+    [C] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 100px solid #8B0051;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        top: 135;
+        left: 100;
+    }
+
+    [C]::after {
+        content: '';
+        position: absolute;
+        width: 30;
+        height: 30;
+        background: #8B0051;
+        border-radius: 50%;
+        top: -15;
+        right: -115;
+    }
+
+    [D] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-right: 100px solid #8B0051;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        top: 135;
+        right: 100;
+    }
+
+    [D]::after {
+        content: '';
+        position: absolute;
+        width: 30;
+        height: 30;
+        background: #8B0051;
+        border-radius: 50%;
+        bottom: -115;
+        left: -15;
+    }
+
+    [E] {
+        position: absolute;
+        width: 130;
+        height: 130;
+        border: 15px solid #8B0051;
+        border-radius: 50%;
+        top: 70;
+        left: 120;
+    }
+
+    [F] {
+        position: absolute;
+        width: 70;
+        height: 70;
+        background: #F180B6;
+        border: 15px solid #8B0051;
+        border-radius: 50%;
+        top: 100;
+        left: 150;
+    }
+
+    [G] {
+        position: absolute;
+        width: 40;
+        height: 40;
+        background: #8B0051;
+        border-radius: 50%;
+        top: 130;
+        left: 180;
+    }
+</style>
