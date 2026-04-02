@@ -1,0 +1,52 @@
+<div>
+    <i A></i>
+    <i B x></i>
+    <i C x></i>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FAD3E5;
+    }
+
+    div {
+        width: 400;
+        height: 300;
+        position: relative;
+    }
+
+    [A] {
+        position: absolute;
+        width: 50;
+        height: 100%;
+        background: #8B0051;
+        left: 175;
+    }
+
+    [x] {
+        position: absolute;
+        width: 250;
+        height: 210;
+        background: #8B0051;
+        left: 75;
+        clip-path: polygon(50% 0%,
+                75% 15%,
+                100% 30%,
+                75% 45%,
+                50% 60%,
+                25% 45%,
+                0% 30%,
+                25% 15%);
+    }
+
+    [B] {
+        top: 27;
+    }
+
+    [C] {
+        top: 147;
+    }
+</style>
