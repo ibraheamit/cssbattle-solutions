@@ -223,6 +223,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #201   | ![Challenge](challenges/Battles/31-Opacity/201/201.png)   | [View Code](challenges/Battles/31-Opacity/201/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/31-Opacity/201/)    |
 | #200   | ![Challenge](challenges/Battles/31-Opacity/200/200.png)   | [View Code](challenges/Battles/31-Opacity/200/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/31-Opacity/200/)    |
 | #199   | ![Challenge](challenges/Battles/31-Opacity/199/199.png)   | [View Code](challenges/Battles/31-Opacity/199/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/31-Opacity/199/)    |
 | #198   | ![Challenge](challenges/Battles/31-Opacity/198/198.png)   | [View Code](challenges/Battles/31-Opacity/198/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/31-Opacity/198/)    |
