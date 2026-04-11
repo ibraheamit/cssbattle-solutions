@@ -230,6 +230,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #209   | ![Challenge](challenges/Battles/32-Animation/209/209.png) | [View Code](challenges/Battles/32-Animation/209/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/32-Animation/209/)  |
 | #208   | ![Challenge](challenges/Battles/32-Animation/208/208.png) | [View Code](challenges/Battles/32-Animation/208/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/32-Animation/208/)  |
 | #207   | ![Challenge](challenges/Battles/32-Animation/207/207.png) | [View Code](challenges/Battles/32-Animation/207/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/32-Animation/207/)  |
 | #206   | ![Challenge](challenges/Battles/32-Animation/206/206.png) | [View Code](challenges/Battles/32-Animation/206/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/32-Animation/206/)  |
