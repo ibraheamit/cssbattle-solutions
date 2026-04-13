@@ -1,0 +1,105 @@
+<div>
+    <i A></i>
+    <i B></i>
+    <i C></i>
+    <i D></i>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #9B8170;
+    }
+
+    div {
+        width: 400;
+        height: 300;
+        position: relative;
+    }
+
+    [A] {
+        position: absolute;
+        width: 100;
+        height: 60;
+        border: 20px solid #FFF;
+        border-radius: 100px 100px 0 0;
+        right: 80;
+        bottom: 40;
+    }
+
+    [A]::after {
+        content: '';
+        position: absolute;
+        width: 20;
+        height: 40;
+        background: #9B8170;
+        top: -20;
+        left: 61;
+        rotate: 45deg;
+    }
+
+    [B] {
+        position: absolute;
+        width: 100;
+        height: 60;
+        background: #9B8170;
+        border: 20px solid #FFF;
+        border-radius: 100px 100px 0 0;
+        left: 80;
+        bottom: 40;
+    }
+
+    [B]::after {
+        content: '';
+        position: absolute;
+        width: 20;
+        height: 40;
+        background: #9B8170;
+        top: 50;
+        left: 80;
+    }
+
+    [C] {
+        position: absolute;
+        width: 40;
+        height: 40;
+        border: 20px solid #FFF;
+        border-radius: 100px;
+        top: 91;
+        left: 110;
+    }
+
+    [C]::after {
+        content: '';
+        position: absolute;
+        width: 20;
+        height: 20;
+        background: #9B8170;
+        top: 24;
+        left: 10;
+        rotate: 45deg;
+    }
+
+    [D] {
+        position: absolute;
+        width: 40;
+        height: 40;
+        border: 20px solid #FFF;
+        border-radius: 100px;
+        top: 91;
+        right: 110;
+    }
+
+    [D]::after {
+        content: '';
+        position: absolute;
+        width: 20;
+        height: 20;
+        background: #9B8170;
+        top: 24;
+        left: 10;
+        rotate: 45deg;
+    }
+</style>
