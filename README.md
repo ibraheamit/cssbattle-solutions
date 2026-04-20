@@ -239,6 +239,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #218   | ![Challenge](challenges/Battles/33-Outline/218/218.png)   | [View Code](challenges/Battles/33-Outline/218/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/33-Outline/218/)    |
 | #217   | ![Challenge](challenges/Battles/33-Outline/217/217.png)   | [View Code](challenges/Battles/33-Outline/217/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/33-Outline/217/)    |
 | #216   | ![Challenge](challenges/Battles/33-Outline/216/216.png)   | [View Code](challenges/Battles/33-Outline/216/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/33-Outline/216/)    |
 | #215   | ![Challenge](challenges/Battles/33-Outline/215/215.png)   | [View Code](challenges/Battles/33-Outline/215/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/33-Outline/215/)    |
