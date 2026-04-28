@@ -247,6 +247,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #226   | ![Challenge](challenges/Battles/34-Border/226/226.png)    | [View Code](challenges/Battles/34-Border/226/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/34-Border/226/)     |
 | #225   | ![Challenge](challenges/Battles/34-Border/225/225.png)    | [View Code](challenges/Battles/34-Border/225/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/34-Border/225/)     |
 | #224   | ![Challenge](challenges/Battles/34-Border/224/224.png)    | [View Code](challenges/Battles/34-Border/224/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/34-Border/224/)     |
 | #223   | ![Challenge](challenges/Battles/34-Border/223/223.png)    | [View Code](challenges/Battles/34-Border/223/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/34-Border/223/)     |
