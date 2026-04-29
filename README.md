@@ -248,7 +248,8 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
-| #227   | ![Challenge](challenges/Battles/35-Color/228/228.png)     | [View Code](challenges/Battles/35-Color/228/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/228/)      |
+| #229   | ![Challenge](challenges/Battles/35-Color/229/229.png)     | [View Code](challenges/Battles/35-Color/229/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/229/)      |
+| #228   | ![Challenge](challenges/Battles/35-Color/228/228.png)     | [View Code](challenges/Battles/35-Color/228/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/228/)      |
 | #227   | ![Challenge](challenges/Battles/35-Color/227/227.png)     | [View Code](challenges/Battles/35-Color/227/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/227/)      |
 | #226   | ![Challenge](challenges/Battles/34-Border/226/226.png)    | [View Code](challenges/Battles/34-Border/226/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/34-Border/226/)     |
 | #225   | ![Challenge](challenges/Battles/34-Border/225/225.png)    | [View Code](challenges/Battles/34-Border/225/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/34-Border/225/)     |
