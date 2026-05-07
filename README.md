@@ -256,6 +256,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #230   | ![Challenge](challenges/Battles/35-Color/230/230.png)     | [View Code](challenges/Battles/35-Color/230/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/230/)      |
 | #229   | ![Challenge](challenges/Battles/35-Color/229/229.png)     | [View Code](challenges/Battles/35-Color/229/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/229/)      |
 | #228   | ![Challenge](challenges/Battles/35-Color/228/228.png)     | [View Code](challenges/Battles/35-Color/228/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/228/)      |
 | #227   | ![Challenge](challenges/Battles/35-Color/227/227.png)     | [View Code](challenges/Battles/35-Color/227/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/227/)      |
