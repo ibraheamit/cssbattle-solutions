@@ -17,6 +17,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Date       | Preview                                                            | Code                                                             | Live Demo                                                                                               |
 | ---------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 2026-5-11  | ![Challenge](challenges/daily-targets/2026/2026-5-11/preview.png)  | [View Code](challenges/daily-targets/2026/2026-5-11/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-5-11/)  |
 | 2026-5-10  | ![Challenge](challenges/daily-targets/2026/2026-5-10/preview.png)  | [View Code](challenges/daily-targets/2026/2026-5-10/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-5-10/)  |
 | 2026-5-9   | ![Challenge](challenges/daily-targets/2026/2026-5-9/preview.png)   | [View Code](challenges/daily-targets/2026/2026-5-9/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-5-9/)   |
 | 2026-5-8   | ![Challenge](challenges/daily-targets/2026/2026-5-8/preview.png)   | [View Code](challenges/daily-targets/2026/2026-5-8/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-5-8/)   |
@@ -259,7 +260,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
-| #235   | ![Challenge](challenges/Battles/36-Transform/235/235.png)     | [View Code](challenges/Battles/36-Transform/235/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/36-Transform/235/)      |
+| #235   | ![Challenge](challenges/Battles/36-Transform/235/235.png) | [View Code](challenges/Battles/36-Transform/235/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/36-Transform/235/)  |
 | #234   | ![Challenge](challenges/Battles/35-Color/234/234.png)     | [View Code](challenges/Battles/35-Color/234/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/234/)      |
 | #233   | ![Challenge](challenges/Battles/35-Color/233/233.png)     | [View Code](challenges/Battles/35-Color/233/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/233/)      |
 | #232   | ![Challenge](challenges/Battles/35-Color/232/232.png)     | [View Code](challenges/Battles/35-Color/232/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/35-Color/232/)      |
