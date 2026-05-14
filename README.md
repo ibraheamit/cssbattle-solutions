@@ -263,6 +263,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #240   | ![Challenge](challenges/Battles/36-Transform/240/240.png) | [View Code](challenges/Battles/36-Transform/240/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/36-Transform/240/)  |
 | #239   | ![Challenge](challenges/Battles/36-Transform/239/239.png) | [View Code](challenges/Battles/36-Transform/239/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/36-Transform/239/)  |
 | #238   | ![Challenge](challenges/Battles/36-Transform/238/238.png) | [View Code](challenges/Battles/36-Transform/238/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/36-Transform/238/)  |
 | #237   | ![Challenge](challenges/Battles/36-Transform/237/237.png) | [View Code](challenges/Battles/36-Transform/237/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/36-Transform/237/)  |
