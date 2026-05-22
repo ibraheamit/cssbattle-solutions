@@ -271,6 +271,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #250   | ![Challenge](challenges/Battles/37-Height/250/250.png)    | [View Code](challenges/Battles/37-Height/250/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/37-Height/250/)     |
 | #249   | ![Challenge](challenges/Battles/37-Height/249/249.png)    | [View Code](challenges/Battles/37-Height/249/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/37-Height/249/)     |
 | #248   | ![Challenge](challenges/Battles/37-Height/248/248.png)    | [View Code](challenges/Battles/37-Height/248/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/37-Height/248/)     |
 | #247   | ![Challenge](challenges/Battles/37-Height/247/247.png)    | [View Code](challenges/Battles/37-Height/247/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/37-Height/247/)     |
