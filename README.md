@@ -273,6 +273,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #252   | ![Challenge](challenges/Battles/38-Hyphens/252/252.png)   | [View Code](challenges/Battles/38-Hyphens/252/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/38-Hyphens/252/)    |
 | #251   | ![Challenge](challenges/Battles/38-Hyphens/251/251.png)   | [View Code](challenges/Battles/38-Hyphens/251/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/38-Hyphens/251/)    |
 | #250   | ![Challenge](challenges/Battles/37-Height/250/250.png)    | [View Code](challenges/Battles/37-Height/250/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/37-Height/250/)     |
 | #249   | ![Challenge](challenges/Battles/37-Height/249/249.png)    | [View Code](challenges/Battles/37-Height/249/index.html)     | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/37-Height/249/)     |
