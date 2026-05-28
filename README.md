@@ -277,6 +277,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #256   | ![Challenge](challenges/Battles/39-Inset/256/256.png)     | [View Code](challenges/Battles/39-Inset/256/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/256/)      |
 | #255   | ![Challenge](challenges/Battles/39-Inset/255/255.png)     | [View Code](challenges/Battles/39-Inset/255/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/255/)      |
 | #254   | ![Challenge](challenges/Battles/39-Inset/254/254.png)     | [View Code](challenges/Battles/39-Inset/254/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/254/)      |
 | #253   | ![Challenge](challenges/Battles/38-Hyphens/253/253.png)   | [View Code](challenges/Battles/38-Hyphens/253/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/38-Hyphens/253/)    |
