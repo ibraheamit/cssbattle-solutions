@@ -279,6 +279,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #258   | ![Challenge](challenges/Battles/39-Inset/258/258.png)     | [View Code](challenges/Battles/39-Inset/258/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/258/)      |
 | #257   | ![Challenge](challenges/Battles/39-Inset/257/257.png)     | [View Code](challenges/Battles/39-Inset/257/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/257/)      |
 | #256   | ![Challenge](challenges/Battles/39-Inset/256/256.png)     | [View Code](challenges/Battles/39-Inset/256/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/256/)      |
 | #255   | ![Challenge](challenges/Battles/39-Inset/255/255.png)     | [View Code](challenges/Battles/39-Inset/255/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/255/)      |
