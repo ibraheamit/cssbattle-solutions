@@ -17,7 +17,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Date       | Preview                                                            | Code                                                             | Live Demo                                                                                               |
 | ---------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 2026-6-1  | ![Challenge](challenges/daily-targets/2026/2026-6-1/preview.png)  | [View Code](challenges/daily-targets/2026/2026-6-1/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-6-1/)  |
+| 2026-6-1   | ![Challenge](challenges/daily-targets/2026/2026-6-1/preview.png)   | [View Code](challenges/daily-targets/2026/2026-6-1/index.html)   | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-6-1/)   |
 | 2026-5-30  | ![Challenge](challenges/daily-targets/2026/2026-5-30/preview.png)  | [View Code](challenges/daily-targets/2026/2026-5-30/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-5-30/)  |
 | 2026-5-29  | ![Challenge](challenges/daily-targets/2026/2026-5-29/preview.png)  | [View Code](challenges/daily-targets/2026/2026-5-29/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-5-29/)  |
 | 2026-5-28  | ![Challenge](challenges/daily-targets/2026/2026-5-28/preview.png)  | [View Code](challenges/daily-targets/2026/2026-5-28/index.html)  | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/daily-targets/2026/2026-5-28/)  |
@@ -280,6 +280,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #260   | ![Challenge](challenges/Battles/39-Inset/260/260.png)     | [View Code](challenges/Battles/39-Inset/260/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/260/)      |
 | #259   | ![Challenge](challenges/Battles/39-Inset/259/259.png)     | [View Code](challenges/Battles/39-Inset/259/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/259/)      |
 | #258   | ![Challenge](challenges/Battles/39-Inset/258/258.png)     | [View Code](challenges/Battles/39-Inset/258/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/258/)      |
 | #257   | ![Challenge](challenges/Battles/39-Inset/257/257.png)     | [View Code](challenges/Battles/39-Inset/257/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/257/)      |
