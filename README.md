@@ -307,6 +307,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #262   | ![Challenge](challenges/Battles/40-Padding/262/262.png)   | [View Code](challenges/Battles/40-Padding/262/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/40-Padding/262/)    |
 | #261   | ![Challenge](challenges/Battles/39-Inset/261/261.png)     | [View Code](challenges/Battles/39-Inset/261/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/261/)      |
 | #260   | ![Challenge](challenges/Battles/39-Inset/260/260.png)     | [View Code](challenges/Battles/39-Inset/260/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/260/)      |
 | #259   | ![Challenge](challenges/Battles/39-Inset/259/259.png)     | [View Code](challenges/Battles/39-Inset/259/index.html)      | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/39-Inset/259/)      |
