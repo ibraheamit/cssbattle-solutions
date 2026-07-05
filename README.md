@@ -313,6 +313,7 @@ I will keep updating it with new challenges regularly. ✨
 
 | Number | Preview                                                   | Code                                                         | Live Demo                                                                                           |
 | ------ | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| #265   | ![Challenge](challenges/Battles/40-Padding/265/265.png)   | [View Code](challenges/Battles/40-Padding/265/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/40-Padding/265/)    |
 | #264   | ![Challenge](challenges/Battles/40-Padding/264/264.png)   | [View Code](challenges/Battles/40-Padding/264/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/40-Padding/264/)    |
 | #263   | ![Challenge](challenges/Battles/40-Padding/263/263.png)   | [View Code](challenges/Battles/40-Padding/263/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/40-Padding/263/)    |
 | #262   | ![Challenge](challenges/Battles/40-Padding/262/262.png)   | [View Code](challenges/Battles/40-Padding/262/index.html)    | [Live Demo](https://ibraheamit.github.io/cssbattle-solutions/challenges/Battles/40-Padding/262/)    |
