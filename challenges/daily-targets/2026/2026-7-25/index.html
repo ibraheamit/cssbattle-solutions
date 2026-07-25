@@ -1,0 +1,59 @@
+<div>
+    <i A>
+      <i B></i>
+      <i B C></i>
+      <i B D></i>
+      <i A E></i>
+    </i>
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #94B31F;
+    }
+
+    div {
+        width: 400;
+        height: 300;
+        position: relative;
+    }
+    
+    i {
+        position: absolute;
+    }
+  
+    [A] {
+        width: 240;
+        height: 240;
+        background: #FFF;
+        border-radius: 50%;
+        top: 30;
+        left: 80;
+        overflow: hidden;
+    }
+    
+    [B] {
+        width: 30;
+        height: 240;
+        background: #5F5F1E;
+        left: 105;
+    }
+    
+    [C] {
+        rotate: 45deg;
+    }
+    
+    [D] {
+        rotate: 135deg;
+    }
+    
+    [E] {
+        width: 180;
+        height: 180;
+        background: #94B31F;
+        left: 30;
+    }
+</style>
