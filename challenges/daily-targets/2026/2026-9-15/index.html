@@ -1,0 +1,51 @@
+<div>
+    <i A></i>
+    <i A B></i>
+    <i A C></i>
+    <i A C D></i>
+    
+</div>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #993576;
+    }
+
+    div {
+        width: 400;
+        height: 300;
+        position: relative;
+    }
+    
+    i {
+        position: absolute;
+    }
+    
+    [A] {
+        width: 110;
+        height: 110;
+        background: #5ADAB8;
+        border-radius: 50% 50% 0 50%;
+        top: 30;
+        left: 80;
+    }
+    
+    [B] {
+        top: 160;
+        left: 210;
+        rotate: 180deg;
+    }
+    
+    [C] {
+        border-radius: 64% 0;
+        left: 210;
+    }
+    
+    [D] {
+        top: 160;
+        left: 80;
+    }
+</style>
